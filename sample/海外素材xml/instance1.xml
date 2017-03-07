@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CatalogueMetaData xmlns="http://DCMPlatform/v2.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://DCMPlatform/v2.0 file:/Users/zhouludong/PycharmProjects/CatalogFormatter/test/data/xml/%E6%B5%B7%E5%A4%96%E7%B4%A0%E6%9D%90xml/%E6%B5%B7%E5%A4%96%E7%B4%A0%E6%9D%90.xsd">
+    <CatalogueSystem>CatalogueSystem0</CatalogueSystem>
+    <TopUnit>
+        <Name>Name0</Name>
+        <TrimIn>0</TrimIn>
+        <Duration>0</Duration>
+        <Attributes>
+        </Attributes>
+        <CatalogueSystemID>CatalogueSystemID0</CatalogueSystemID>
+        <UnitID>0</UnitID>
+        <IconFrameID>0</IconFrameID>
+    </TopUnit>
+</CatalogueMetaData>

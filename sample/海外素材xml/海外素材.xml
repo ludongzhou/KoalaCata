@@ -1,0 +1,883 @@
+﻿<?xml version="1.0"?>
+<DCMImportRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://DCMPlatform/v2.0">
+  <LoginInfo />
+  <ImportContents>
+    <ContentID>ad27c428-a074-4ae3-a27e-9775b509fb37</ContentID>
+    <EntityID>1219976</EntityID>
+    <ContentData>
+      <ContentFile>
+        <FileItem>
+          <FileGUID>36b23efd-1931-4188-8d6b-83c1e8a366e0</FileGUID>
+          <TrackID>0</TrackID>
+          <QualityType>0</QualityType>
+          <FileTypeID>FILETYPE_HIGHAVI</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_HIGH/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.AVI</FileName>
+          <FileGroupName>高质量文件组</FileGroupName>
+          <MediaChannel>0</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>629855744</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+        <FileItem>
+          <FileGUID>64e09ccb-a9f2-46f5-b88c-ead266ef12eb</FileGUID>
+          <TrackID>1</TrackID>
+          <QualityType>0</QualityType>
+          <FileTypeID>FILETYPE_HIGHWAV</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_HIGH/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.WAV</FileName>
+          <FileGroupName>高质量文件组</FileGroupName>
+          <MediaChannel>1</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>38689280</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+        <FileItem>
+          <FileGUID>64e09ccb-a9f2-46f5-b88c-ead266ef12eb</FileGUID>
+          <TrackID>2</TrackID>
+          <QualityType>0</QualityType>
+          <FileTypeID>FILETYPE_HIGHWAV</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_HIGH/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.WAV</FileName>
+          <FileGroupName>高质量文件组</FileGroupName>
+          <MediaChannel>2</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>38689280</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+        <FileItem>
+          <FileGUID>143086b6-f2ca-484e-8c16-be0d0a3377d0</FileGUID>
+          <TrackID>0</TrackID>
+          <QualityType>1</QualityType>
+          <FileTypeID>FILETYPE_WMV</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_LOW/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.WMV</FileName>
+          <FileGroupName>流媒体文件组</FileGroupName>
+          <MediaChannel>0</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>23574678</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+        <FileItem>
+          <FileGUID>143086b6-f2ca-484e-8c16-be0d0a3377d0</FileGUID>
+          <TrackID>1</TrackID>
+          <QualityType>1</QualityType>
+          <FileTypeID>FILETYPE_WMV</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_LOW/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.WMV</FileName>
+          <FileGroupName>流媒体文件组</FileGroupName>
+          <MediaChannel>1</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>23574678</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+        <FileItem>
+          <FileGUID>143086b6-f2ca-484e-8c16-be0d0a3377d0</FileGUID>
+          <TrackID>2</TrackID>
+          <QualityType>1</QualityType>
+          <FileTypeID>FILETYPE_WMV</FileTypeID>
+          <FileName>Z:/EXPORT/MAM_LOW/2012-09-12/A-SWITZERLAND_WEF_ECONOMIC_瑞士_世界经济论坛_经济_.WMV</FileName>
+          <FileGroupName>流媒体文件组</FileGroupName>
+          <MediaChannel>2</MediaChannel>
+          <FileInpoint>0</FileInpoint>
+          <FileOutpoint>5037</FileOutpoint>
+          <RefInpoint>0</RefInpoint>
+          <RefOutpoint>5037</RefOutpoint>
+          <FileSize>23574678</FileSize>
+          <FileLength>5037</FileLength>
+        </FileItem>
+      </ContentFile>
+      <EntityData>
+        <TypeName>Clip</TypeName>
+        <TypeID>Clip</TypeID>
+        <AttributeItem>
+          <ItemCode>FrameRate</ItemCode>
+          <ItemName>FrameRate</ItemName>
+          <Value>25</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>Name</ItemCode>
+          <ItemName>Name</ItemName>
+          <Value>A-Switzerland WEF Economic 瑞士 世界经济论坛 经济 瑞士经济新情况</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>Creator</ItemCode>
+          <ItemName>Creator</ItemName>
+          <Value>11964</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CreateDate</ItemCode>
+          <ItemName>CreateDate</ItemName>
+          <Value>2012-7-12 12:04:20</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>Description</ItemCode>
+          <ItemName>Description</ItemName>
+          <Value>Switzerland WEF Economic 瑞士 世界经济论坛 经济 瑞士经济新情况 世界经济论坛会议中心标志在街道附近  通过双筒望远镜从屋顶向下看 世界经济论坛旗帜 世界经济论坛标志近景 会议中心内部 欧洲时尚杂志主编彼得 彼得受访 彼得的徽章近景 读报纸的人们 读报纸的男人近景 台上的嵌板 国际货币基金组织主管受访 丹麦首相受访</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>Duration</ItemCode>
+          <ItemName>Duration</ItemName>
+          <Value>5037</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CLIPGUID</ItemCode>
+          <ItemName>CLIPGUID</ItemName>
+          <Value>e43b1f3d-051d-4419-85c3-6c2be6867f29</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>VIDEOIMAGETYPE</ItemCode>
+          <ItemName>VIDEOIMAGETYPE</ItemName>
+          <Value>0</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>Duration</ItemCode>
+          <ItemName>Duration</ItemName>
+          <Value>5037</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>OutPoint</ItemCode>
+          <ItemName>OutPoint</ItemName>
+          <Value>5037</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>BlPrecious</ItemCode>
+          <ItemName>BlPrecious</ItemName>
+          <Value>False</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>FrameRate</ItemCode>
+          <ItemName>FrameRate</ItemName>
+          <Value>25</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>InPoint</ItemCode>
+          <ItemName>InPoint</ItemName>
+          <Value>0</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>素材总长度</ItemCode>
+          <ItemName>TotalLength</ItemName>
+          <Value>2014800000</Value>
+        </AttributeItem>
+      </EntityData>
+    </ContentData>
+    <CatalogueMetaData>
+      <CatalogueSystem>9ad4cbfb-54cf-43d8-a9a4-7d2fac86d954</CatalogueSystem>
+      <TopUnit>
+        <Name>各国领导人和分析师在瑞士世界经济论坛上分析世界经济形势</Name>
+        <TrimIn>0</TrimIn>
+        <Duration>5037</Duration>
+        <Attributes>
+          <TypeName>节目层</TypeName>
+          <TypeID>PROGRAM</TypeID>
+          <Attributes>
+            <AttributeItem>
+              <ItemCode>Copyright</ItemCode>
+              <ItemName>版权</ItemName>
+              <AttributeItem>
+                <ItemCode>Copyright Statement</ItemCode>
+                <ItemName>版权声明</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Authorized Use</ItemCode>
+                <ItemName>授权使用者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Authorized Date of Start</ItemCode>
+                  <ItemName>授权起始日期</ItemName>
+                  <Value>2012年7月28日</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Authorized Way of Usage</ItemCode>
+                  <ItemName>授权使用方式</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Informationof Authorized</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>版权信息请查阅相关合同、协议等版权签约文本中用于声明节目受版权保护的文字信息。</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Authorized User</ItemCode>
+                  <ItemName>授权使用者名称</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Authorized Geographic Area</ItemCode>
+                  <ItemName>授权使用地域</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Time of Authorized Usage</ItemCode>
+                  <ItemName>授权使用次数</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Authorized Deadline</ItemCode>
+                  <ItemName>授权使用期限</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Identifier</ItemCode>
+              <ItemName>标识符</ItemName>
+              <AttributeItem>
+                <ItemCode>ISRC</ItemCode>
+                <ItemName>国际标准音像制品编码</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Relations ID</ItemCode>
+                <ItemName>标识代码</ItemName>
+                <Value>9716</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Source</ItemCode>
+              <ItemName>来源</ItemName>
+              <AttributeItem>
+                <ItemCode>Source Provider</ItemCode>
+                <ItemName>资料提供者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Acquiring Method of Source</ItemCode>
+                <ItemName>资料获取方式</ItemName>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Fromat</ItemCode>
+              <ItemName>格式</ItemName>
+              <AttributeItem>
+                <ItemCode>Subtitle Form</ItemCode>
+                <ItemName>字幕形式</ItemName>
+                <Value>无字幕</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>File Format</ItemCode>
+                <ItemName>文件格式</ItemName>
+                <Value>MPEG2 - Matrox I</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Duration</ItemCode>
+                <ItemName>实长</ItemName>
+                <Value>5037</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Physical Media Type</ItemCode>
+                <ItemName>载体类型</ItemName>
+                <Value>Betacam  SP</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Quality</ItemCode>
+                <ItemName>声音质量</ItemName>
+                <Value>高</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Sampling Frequency</ItemCode>
+                <ItemName>视频取样格式</ItemName>
+                <Value>4:4:4</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>System</ItemCode>
+                <ItemName>制式</ItemName>
+                <Value>PAL</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Color</ItemCode>
+                <ItemName>色彩</ItemName>
+                <Value>彩色</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Coding Format </ItemCode>
+                <ItemName>视频编码格式</ItemName>
+                <Value>MPEG2</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Aspect Ratio</ItemCode>
+                <ItemName>画面高宽比</ItemName>
+                <Value>4:3</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Starting Point</ItemCode>
+                <ItemName>入点</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Data Rate</ItemCode>
+                <ItemName>音频数据码率(Kbps)</ItemName>
+                <Value>1536000</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel Format</ItemCode>
+                <ItemName>声道格式</ItemName>
+                <Value>立体声</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Data Rate</ItemCode>
+                <ItemName>视频数据码率(Mbps)</ItemName>
+                <Value>25</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Sampling Frequency</ItemCode>
+                <ItemName>音频采样频率</ItemName>
+                <Value>192KHz</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Quality</ItemCode>
+                <ItemName>画面质量</ItemName>
+                <Value>高质量</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Bit Depth</ItemCode>
+                <ItemName>音频位深度</ItemName>
+                <Value>16bit</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Coding Format </ItemCode>
+                <ItemName>音频编码格式</ItemName>
+                <Value>PCM</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Title</ItemCode>
+              <ItemName>题名</ItemName>
+              <AttributeItem>
+                <ItemCode>Proper Title</ItemCode>
+                <ItemName>正题名</ItemName>
+                <Value>各国领导人和分析师在瑞士世界经济论坛上分析世界经济形势</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Series</ItemCode>
+                <ItemName>系列</ItemName>
+                <AttributeItem>
+                  <ItemCode>Total Number of Episodes</ItemCode>
+                  <ItemName>分集总数</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>SeriesTitle</ItemCode>
+                  <ItemName>系列题名</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Episodes Number</ItemCode>
+                  <ItemName>分集次</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subordinate title</ItemCode>
+                <ItemName>副题名</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title Description</ItemCode>
+                <ItemName>题名说明</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Parallel Proper</ItemCode>
+                <ItemName>并列正题名</ItemName>
+                <Value>Switzerland WEF Economic</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Relation</ItemCode>
+              <ItemName>关联</ItemName>
+              <AttributeItem>
+                <ItemCode>Is Replaced by</ItemCode>
+                <ItemName>许可证号</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Part of Series</ItemCode>
+                <ItemName>系列组成部分</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Replaces</ItemCode>
+                <ItemName>原节目名称</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Is Version of</ItemCode>
+                <ItemName>版权管理等级</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Is Part of</ItemCode>
+                <ItemName>组成部分</ItemName>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Description</ItemCode>
+              <ItemName>描述</ItemName>
+              <AttributeItem>
+                <ItemCode>Character</ItemCode>
+                <ItemName>主题人物</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Date of Event</ItemCode>
+                <ItemName>事件发生日期</ItemName>
+                <Value>2008年1月26日</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Content</ItemCode>
+                <ItemName>内容描述</ItemName>
+                <Value>2008年1月26日，世界经济论坛在瑞士达沃斯召开，会上各国领导人和经济分析师对世界经济形势作出分析。
+本节目包含以下镜头：
+1、丹麦首相安诺斯·福格·拉斯穆森接受采访
+
+
+镜头表：
+A-Switzerland WEF Economic 瑞士 世界经济论坛 经济 世界经济形势  世界经济论坛旗帜 世界经济论坛标志近景 会议中心内景 欧洲《财富》杂志主编彼得·贡贝尔受访 读报纸的人们 国际货币基金组织主管受访 丹麦首相受访
+</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Column</ItemCode>
+                <ItemName>栏目</ItemName>
+                <AttributeItem>
+                  <ItemCode>Issue Number</ItemCode>
+                  <ItemName>期次</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Issue Year</ItemCode>
+                  <ItemName>年度</ItemName>
+                  <Value>2008</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Column Name</ItemCode>
+                  <ItemName>栏目名称</ItemName>
+                  <Value>美联社新闻</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel</ItemCode>
+                <ItemName>声道</ItemName>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Description</ItemCode>
+                  <ItemName>声道内容</ItemName>
+                  <Value>现场同期声</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Number</ItemCode>
+                  <ItemName>声道编号</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel</ItemCode>
+                <ItemName>声道</ItemName>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Description</ItemCode>
+                  <ItemName>声道内容</ItemName>
+                  <Value>现场同期声</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Number</ItemCode>
+                  <ItemName>声道编号</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audience</ItemCode>
+                <ItemName>受众</ItemName>
+                <Value>大众</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Version Description</ItemCode>
+                <ItemName>版本说明</ItemName>
+                <Value>素材版</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Additional Logo</ItemCode>
+                <ItemName>附加标志</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Coverage</ItemCode>
+              <ItemName>时空覆盖范围</ItemName>
+              <AttributeItem>
+                <ItemCode>Spatial</ItemCode>
+                <ItemName>空间范围</ItemName>
+                <Value>瑞士达沃斯</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Contributor</ItemCode>
+              <ItemName>其他责任者</ItemName>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Subject</ItemCode>
+              <ItemName>主题</ItemName>
+              <AttributeItem>
+                <ItemCode>Class</ItemCode>
+                <ItemName>分类</ItemName>
+                <AttributeItem>
+                  <ItemCode>Classification</ItemCode>
+                  <ItemName>分类法</ItemName>
+                  <Value>广播电视节目资料分类法</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Class Number</ItemCode>
+                  <ItemName>分类号</ItemName>
+                  <Value>F46 &lt;534&gt;;世界经济 丹麦</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Keyword</ItemCode>
+                <ItemName>关键词</ItemName>
+                <Value>美联社 AP 瑞士 Switzerland 世界经济论坛 World Economic Forum 经济 economy 形势 state</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Language</ItemCode>
+              <ItemName>语种</ItemName>
+              <AttributeItem>
+                <ItemCode>Subtitle</ItemCode>
+                <ItemName>字幕</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle Number</ItemCode>
+                  <ItemName>字幕编号</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Subtitle Language</ItemCode>
+                  <ItemName>字幕语种</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel Language</ItemCode>
+                <ItemName>声道</ItemName>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Number Language</ItemCode>
+                  <ItemName>声道编号</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Language Lang</ItemCode>
+                  <ItemName>声道语种</ItemName>
+                  <Value>英语</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Date</ItemCode>
+              <ItemName>日期</ItemName>
+              <AttributeItem>
+                <ItemCode>Produced Date</ItemCode>
+                <ItemName>制作完成日期</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Date of Debut</ItemCode>
+                <ItemName>首播日期</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Published Date</ItemCode>
+                <ItemName>出版日期</ItemName>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Creator</ItemCode>
+              <ItemName>责任者</ItemName>
+              <AttributeItem>
+                <ItemCode>Description of Creator</ItemCode>
+                <ItemName>责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Role</ItemCode>
+                  <ItemName>责任方式</ItemName>
+                  <Value>受访者</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Creator</ItemCode>
+                  <ItemName>责任者名称</ItemName>
+                  <Value>安诺斯·福格·拉斯穆森</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information</ItemCode>
+                  <ItemName>责任者说明</ItemName>
+                  <Value>丹麦首相</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Creator</ItemCode>
+                  <ItemName>责任者并列名</ItemName>
+                  <Value>Anders Fogh Rasmussen</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Creator</ItemCode>
+                <ItemName>责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Role</ItemCode>
+                  <ItemName>责任方式</ItemName>
+                  <Value>发言人</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Creator</ItemCode>
+                  <ItemName>责任者名称</ItemName>
+                  <Value>多米尼克·斯特劳斯·卡恩</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information</ItemCode>
+                  <ItemName>责任者说明</ItemName>
+                  <Value>常务理事</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Creator</ItemCode>
+                  <ItemName>责任者并列名</ItemName>
+                  <Value>Dominique Strauss-Kahn</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Creator</ItemCode>
+                <ItemName>责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Role</ItemCode>
+                  <ItemName>责任方式</ItemName>
+                  <Value>发言人</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Creator</ItemCode>
+                  <ItemName>责任者名称</ItemName>
+                  <Value>彼得·贡贝尔</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information</ItemCode>
+                  <ItemName>责任者说明</ItemName>
+                  <Value>欧洲《财富》杂志主编</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Creator</ItemCode>
+                  <ItemName>责任者并列名</ItemName>
+                  <Value>Peter Gumbel</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Type</ItemCode>
+              <ItemName>类型</ItemName>
+              <AttributeItem>
+                <ItemCode>Program Type</ItemCode>
+                <ItemName>节目类型</ItemName>
+                <Value>新闻素材类节目</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Program Form</ItemCode>
+                <ItemName>节目形态</ItemName>
+                <Value>消息类</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Publisher</ItemCode>
+              <ItemName>出版者</ItemName>
+            </AttributeItem>
+          </Attributes>
+        </Attributes>
+        <SubUnit>
+          <Name>丹麦首相安诺斯·福格·拉斯穆森受访</Name>
+          <TrimIn>3696</TrimIn>
+          <Duration>1330</Duration>
+          <Attributes>
+            <TypeName>镜头层</TypeName>
+            <TypeID>SHOT</TypeID>
+            <Attributes>
+              <AttributeItem>
+                <ItemCode>Format</ItemCode>
+                <ItemName>格式</ItemName>
+                <AttributeItem>
+                  <ItemCode>Duration</ItemCode>
+                  <ItemName>实长</ItemName>
+                  <Value>1330</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Starting Point</ItemCode>
+                  <ItemName>入点</ItemName>
+                  <Value>3696</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title</ItemCode>
+                <ItemName>题名</ItemName>
+                <AttributeItem>
+                  <ItemCode>Shot Title</ItemCode>
+                  <ItemName>镜头名</ItemName>
+                  <Value>丹麦首相安诺斯·福格·拉斯穆森受访</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Relation</ItemCode>
+                <ItemName>关联</ItemName>
+                <AttributeItem>
+                  <ItemCode>Is Part of</ItemCode>
+                  <ItemName>组成部分</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>asdfasdf</ItemCode>
+                <ItemName>adf</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Date</ItemCode>
+                <ItemName>日期</ItemName>
+                <AttributeItem>
+                  <ItemCode>Shooting Date</ItemCode>
+                  <ItemName>拍摄日期</ItemName>
+                  <Value>2008年1月26日</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subject</ItemCode>
+                <ItemName>主题</ItemName>
+                <AttributeItem>
+                  <ItemCode>Keyword</ItemCode>
+                  <ItemName>关键词</ItemName>
+                  <Value>丹麦 Denmark 首相 Prime Minister 采访 interview 世界经济论坛 WEF</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description</ItemCode>
+                <ItemName>描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Description of Content</ItemCode>
+                  <ItemName>内容描述</ItemName>
+                  <Value>2008年1月26日，世界经济论坛在瑞士达沃斯召开，丹麦首相安诺斯·福格·拉斯穆森接受记者采访。</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Natural Sound</ItemCode>
+                  <ItemName>现场同期声</ItemName>
+                  <Value>1</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Scene Range</ItemCode>
+                  <ItemName>景别</ItemName>
+                  <Value>近景</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Camera Motion</ItemCode>
+                  <ItemName>拍摄方式</ItemName>
+                  <Value>固定</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Camera Angle</ItemCode>
+                  <ItemName>拍摄角度</ItemName>
+                  <Value>正（平）视</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Shooting Place</ItemCode>
+                  <ItemName>拍摄地点</ItemName>
+                  <Value>瑞士达沃斯</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </Attributes>
+          </Attributes>
+          <CatalogueSystemID>3d3b43de-ad60-4a74-affe-b2de99dad48c</CatalogueSystemID>
+          <UnitID>250748</UnitID>
+          <IconFrameID>-1</IconFrameID>
+        </SubUnit>
+        <CatalogueSystemID>9ad4cbfb-54cf-43d8-a9a4-7d2fac86d954</CatalogueSystemID>
+        <UnitID>217689</UnitID>
+        <IconFrameID>-1</IconFrameID>
+      </TopUnit>
+    </CatalogueMetaData>
+    <MetaData>
+      <TypeName>关键帧</TypeName>
+      <TypeID>21</TypeID>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>关键帧号</ItemCode>
+          <ItemName>关键帧号</ItemName>
+          <Value>63</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>备注</ItemCode>
+          <ItemName>备注</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>关键帧文件</ItemCode>
+          <ItemName>关键帧文件</ItemName>
+          <Value>Z:/EXPORT/KEYFRAME/CLIP/2012/8/11/AD27C428-A074-4AE3-A27E-9775B509FB37/63.JPG</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>关键帧号</ItemCode>
+          <ItemName>关键帧号</ItemName>
+          <Value>727</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>备注</ItemCode>
+          <ItemName>备注</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>关键帧文件</ItemCode>
+          <ItemName>关键帧文件</ItemName>
+          <Value>Z:/EXPORT/KEYFRAME/CLIP/2012/8/11/AD27C428-A074-4AE3-A27E-9775B509FB37/727.JPG</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>关键帧号</ItemCode>
+          <ItemName>关键帧号</ItemName>
+          <Value>2561</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>备注</ItemCode>
+          <ItemName>备注</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>关键帧文件</ItemCode>
+          <ItemName>关键帧文件</ItemName>
+          <Value>Z:/EXPORT/KEYFRAME/CLIP/2012/8/11/AD27C428-A074-4AE3-A27E-9775B509FB37/2561.JPG</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>关键帧号</ItemCode>
+          <ItemName>关键帧号</ItemName>
+          <Value>2754</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>备注</ItemCode>
+          <ItemName>备注</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>关键帧文件</ItemCode>
+          <ItemName>关键帧文件</ItemName>
+          <Value>Z:/EXPORT/KEYFRAME/CLIP/2012/8/11/AD27C428-A074-4AE3-A27E-9775B509FB37/2754.JPG</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>关键帧号</ItemCode>
+          <ItemName>关键帧号</ItemName>
+          <Value>3787</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>备注</ItemCode>
+          <ItemName>备注</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>关键帧文件</ItemCode>
+          <ItemName>关键帧文件</ItemName>
+          <Value>Z:/EXPORT/KEYFRAME/CLIP/2012/8/11/AD27C428-A074-4AE3-A27E-9775B509FB37/3787.JPG</Value>
+        </AttributeItem>
+      </Attributes>
+    </MetaData>
+  </ImportContents>
+  <DCMClass>
+    <ClassNode>F46</ClassNode>
+    <ClassNode>&lt;534&gt;</ClassNode>
+  </DCMClass>
+  <TaskInfo>
+    <Extention>
+      <ItemName>SecretType</ItemName>
+      <ItemValue>General</ItemValue>
+    </Extention>
+  </TaskInfo>
+</DCMImportRequest>

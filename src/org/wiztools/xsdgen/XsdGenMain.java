@@ -18,10 +18,10 @@ import java.util.List;
 public class XsdGenMain {
 
     private static class ArgParse {
-        @Argument(value="p", alias="prefix", description="The namespace prefix for the xsd (default is `xsd').")
+        @Argument(value="p", alias="prefix", description="The namespace prefix for the infer (default is `infer').")
         private String xsdPrefix;
 
-        @Argument(value="o", alias="output", description="Write xsd to outfile instead of STDOUT.")
+        @Argument(value="o", alias="output", description="Write infer to outfile instead of STDOUT.")
         private String xsdFile;
 
         @Argument(value="f", alias="force", description="Force write output XSD even if it exists.")

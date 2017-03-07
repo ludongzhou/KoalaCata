@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML 2016 Designer Edition (Trial) 14.1.5.6733 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RECORD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:unsignedInt" />
+        <xs:element minOccurs="0" name="Code" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" type="xs:string" />
+        <xs:element minOccurs="0" name="Alias" />
+        <xs:element minOccurs="0" name="Director" />
+        <xs:element minOccurs="0" name="Actor" />
+        <xs:element minOccurs="0" name="OriginalCountry" />
+        <xs:element minOccurs="0" name="Language" />
+        <xs:element minOccurs="0" name="ReleaseYear" />
+        <xs:element minOccurs="0" name="OrgAirDate" />
+        <xs:element minOccurs="0" name="OrgAirChannel" />
+        <xs:element minOccurs="0" name="LicensingWindowStart" />
+        <xs:element minOccurs="0" name="LicensingWindowEnd" />
+        <xs:element minOccurs="0" name="Description" />
+        <xs:element minOccurs="0" name="SeriesFlag" />
+        <xs:element minOccurs="0" name="SeriesNo" />
+        <xs:element minOccurs="0" name="Kpeople" />
+        <xs:element minOccurs="0" name="ScriptWriter" />
+        <xs:element minOccurs="0" name="Compere" />
+        <xs:element minOccurs="0" name="Guest" />
+        <xs:element minOccurs="0" name="Reporter" />
+        <xs:element minOccurs="0" name="OPIncharge" />
+        <xs:element minOccurs="0" name="CPID" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="CPName" type="xs:string" />
+        <xs:element minOccurs="0" name="Keyword" />
+        <xs:element minOccurs="0" name="Duration" type="xs:unsignedShort" />
+        <xs:element minOccurs="0" name="FirstClass" type="xs:string" />
+        <xs:element minOccurs="0" name="SndClass" type="xs:string" />
+        <xs:element minOccurs="0" name="PosterIMG" />
+        <xs:element minOccurs="0" name="PosterIMG2" />
+        <xs:element minOccurs="0" name="PosterIMG3" />
+        <xs:element minOccurs="0" name="CategoryID" />
+        <xs:element minOccurs="0" name="CategoryName" />
+        <xs:element minOccurs="0" name="ProgramTime" type="xs:string" />
+        <xs:element minOccurs="0" name="FilePath" type="xs:string" />
+        <xs:element minOccurs="0" name="StorageID" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="StorageName" type="xs:string" />
+        <xs:element minOccurs="0" name="CreateTime" type="xs:string" />
+        <xs:element minOccurs="0" name="UpdateTime" type="xs:string" />
+        <xs:element minOccurs="0" name="Status" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="PlanID" type="xs:unsignedInt" />
+        <xs:element minOccurs="0" name="PlanName" type="xs:string" />
+        <xs:element minOccurs="0" name="JCheckID" />
+        <xs:element minOccurs="0" name="CheckDesc" />
+        <xs:element minOccurs="0" name="ZMConfigID" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="ZMConfigName" type="xs:string" />
+        <xs:element minOccurs="0" name="JCheckType" />
+        <xs:element minOccurs="0" name="OnlineStatus" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="ContentbmID" />
+        <xs:element minOccurs="0" name="MediaInfoID" type="xs:unsignedInt" />
+        <xs:element minOccurs="0" name="TaskGuid" type="xs:string" />
+        <xs:element minOccurs="0" name="PublishStatus" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="StorageAddress" type="xs:string" />
+        <xs:element minOccurs="0" name="StorageMediaPath" type="xs:string" />
+        <xs:element minOccurs="0" name="StorageFTPPath" type="xs:string" />
+        <xs:element minOccurs="0" name="OrderDate" type="xs:string" />
+        <xs:element minOccurs="0" name="BMContentID" type="xs:unsignedInt" />
+        <xs:element minOccurs="0" name="PlatformID" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="PlatformName" type="xs:string" />
+        <xs:element minOccurs="0" name="FileStatus" />
+        <xs:element minOccurs="0" name="SourceFrom" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="StorageLocalPath" type="xs:string" />
+        <xs:element minOccurs="0" name="PublishName" type="xs:string" />
+        <xs:element minOccurs="0" name="FilePath2" />
+        <xs:element minOccurs="0" name="Storage2ID" />
+        <xs:element minOccurs="0" name="Storage2Name" />
+        <xs:element minOccurs="0" name="Storage2Address" />
+        <xs:element minOccurs="0" name="Storage2MediaPath" />
+        <xs:element minOccurs="0" name="Storage2FTPPath" />
+        <xs:element minOccurs="0" name="Storage2LocalPath" />
+        <xs:element minOccurs="0" name="BackupStatus" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="sequence" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="MD5" type="xs:string" />
+        <xs:element minOccurs="0" name="PublishDate" />
+        <xs:element minOccurs="0" name="Priority" type="xs:unsignedByte" />
+        <xs:element minOccurs="0" name="CWidth" type="xs:unsignedShort" />
+        <xs:element minOccurs="0" name="CHeight" type="xs:unsignedShort" />
+        <xs:element minOccurs="0" name="CBitrate" type="xs:unsignedShort" />
+        <xs:element minOccurs="0" name="CFilesize" type="xs:unsignedShort" />
+        <xs:element minOccurs="0" name="CDefinition" type="xs:unsignedByte" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

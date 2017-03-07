@@ -1,0 +1,2227 @@
+﻿<?xml version="1.0"?>
+<DCMCatalogueResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://DCMPlatform/v2.0">
+  <LoginInfo />
+  <List>
+    <TaskInstanceID>1111</TaskInstanceID>
+    <ContentID>bdfe2adf6029475ea1b253affbf57536</ContentID>
+    <EntityTypeID>ClipInstanceEntity</EntityTypeID>
+    <CatalogueMetaData>
+      <CatalogueSystem>a4b46a60-cdbc-4f38-b6a0-c5ac5a9d83c5</CatalogueSystem>
+      <TopUnit>
+        <Name>山寨智能机 1/2</Name>
+        <TrimIn>0</TrimIn>
+        <Duration>34651</Duration>
+        <Editor />
+        <Attributes>
+          <TypeName>节目层</TypeName>
+          <TypeID>PROGRAM</TypeID>
+          <Attributes>
+            <AttributeItem>
+              <ItemCode>Copyright</ItemCode>
+              <ItemName>版权</ItemName>
+              <AttributeItem>
+                <ItemCode>Copyright Statement</ItemCode>
+                <ItemName>版权声明</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Name of Copyright Owner</ItemCode>
+                <ItemName>版权所有者名称</ItemName>
+                <Value>广东电视台</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Source</ItemCode>
+              <ItemName>来源</ItemName>
+              <AttributeItem>
+                <ItemCode>Source Provider</ItemCode>
+                <ItemName>资料提供者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Acquiring Method of Source</ItemCode>
+                <ItemName>资料获取方式</ItemName>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Fromat</ItemCode>
+              <ItemName>格式</ItemName>
+              <AttributeItem>
+                <ItemCode>Subtitle Form</ItemCode>
+                <ItemName>字幕形式</ItemName>
+                <Value>只有画面叠加字幕</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>File Format</ItemCode>
+                <ItemName>文件格式</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Duration</ItemCode>
+                <ItemName>实长</ItemName>
+                <Value>34651</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Physical Media Type</ItemCode>
+                <ItemName>载体类型</ItemName>
+                <Value>Betacam</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Quality</ItemCode>
+                <ItemName>声音质量</ItemName>
+                <Value>高</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Sampling Frequency</ItemCode>
+                <ItemName>视频取样格式</ItemName>
+                <Value>4:4:4</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>System</ItemCode>
+                <ItemName>制式</ItemName>
+                <Value>PAL</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Sampling Frequency</ItemCode>
+                <ItemName>音频采样频率</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Coding Format </ItemCode>
+                <ItemName>视频编码格式</ItemName>
+                <Value>MPEG2</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Aspect Ratio</ItemCode>
+                <ItemName>画面高宽比</ItemName>
+                <Value>4:3</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Starting Point</ItemCode>
+                <ItemName>入点</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Data Rate</ItemCode>
+                <ItemName>音频数据码率(Kbps)</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel Format</ItemCode>
+                <ItemName>声道格式</ItemName>
+                <Value>立体声</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Data Rate</ItemCode>
+                <ItemName>视频数据码率(Mbps)</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Color</ItemCode>
+                <ItemName>色彩</ItemName>
+                <Value>彩色</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Vedio Quality</ItemCode>
+                <ItemName>画面质量</ItemName>
+                <Value>高质量</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Bit Depth</ItemCode>
+                <ItemName>音频位深度</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Coding Format </ItemCode>
+                <ItemName>音频编码格式</ItemName>
+                <Value>PCM</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Title</ItemCode>
+              <ItemName>题名</ItemName>
+              <AttributeItem>
+                <ItemCode>Proper Title</ItemCode>
+                <ItemName>正题名</ItemName>
+                <Value>山寨智能机 1/2</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Series</ItemCode>
+                <ItemName>系列</ItemName>
+                <AttributeItem>
+                  <ItemCode>Total Number of Episodes</ItemCode>
+                  <ItemName>分集总数</ItemName>
+                  <Value>100</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>SeriesTitle</ItemCode>
+                  <ItemName>系列题名</ItemName>
+                  <Value>外来媳妇本地郎</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Episodes Number</ItemCode>
+                  <ItemName>分集次</ItemName>
+                  <Value>1785</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subordinate title</ItemCode>
+                <ItemName>副题名</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title Description</ItemCode>
+                <ItemName>题名说明</ItemName>
+                <Value>电视系列短剧 第十四系列</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Relation</ItemCode>
+              <ItemName>关联</ItemName>
+              <AttributeItem>
+                <ItemCode>Is Replaced by</ItemCode>
+                <ItemName>被替代</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Part of Series</ItemCode>
+                <ItemName>系列组成部分</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Replaces</ItemCode>
+                <ItemName>替代</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Is Version of</ItemCode>
+                <ItemName>版本继承</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Is Part of</ItemCode>
+                <ItemName>组成部分</ItemName>
+                <Value />
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Creator</ItemCode>
+              <ItemName>创建者</ItemName>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Coverage</ItemCode>
+              <ItemName>时空覆盖范围</ItemName>
+              <AttributeItem>
+                <ItemCode>Spatial</ItemCode>
+                <ItemName>空间范围</ItemName>
+                <Value>广东省广州市</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Identifier</ItemCode>
+              <ItemName>标识符</ItemName>
+              <AttributeItem>
+                <ItemCode>ISRC</ItemCode>
+                <ItemName>国际标准音像制品编码</ItemName>
+                <Value />
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Relations ID</ItemCode>
+                <ItemName>标识代码</ItemName>
+                <Value />
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Subject</ItemCode>
+              <ItemName>主题</ItemName>
+              <AttributeItem>
+                <ItemCode>Class</ItemCode>
+                <ItemName>分类</ItemName>
+                <AttributeItem>
+                  <ItemCode>Classification</ItemCode>
+                  <ItemName>分类法</ItemName>
+                  <Value>广播电视节目资料分类法</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Class Number</ItemCode>
+                  <ItemName>分类号</ItemName>
+                  <Value>J3825;都市生活情感题材</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Language</ItemCode>
+              <ItemName>语种</ItemName>
+              <AttributeItem>
+                <ItemCode>Subtitle</ItemCode>
+                <ItemName>字幕</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle Number</ItemCode>
+                  <ItemName>字幕编号</ItemName>
+                  <Value>1</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Subtitle Language</ItemCode>
+                  <ItemName>字幕语种</ItemName>
+                  <Value>汉语</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel Language</ItemCode>
+                <ItemName>声道</ItemName>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Number Language</ItemCode>
+                  <ItemName>声道编号</ItemName>
+                  <Value>1</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Language Lang</ItemCode>
+                  <ItemName>声道语种</ItemName>
+                  <Value>汉语（粤语）</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Description</ItemCode>
+              <ItemName>描述</ItemName>
+              <AttributeItem>
+                <ItemCode>Character</ItemCode>
+                <ItemName>主题人物</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Date of Event</ItemCode>
+                <ItemName>事件发生日期</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audience</ItemCode>
+                <ItemName>受众</ItemName>
+                <Value>大众</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Content</ItemCode>
+                <ItemName>内容描述</ItemName>
+                <Value>本节目为《山寨智能机》第1部分。本集主要讲述：祈光花500元新买的山寨手机被口水威强行借走后，口水威竟借手机爆炸假装受伤住进康家，还要求祈光赔偿医药费。结果，祈祖拆穿了他的骗人把戏，口水威因此倒被祈光要求偿还500元。
+本节目包括以下片段：
+1、山寨手机
+2、口水威欺骗康家
+3、口水威向商家索赔</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Audio Channel</ItemCode>
+                <ItemName>声道</ItemName>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Description</ItemCode>
+                  <ItemName>声道内容</ItemName>
+                  <Value>混合声</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel Number</ItemCode>
+                  <ItemName>声道编号</ItemName>
+                  <Value>1</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Version Description</ItemCode>
+                <ItemName>版本说明</ItemName>
+                <Value>播出版</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Additional Logo</ItemCode>
+                <ItemName>附加标志</ItemName>
+                <Value>0</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Date</ItemCode>
+              <ItemName>日期</ItemName>
+              <AttributeItem>
+                <ItemCode>Produced Date</ItemCode>
+                <ItemName>制作完成日期</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Date of Debut</ItemCode>
+                <ItemName>首播日期</ItemName>
+                <Value>2010-09-11 13:22:29</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Published Date</ItemCode>
+                <ItemName>出版日期</ItemName>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Contributor</ItemCode>
+              <ItemName>其他责任者</ItemName>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰coco</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>毛琳</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰表哥</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>林星云</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰唐连偶</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>何浩鹏</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰唐连子</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>罗心悦</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰列有银</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>吴海杰</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰列小球</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>黎明明</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰列汉球</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>李建龙</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰翠红</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>李静</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰洗剪吹</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>邝祖乐</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰阿奇</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>黄俊淇</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰牛哥</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>李卫东</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰唐小姐</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>禤志红</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰阿美</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>陈卓贤</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰贵元</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>陈坚雄</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰婵母</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>卢秋萍</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰婵父 </Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>卢海潮</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰作家</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>张和平</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰阿娇</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>吴苏妹</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value>联合主演 饰祝师奶</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value>主演</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>舒力生</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description of Contributor</ItemCode>
+                <ItemName>其他责任者描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Parallel Name of Contributor</ItemCode>
+                  <ItemName>其他责任者并列名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Other Information of Cont</ItemCode>
+                  <ItemName>其他信息</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Role of Contributor</ItemCode>
+                  <ItemName>其他责任者责任方式</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Name of Contributor</ItemCode>
+                  <ItemName>其他责任者名称</ItemName>
+                  <Value>广东电视台</Value>
+                </AttributeItem>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Type</ItemCode>
+              <ItemName>类型</ItemName>
+              <AttributeItem>
+                <ItemCode>Program Type</ItemCode>
+                <ItemName>节目类型</ItemName>
+                <Value>影视剧类</Value>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Program Form</ItemCode>
+                <ItemName>节目形态</ItemName>
+                <Value>电视剧</Value>
+              </AttributeItem>
+            </AttributeItem>
+            <AttributeItem>
+              <ItemCode>Publisher</ItemCode>
+              <ItemName>出版者</ItemName>
+            </AttributeItem>
+          </Attributes>
+        </Attributes>
+        <SubUnit>
+          <Name>山寨手机</Name>
+          <TrimIn>1647</TrimIn>
+          <Duration>13852</Duration>
+          <Editor />
+          <Attributes>
+            <TypeName>片段层</TypeName>
+            <TypeID>SEQUENCE</TypeID>
+            <Attributes>
+              <AttributeItem>
+                <ItemCode>Copyright</ItemCode>
+                <ItemName>版权</ItemName>
+                <AttributeItem>
+                  <ItemCode>Copyright Statement</ItemCode>
+                  <ItemName>版权声明</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Source</ItemCode>
+                <ItemName>来源</ItemName>
+                <AttributeItem>
+                  <ItemCode>Source Provider</ItemCode>
+                  <ItemName>资料提供者</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Acquiring Method of Source</ItemCode>
+                  <ItemName>资料获取方式</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Identifier</ItemCode>
+                <ItemName>标识符</ItemName>
+                <AttributeItem>
+                  <ItemCode>ISRC</ItemCode>
+                  <ItemName>国际标准音像制品编码</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Relations ID</ItemCode>
+                  <ItemName>标识代码</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title</ItemCode>
+                <ItemName>题名</ItemName>
+                <AttributeItem>
+                  <ItemCode>Proper Title</ItemCode>
+                  <ItemName>正题名</ItemName>
+                  <Value>山寨手机</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Series Title</ItemCode>
+                  <ItemName>系列题名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Proper Title</ItemCode>
+                  <ItemName>并列正题名</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Coverage</ItemCode>
+                <ItemName>时空覆盖范围</ItemName>
+                <AttributeItem>
+                  <ItemCode>Spatial</ItemCode>
+                  <ItemName>空间范围</ItemName>
+                  <Value>广东省广州市</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Years Covered</ItemCode>
+                  <ItemName>时间范围</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Description of Years Covered</ItemCode>
+                    <ItemName>年代描述</ItemName>
+                    <Value />
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of End</ItemCode>
+                    <ItemName>结束年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of Start</ItemCode>
+                    <ItemName>开始年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Contributor</ItemCode>
+                <ItemName>其他责任者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subject</ItemCode>
+                <ItemName>主题</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subject Term</ItemCode>
+                  <ItemName>主题词</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Keyword</ItemCode>
+                  <ItemName>关键词</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Format</ItemCode>
+                <ItemName>格式</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle Form</ItemCode>
+                  <ItemName>字幕形式</ItemName>
+                  <Value>只有画面叠加字幕</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Starting Point</ItemCode>
+                  <ItemName>入点</ItemName>
+                  <Value>1647</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Duration</ItemCode>
+                  <ItemName>实长</ItemName>
+                  <Value>13852</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Language</ItemCode>
+                <ItemName>语种</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle</ItemCode>
+                  <ItemName>字幕</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Language</ItemCode>
+                    <ItemName>字幕语种</ItemName>
+                    <Value>汉语</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Numer</ItemCode>
+                    <ItemName>字幕编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel</ItemCode>
+                  <ItemName>声道</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Number</ItemCode>
+                    <ItemName>声道编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Language</ItemCode>
+                    <ItemName>声道语种</ItemName>
+                    <Value>汉语</Value>
+                  </AttributeItem>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel</ItemCode>
+                  <ItemName>声道</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Number</ItemCode>
+                    <ItemName>声道编号</ItemName>
+                    <Value>2</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Language</ItemCode>
+                    <ItemName>声道语种</ItemName>
+                    <Value>汉语（粤语）</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description</ItemCode>
+                <ItemName>描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Description of Content</ItemCode>
+                  <ItemName>内容描述</ItemName>
+                  <Value>祈光的手机坏了，于是他花500元买了一部山寨智能机。口水威看上了祈光的手机并将手机强行借走。</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Natural Sound</ItemCode>
+                  <ItemName>现场同期声</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Date of Event</ItemCode>
+                  <ItemName>事件发生日期</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Creator</ItemCode>
+                <ItemName>创建者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Type</ItemCode>
+                <ItemName>类型</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Publisher</ItemCode>
+                <ItemName>出版者</ItemName>
+              </AttributeItem>
+            </Attributes>
+          </Attributes>
+          <CatalogueSystemID>1cb3a4f4-aaaa-4c12-aa0e-21e13e90aa16</CatalogueSystemID>
+          <UnitID />
+          <IconFrameID>-1</IconFrameID>
+        </SubUnit>
+        <SubUnit>
+          <Name>口水威欺骗康家</Name>
+          <TrimIn>15501</TrimIn>
+          <Duration>14180</Duration>
+          <Editor />
+          <Attributes>
+            <TypeName>片段层</TypeName>
+            <TypeID>SEQUENCE</TypeID>
+            <Attributes>
+              <AttributeItem>
+                <ItemCode>Copyright</ItemCode>
+                <ItemName>版权</ItemName>
+                <AttributeItem>
+                  <ItemCode>Copyright Statement</ItemCode>
+                  <ItemName>版权声明</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Source</ItemCode>
+                <ItemName>来源</ItemName>
+                <AttributeItem>
+                  <ItemCode>Source Provider</ItemCode>
+                  <ItemName>资料提供者</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Acquiring Method of Source</ItemCode>
+                  <ItemName>资料获取方式</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Identifier</ItemCode>
+                <ItemName>标识符</ItemName>
+                <AttributeItem>
+                  <ItemCode>ISRC</ItemCode>
+                  <ItemName>国际标准音像制品编码</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Relations ID</ItemCode>
+                  <ItemName>标识代码</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title</ItemCode>
+                <ItemName>题名</ItemName>
+                <AttributeItem>
+                  <ItemCode>Proper Title</ItemCode>
+                  <ItemName>正题名</ItemName>
+                  <Value>口水威欺骗康家</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Series Title</ItemCode>
+                  <ItemName>系列题名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Proper Title</ItemCode>
+                  <ItemName>并列正题名</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Coverage</ItemCode>
+                <ItemName>时空覆盖范围</ItemName>
+                <AttributeItem>
+                  <ItemCode>Spatial</ItemCode>
+                  <ItemName>空间范围</ItemName>
+                  <Value>广东省广州市</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Years Covered</ItemCode>
+                  <ItemName>时间范围</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Description of Years Covered</ItemCode>
+                    <ItemName>年代描述</ItemName>
+                    <Value />
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of End</ItemCode>
+                    <ItemName>结束年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of Start</ItemCode>
+                    <ItemName>开始年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Contributor</ItemCode>
+                <ItemName>其他责任者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subject</ItemCode>
+                <ItemName>主题</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subject Term</ItemCode>
+                  <ItemName>主题词</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Keyword</ItemCode>
+                  <ItemName>关键词</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Format</ItemCode>
+                <ItemName>格式</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle Form</ItemCode>
+                  <ItemName>字幕形式</ItemName>
+                  <Value>只有画面叠加字幕</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Starting Point</ItemCode>
+                  <ItemName>入点</ItemName>
+                  <Value>15501</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Duration</ItemCode>
+                  <ItemName>实长</ItemName>
+                  <Value>14180</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Language</ItemCode>
+                <ItemName>语种</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle</ItemCode>
+                  <ItemName>字幕</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Language</ItemCode>
+                    <ItemName>字幕语种</ItemName>
+                    <Value>汉语</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Numer</ItemCode>
+                    <ItemName>字幕编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel</ItemCode>
+                  <ItemName>声道</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Number</ItemCode>
+                    <ItemName>声道编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Language</ItemCode>
+                    <ItemName>声道语种</ItemName>
+                    <Value>汉语（粤语）</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description</ItemCode>
+                <ItemName>描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Description of Content</ItemCode>
+                  <ItemName>内容描述</ItemName>
+                  <Value>口水威头包纱布来到康家，并声称是因为祈光的山寨手机爆炸才把自己害成现在的样子。口水威要求祈光赔自己2500元并要求留在康家休养，否则就把祈光告上法庭，康家人只好同意口水威的要求。结果，口水威住进康家后，祈祖拆穿了他以假受伤骗吃骗喝的把戏。</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Natural Sound</ItemCode>
+                  <ItemName>现场同期声</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Date of Event</ItemCode>
+                  <ItemName>事件发生日期</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Creator</ItemCode>
+                <ItemName>创建者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Type</ItemCode>
+                <ItemName>类型</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Publisher</ItemCode>
+                <ItemName>出版者</ItemName>
+              </AttributeItem>
+            </Attributes>
+          </Attributes>
+          <CatalogueSystemID>1cb3a4f4-aaaa-4c12-aa0e-21e13e90aa16</CatalogueSystemID>
+          <UnitID />
+          <IconFrameID>-1</IconFrameID>
+        </SubUnit>
+        <SubUnit>
+          <Name>口水威向商家索赔</Name>
+          <TrimIn>29683</TrimIn>
+          <Duration>4071</Duration>
+          <Editor />
+          <Attributes>
+            <TypeName>片段层</TypeName>
+            <TypeID>SEQUENCE</TypeID>
+            <Attributes>
+              <AttributeItem>
+                <ItemCode>Copyright</ItemCode>
+                <ItemName>版权</ItemName>
+                <AttributeItem>
+                  <ItemCode>Copyright Statement</ItemCode>
+                  <ItemName>版权声明</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Source</ItemCode>
+                <ItemName>来源</ItemName>
+                <AttributeItem>
+                  <ItemCode>Source Provider</ItemCode>
+                  <ItemName>资料提供者</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Acquiring Method of Source</ItemCode>
+                  <ItemName>资料获取方式</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Identifier</ItemCode>
+                <ItemName>标识符</ItemName>
+                <AttributeItem>
+                  <ItemCode>ISRC</ItemCode>
+                  <ItemName>国际标准音像制品编码</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Relations ID</ItemCode>
+                  <ItemName>标识代码</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Title</ItemCode>
+                <ItemName>题名</ItemName>
+                <AttributeItem>
+                  <ItemCode>Proper Title</ItemCode>
+                  <ItemName>正题名</ItemName>
+                  <Value>口水威向商家索赔</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Series Title</ItemCode>
+                  <ItemName>系列题名</ItemName>
+                  <Value />
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Parallel Proper Title</ItemCode>
+                  <ItemName>并列正题名</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Coverage</ItemCode>
+                <ItemName>时空覆盖范围</ItemName>
+                <AttributeItem>
+                  <ItemCode>Spatial</ItemCode>
+                  <ItemName>空间范围</ItemName>
+                  <Value>广东省广州市</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Years Covered</ItemCode>
+                  <ItemName>时间范围</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Description of Years Covered</ItemCode>
+                    <ItemName>年代描述</ItemName>
+                    <Value />
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of End</ItemCode>
+                    <ItemName>结束年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Year of Start</ItemCode>
+                    <ItemName>开始年份</ItemName>
+                    <Value>0</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Contributor</ItemCode>
+                <ItemName>其他责任者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Subject</ItemCode>
+                <ItemName>主题</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subject Term</ItemCode>
+                  <ItemName>主题词</ItemName>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Keyword</ItemCode>
+                  <ItemName>关键词</ItemName>
+                  <Value />
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Format</ItemCode>
+                <ItemName>格式</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle Form</ItemCode>
+                  <ItemName>字幕形式</ItemName>
+                  <Value>只有画面叠加字幕</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Starting Point</ItemCode>
+                  <ItemName>入点</ItemName>
+                  <Value>29683</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Duration</ItemCode>
+                  <ItemName>实长</ItemName>
+                  <Value>4071</Value>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Language</ItemCode>
+                <ItemName>语种</ItemName>
+                <AttributeItem>
+                  <ItemCode>Subtitle</ItemCode>
+                  <ItemName>字幕</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Language</ItemCode>
+                    <ItemName>字幕语种</ItemName>
+                    <Value>汉语</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Subtitle Numer</ItemCode>
+                    <ItemName>字幕编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Audio Channel</ItemCode>
+                  <ItemName>声道</ItemName>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Number</ItemCode>
+                    <ItemName>声道编号</ItemName>
+                    <Value>1</Value>
+                  </AttributeItem>
+                  <AttributeItem>
+                    <ItemCode>Audio Channel Language</ItemCode>
+                    <ItemName>声道语种</ItemName>
+                    <Value>汉语（粤语）</Value>
+                  </AttributeItem>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Description</ItemCode>
+                <ItemName>描述</ItemName>
+                <AttributeItem>
+                  <ItemCode>Description of Content</ItemCode>
+                  <ItemName>内容描述</ItemName>
+                  <Value>口水威告诉祈光自己要去找山寨厂家索赔。口水威拿着向厂家索赔到的手机和两块电池送给祈光，但祈光不收坚决要口水威赔自己500元。</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Natural Sound</ItemCode>
+                  <ItemName>现场同期声</ItemName>
+                  <Value>0</Value>
+                </AttributeItem>
+                <AttributeItem>
+                  <ItemCode>Date of Event</ItemCode>
+                  <ItemName>事件发生日期</ItemName>
+                </AttributeItem>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Creator</ItemCode>
+                <ItemName>创建者</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Type</ItemCode>
+                <ItemName>类型</ItemName>
+              </AttributeItem>
+              <AttributeItem>
+                <ItemCode>Publisher</ItemCode>
+                <ItemName>出版者</ItemName>
+              </AttributeItem>
+            </Attributes>
+          </Attributes>
+          <CatalogueSystemID>1cb3a4f4-aaaa-4c12-aa0e-21e13e90aa16</CatalogueSystemID>
+          <UnitID />
+          <IconFrameID>-1</IconFrameID>
+        </SubUnit>
+        <CatalogueSystemID>9ad4cbfb-54cf-43d8-a9a4-7d2fac86d954</CatalogueSystemID>
+        <UnitID />
+        <IconFrameID>-1</IconFrameID>
+      </TopUnit>
+    </CatalogueMetaData>
+    <SubmitStatus>4</SubmitStatus>
+    <MetaData>
+      <TypeName>关键帧</TypeName>
+      <TypeID>KEYFRAME</TypeID>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>4</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/4.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>4</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>4</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>309</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/309.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>309</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>309</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>767</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/767.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>767</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>767</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>1166</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/1166.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>1166</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>1166</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>1637</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/1637.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>1637</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>1637</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>2226</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/2226.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>2226</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>2226</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>2623</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/2623.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>2623</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>2623</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>5473</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/5473.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>5473</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>5473</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>9162</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/9162.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>9162</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>9162</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>12001</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/12001.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>12001</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>12001</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>14647</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/14647.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>14647</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>14647</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>15332</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/15332.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>15332</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>15332</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>17736</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/17736.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>17736</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>17736</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>17816</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/17816.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>17816</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>17816</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>18100</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/18100.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>18100</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>18100</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>21742</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/21742.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>21742</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>21742</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>22553</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/22553.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>22553</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>22553</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>24422</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/24422.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>24422</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>24422</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>26248</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/26248.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>26248</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>26248</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>29165</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/29165.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>29165</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>29165</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>30403</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/30403.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>30403</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>30403</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>31555</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/31555.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>31555</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>31555</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>33261</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/33261.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>33261</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>33261</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>33769</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/33769.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>33769</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>33769</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>33978</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/33978.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>33978</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>33978</Value>
+        </AttributeItem>
+      </Attributes>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>IKEYFRAME</ItemCode>
+          <ItemName>IKEYFRAME</ItemName>
+          <Value>34571</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRMARK</ItemCode>
+          <ItemName>STRMARK</ItemName>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>STRKEYFRAMEFILE</ItemCode>
+          <ItemName>STRKEYFRAMEFILE</ItemName>
+          <Value>M:/keyframe/Clip/2012/8/28/bdfe2adf6029475ea1b253affbf57536/34571.jpg</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTBEGIN</ItemCode>
+          <ItemName>ISHOTBEGIN</ItemName>
+          <Value>34571</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ISHOTEND</ItemCode>
+          <ItemName>ISHOTEND</ItemName>
+          <Value>34571</Value>
+        </AttributeItem>
+      </Attributes>
+    </MetaData>
+    <MetaData>
+      <TypeID>MATERIALMETADATA</TypeID>
+      <Attributes>
+        <AttributeItem>
+          <ItemCode>JOURNALIST</ItemCode>
+          <Value />
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>FOLDERPATH</ItemCode>
+          <Value>\\公共资源库\上载素材\2012-06-14\赵立娜</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ICONFRAME</ItemCode>
+          <Value>0</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>ITEMNAME</ItemCode>
+          <Value>赵立娜</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CLIPNAME</ItemCode>
+          <Value>外来媳妇本地郎——山寨智能机（上）</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CLIPGUID</ItemCode>
+          <Value>c28d4baa65c545b3b804147d56e9c5a2</Value>
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CATEGORY</ItemCode>
+          <Value />
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>PGMNAME</ItemCode>
+          <Value />
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>CLIPNOTE</ItemCode>
+          <Value />
+        </AttributeItem>
+        <AttributeItem>
+          <ItemCode>RIGHITS</ItemCode>
+          <Value />
+        </AttributeItem>
+      </Attributes>
+    </MetaData>
+    <EntityData>
+      <TypeName>Clip</TypeName>
+      <TypeID>1</TypeID>
+      <AttributeItem>
+        <ItemCode>INPOINT</ItemCode>
+        <Value>0</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>OUTPOINT</ItemCode>
+        <Value>34651</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>FRAMERATE</ItemCode>
+        <Value>25.00</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>VIDEOIMAGETYPE</ItemCode>
+        <Value>0</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CLIPGUID</ItemCode>
+        <Value>c28d4baa65c545b3b804147d56e9c5a2</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>FOLDERPATH</ItemCode>
+        <Value>\\公共资源库\上载素材\2012-06-14\赵立娜</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CLIPNAME</ItemCode>
+        <Value>外来媳妇本地郎——山寨智能机（上）</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CREATEDATE</ItemCode>
+        <Value>2012-6-14 10:01:11</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CLIPNOTE</ItemCode>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>KEYWORDS</ItemCode>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CREATORCODE</ItemCode>
+        <Value>1041</Value>
+      </AttributeItem>
+      <AttributeItem>
+        <ItemCode>CLIPSOURCE</ItemCode>
+        <Value>EDIT</Value>
+      </AttributeItem>
+    </EntityData>
+    <DCMClassification>
+      <ClassCode>J3825 都市生活情感题材</ClassCode>
+    </DCMClassification>
+  </List>
+  <HighAVFiles />
+</DCMCatalogueResult>

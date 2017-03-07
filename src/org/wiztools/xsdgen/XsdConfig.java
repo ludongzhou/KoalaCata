@@ -7,7 +7,7 @@ import java.util.Objects;
  * @author subwiz
  */
 public class XsdConfig {
-    private String xsdPrefix = "xsd";
+    private String xsdPrefix = "infer";
     private boolean enableMaxOccursOnce = false;
 
     public String getXsdPrefix() {

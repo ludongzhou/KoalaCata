@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://DCMPlatform/v2.0" xmlns:v2.0="http://DCMPlatform/v2.0">
+    <xs:element name="DCMImportRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:LoginInfo"/>
+                <xs:element ref="v2.0:ImportContents"/>
+                <xs:element ref="v2.0:DCMClass"/>
+                <xs:element ref="v2.0:TaskInfo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="LoginInfo">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="ImportContents">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:ContentID"/>
+                <xs:element ref="v2.0:EntityID"/>
+                <xs:element ref="v2.0:ContentData"/>
+                <xs:element ref="v2.0:CatalogueMetaData"/>
+                <xs:element ref="v2.0:MetaData"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ContentID" type="xs:string"/>
+    <xs:element name="EntityID" type="xs:integer"/>
+    <xs:element name="ContentData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:ContentFile"/>
+                <xs:element ref="v2.0:EntityData"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ContentFile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="v2.0:FileItem"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FileItem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:FileGUID"/>
+                <xs:element ref="v2.0:TrackID"/>
+                <xs:element ref="v2.0:QualityType"/>
+                <xs:element ref="v2.0:FileTypeID"/>
+                <xs:element ref="v2.0:FileName"/>
+                <xs:element ref="v2.0:FileGroupName"/>
+                <xs:element ref="v2.0:MediaChannel"/>
+                <xs:element ref="v2.0:FileInpoint"/>
+                <xs:element ref="v2.0:FileOutpoint"/>
+                <xs:element ref="v2.0:RefInpoint"/>
+                <xs:element ref="v2.0:RefOutpoint"/>
+                <xs:element ref="v2.0:FileSize"/>
+                <xs:element ref="v2.0:FileLength"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FileGUID" type="xs:string"/>
+    <xs:element name="TrackID" type="xs:integer"/>
+    <xs:element name="QualityType" type="xs:integer"/>
+    <xs:element name="FileTypeID" type="xs:NCName"/>
+    <xs:element name="FileName" type="xs:anyURI"/>
+    <xs:element name="FileGroupName" type="xs:NCName"/>
+    <xs:element name="MediaChannel" type="xs:integer"/>
+    <xs:element name="FileInpoint" type="xs:integer"/>
+    <xs:element name="FileOutpoint" type="xs:integer"/>
+    <xs:element name="RefInpoint" type="xs:integer"/>
+    <xs:element name="RefOutpoint" type="xs:integer"/>
+    <xs:element name="FileSize" type="xs:integer"/>
+    <xs:element name="FileLength" type="xs:integer"/>
+    <xs:element name="EntityData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:TypeName"/>
+                <xs:element ref="v2.0:TypeID"/>
+                <xs:element maxOccurs="unbounded" ref="v2.0:AttributeItem"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CatalogueMetaData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:CatalogueSystem"/>
+                <xs:element ref="v2.0:TopUnit"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CatalogueSystem" type="xs:string"/>
+    <xs:element name="TopUnit">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:Name"/>
+                <xs:element ref="v2.0:TrimIn"/>
+                <xs:element ref="v2.0:Duration"/>
+                <xs:element ref="v2.0:Attributes"/>
+                <xs:element minOccurs="0" ref="v2.0:SubUnit"/>
+                <xs:element ref="v2.0:CatalogueSystemID"/>
+                <xs:element ref="v2.0:UnitID"/>
+                <xs:element ref="v2.0:IconFrameID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SubUnit">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:Name"/>
+                <xs:element ref="v2.0:TrimIn"/>
+                <xs:element ref="v2.0:Duration"/>
+                <xs:element ref="v2.0:Attributes"/>
+                <xs:element ref="v2.0:CatalogueSystemID"/>
+                <xs:element ref="v2.0:UnitID"/>
+                <xs:element ref="v2.0:IconFrameID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="MetaData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:TypeName"/>
+                <xs:element ref="v2.0:TypeID"/>
+                <xs:element maxOccurs="unbounded" ref="v2.0:Attributes"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DCMClass">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="v2.0:ClassNode"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ClassNode" type="xs:string"/>
+    <xs:element name="TaskInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:Extention"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Extention">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="v2.0:ItemName"/>
+                <xs:element ref="v2.0:ItemValue"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ItemValue" type="xs:NCName"/>
+    <xs:element name="TypeName" type="xs:NCName"/>
+    <xs:element name="TypeID" type="xs:NMTOKEN"/>
+    <xs:element name="AttributeItem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="v2.0:AttributeItem"/>
+                    <xs:element ref="v2.0:ItemName"/>
+                    <xs:element ref="v2.0:ItemCode"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="v2.0:Value"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ItemCode" type="xs:string"/>
+    <xs:element name="Value" type="xs:string"/>
+    <xs:element name="Name" type="xs:string"/>
+    <xs:element name="TrimIn" type="xs:integer"/>
+    <xs:element name="Duration" type="xs:integer"/>
+    <xs:element name="Attributes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence minOccurs="0">
+                    <xs:element ref="v2.0:TypeName"/>
+                    <xs:element ref="v2.0:TypeID"/>
+                    <xs:element ref="v2.0:Attributes"/>
+                </xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="v2.0:AttributeItem"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CatalogueSystemID" type="xs:string"/>
+    <xs:element name="UnitID" type="xs:integer"/>
+    <xs:element name="IconFrameID" type="xs:integer"/>
+    <xs:element name="ItemName" type="xs:string"/>
+</xs:schema>

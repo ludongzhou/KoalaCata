@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="RECORD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ID"/>
+        <xs:element ref="Code"/>
+        <xs:element ref="Name"/>
+        <xs:element ref="Alias"/>
+        <xs:element ref="Director"/>
+        <xs:element ref="Actor"/>
+        <xs:element ref="OriginalCountry"/>
+        <xs:element ref="Language"/>
+        <xs:element ref="ReleaseYear"/>
+        <xs:element ref="OrgAirDate"/>
+        <xs:element ref="OrgAirChannel"/>
+        <xs:element ref="LicensingWindowStart"/>
+        <xs:element ref="LicensingWindowEnd"/>
+        <xs:element ref="Description"/>
+        <xs:element ref="SeriesFlag"/>
+        <xs:element ref="SeriesNo"/>
+        <xs:element ref="Kpeople"/>
+        <xs:element ref="ScriptWriter"/>
+        <xs:element ref="Compere"/>
+        <xs:element ref="Guest"/>
+        <xs:element ref="Reporter"/>
+        <xs:element ref="OPIncharge"/>
+        <xs:element ref="CPID"/>
+        <xs:element ref="CPName"/>
+        <xs:element ref="Keyword"/>
+        <xs:element ref="Duration"/>
+        <xs:element ref="FirstClass"/>
+        <xs:element ref="SndClass"/>
+        <xs:element ref="PosterIMG"/>
+        <xs:element ref="PosterIMG2"/>
+        <xs:element ref="PosterIMG3"/>
+        <xs:element ref="CategoryID"/>
+        <xs:element ref="CategoryName"/>
+        <xs:element ref="ProgramTime"/>
+        <xs:element ref="FilePath"/>
+        <xs:element ref="StorageID"/>
+        <xs:element ref="StorageName"/>
+        <xs:element ref="CreateTime"/>
+        <xs:element ref="UpdateTime"/>
+        <xs:element ref="Status"/>
+        <xs:element ref="PlanID"/>
+        <xs:element ref="PlanName"/>
+        <xs:element ref="JCheckID"/>
+        <xs:element ref="CheckDesc"/>
+        <xs:element ref="ZMConfigID"/>
+        <xs:element ref="ZMConfigName"/>
+        <xs:element ref="JCheckType"/>
+        <xs:element ref="OnlineStatus"/>
+        <xs:element ref="ContentbmID"/>
+        <xs:element ref="MediaInfoID"/>
+        <xs:element ref="TaskGuid"/>
+        <xs:element ref="PublishStatus"/>
+        <xs:element ref="StorageAddress"/>
+        <xs:element ref="StorageMediaPath"/>
+        <xs:element ref="StorageFTPPath"/>
+        <xs:element ref="OrderDate"/>
+        <xs:element ref="BMContentID"/>
+        <xs:element ref="PlatformID"/>
+        <xs:element ref="PlatformName"/>
+        <xs:element ref="FileStatus"/>
+        <xs:element ref="SourceFrom"/>
+        <xs:element ref="StorageLocalPath"/>
+        <xs:element ref="PublishName"/>
+        <xs:element ref="FilePath2"/>
+        <xs:element ref="Storage2ID"/>
+        <xs:element ref="Storage2Name"/>
+        <xs:element ref="Storage2Address"/>
+        <xs:element ref="Storage2MediaPath"/>
+        <xs:element ref="Storage2FTPPath"/>
+        <xs:element ref="Storage2LocalPath"/>
+        <xs:element ref="BackupStatus"/>
+        <xs:element ref="sequence"/>
+        <xs:element ref="MD5"/>
+        <xs:element ref="PublishDate"/>
+        <xs:element ref="Priority"/>
+        <xs:element ref="CWidth"/>
+        <xs:element ref="CHeight"/>
+        <xs:element ref="CBitrate"/>
+        <xs:element ref="CFilesize"/>
+        <xs:element ref="CDefinition"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ID" type="xs:integer"/>
+  <xs:element name="Code" type="xs:string"/>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Alias">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Director">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Actor">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="OriginalCountry">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Language">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="ReleaseYear">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="OrgAirDate">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="OrgAirChannel">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="LicensingWindowStart">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="LicensingWindowEnd">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Description">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="SeriesFlag">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="SeriesNo">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Kpeople">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="ScriptWriter">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Compere">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Guest">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Reporter">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="OPIncharge">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="CPID" type="xs:integer"/>
+  <xs:element name="CPName" type="xs:NCName"/>
+  <xs:element name="Keyword">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Duration" type="xs:integer"/>
+  <xs:element name="FirstClass" type="xs:NCName"/>
+  <xs:element name="SndClass" type="xs:string"/>
+  <xs:element name="PosterIMG">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="PosterIMG2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="PosterIMG3">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="CategoryID">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="CategoryName">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="ProgramTime" type="xs:string"/>
+  <xs:element name="FilePath" type="xs:string"/>
+  <xs:element name="StorageID" type="xs:integer"/>
+  <xs:element name="StorageName" type="xs:NCName"/>
+  <xs:element name="CreateTime" type="xs:string"/>
+  <xs:element name="UpdateTime" type="xs:string"/>
+  <xs:element name="Status" type="xs:integer"/>
+  <xs:element name="PlanID" type="xs:integer"/>
+  <xs:element name="PlanName" type="xs:string"/>
+  <xs:element name="JCheckID">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="CheckDesc">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="ZMConfigID" type="xs:integer"/>
+  <xs:element name="ZMConfigName" type="xs:string"/>
+  <xs:element name="JCheckType">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="OnlineStatus" type="xs:integer"/>
+  <xs:element name="ContentbmID">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="MediaInfoID" type="xs:integer"/>
+  <xs:element name="TaskGuid" type="xs:string"/>
+  <xs:element name="PublishStatus" type="xs:integer"/>
+  <xs:element name="StorageAddress" type="xs:string"/>
+  <xs:element name="StorageMediaPath" type="xs:string"/>
+  <xs:element name="StorageFTPPath" type="xs:anyURI"/>
+  <xs:element name="OrderDate" type="xs:string"/>
+  <xs:element name="BMContentID" type="xs:integer"/>
+  <xs:element name="PlatformID" type="xs:integer"/>
+  <xs:element name="PlatformName" type="xs:NCName"/>
+  <xs:element name="FileStatus">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="SourceFrom" type="xs:integer"/>
+  <xs:element name="StorageLocalPath" type="xs:string"/>
+  <xs:element name="PublishName" type="xs:string"/>
+  <xs:element name="FilePath2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2ID">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2Name">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2Address">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2MediaPath">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2FTPPath">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Storage2LocalPath">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="BackupStatus" type="xs:integer"/>
+  <xs:element name="sequence" type="xs:integer"/>
+  <xs:element name="MD5" type="xs:string"/>
+  <xs:element name="PublishDate">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Priority" type="xs:integer"/>
+  <xs:element name="CWidth" type="xs:integer"/>
+  <xs:element name="CHeight" type="xs:integer"/>
+  <xs:element name="CBitrate" type="xs:integer"/>
+  <xs:element name="CFilesize" type="xs:integer"/>
+  <xs:element name="CDefinition" type="xs:integer"/>
+</xs:schema>
