@@ -1,83 +1,83 @@
 <?xml version="1.0" standalone="yes"?>
 <RECORD>
-<ID>296085</ID>
-<Code>2bc041572e7a4e5c8c5ae535ee0e5991</Code>
-<Name>人骨探秘 08</Name>
-<Alias></Alias>
-<Director></Director>
-<Actor></Actor>
-<OriginalCountry></OriginalCountry>
-<Language></Language>
-<ReleaseYear></ReleaseYear>
-<OrgAirDate></OrgAirDate>
-<OrgAirChannel></OrgAirChannel>
-<LicensingWindowStart></LicensingWindowStart>
-<LicensingWindowEnd></LicensingWindowEnd>
-<Description></Description>
-<SeriesFlag></SeriesFlag>
-<SeriesNo></SeriesNo>
-<Kpeople></Kpeople>
-<ScriptWriter></ScriptWriter>
-<Compere></Compere>
-<Guest></Guest>
-<Reporter></Reporter>
-<OPIncharge></OPIncharge>
-<CPID>110</CPID>
-<CPName>优酷媒资</CPName>
-<Keyword></Keyword>
-<Duration>2699</Duration>
-<FirstClass>纪录专题</FirstClass>
-<SndClass>收藏,探索,历史</SndClass>
-<PosterIMG></PosterIMG>
-<PosterIMG2></PosterIMG2>
-<PosterIMG3></PosterIMG3>
-<CategoryID></CategoryID>
-<CategoryName></CategoryName>
-<ProgramTime>2016/11/11</ProgramTime>
-<FilePath>CPK\2016\11\12\rengutanmi08_147891886810341.ts</FilePath>
-<StorageID>1</StorageID>
-<StorageName>在线存储</StorageName>
-<CreateTime>2016/11/12 12:55:21</CreateTime>
-<UpdateTime>2016/11/12 12:27:39</UpdateTime>
-<Status>1</Status>
-<PlanID>251625</PlanID>
-<PlanName>人骨探秘 08</PlanName>
-<JCheckID></JCheckID>
-<CheckDesc></CheckDesc>
-<ZMConfigID>12</ZMConfigID>
-<ZMConfigName>hd1500k</ZMConfigName>
-<JCheckType></JCheckType>
-<OnlineStatus>1</OnlineStatus>
-<ContentbmID></ContentbmID>
-<MediaInfoID>351426</MediaInfoID>
-<TaskGuid>6ae266b959ec451eb3e8191f250ab1d3_6fa650fd7b304284b839552c368f7301</TaskGuid>
-<PublishStatus>3</PublishStatus>
-<StorageAddress>\\10.168.20.64\storage\JMFW</StorageAddress>
-<StorageMediaPath>/home/publish/m3u8/media/hls</StorageMediaPath>
-<StorageFTPPath>ftp://ctc:ctc@10.168.21.16:21/</StorageFTPPath>
-<OrderDate>2016/11/11</OrderDate>
-<BMContentID>293084</BMContentID>
-<PlatformID>3</PlatformID>
-<PlatformName>CTC集成播控</PlatformName>
-<FileStatus></FileStatus>
-<SourceFrom>1</SourceFrom>
-<StorageLocalPath>/home/media/JMFW</StorageLocalPath>
-<PublishName>人骨探秘 08</PublishName>
-<FilePath2></FilePath2>
-<Storage2ID></Storage2ID>
-<Storage2Name></Storage2Name>
-<Storage2Address></Storage2Address>
-<Storage2MediaPath></Storage2MediaPath>
-<Storage2FTPPath></Storage2FTPPath>
-<Storage2LocalPath></Storage2LocalPath>
-<BackupStatus>0</BackupStatus>
-<sequence>0</sequence>
-<MD5>2b787d766f5e7390a6323a3602c9b108</MD5>
-<PublishDate></PublishDate>
-<Priority>2</Priority>
-<CWidth>1920</CWidth>
-<CHeight>1080</CHeight>
-<CBitrate>3506</CBitrate>
-<CFilesize>1128</CFilesize>
-<CDefinition>2</CDefinition>
+    <ID>296085</ID>
+    <Code>2bc041572e7a4e5c8c5ae535ee0e5991</Code>
+    <Name>人骨探秘 08</Name>
+    <Alias></Alias>
+    <Director></Director>
+    <Actor></Actor>
+    <OriginalCountry></OriginalCountry>
+    <Language></Language>
+    <ReleaseYear></ReleaseYear>
+    <OrgAirDate></OrgAirDate>
+    <OrgAirChannel></OrgAirChannel>
+    <LicensingWindowStart></LicensingWindowStart>
+    <LicensingWindowEnd></LicensingWindowEnd>
+    <Description></Description>
+    <SeriesFlag></SeriesFlag>
+    <SeriesNo></SeriesNo>
+    <Kpeople></Kpeople>
+    <ScriptWriter></ScriptWriter>
+    <Compere></Compere>
+    <Guest></Guest>
+    <Reporter></Reporter>
+    <OPIncharge></OPIncharge>
+    <CPID>110</CPID>
+    <CPName>优酷媒资</CPName>
+    <Keyword></Keyword>
+    <Duration>2699</Duration>
+    <FirstClass>纪录专题</FirstClass>
+    <SndClass>收藏,探索,历史</SndClass>
+    <PosterIMG></PosterIMG>
+    <PosterIMG2></PosterIMG2>
+    <PosterIMG3></PosterIMG3>
+    <CategoryID></CategoryID>
+    <CategoryName></CategoryName>
+    <ProgramTime>2016/11/11</ProgramTime>
+    <FilePath>CPK\2016\11\12\rengutanmi08_147891886810341.ts</FilePath>
+    <StorageID>1</StorageID>
+    <StorageName>在线存储</StorageName>
+    <CreateTime>2016/11/12 12:55:21</CreateTime>
+    <UpdateTime>2016/11/12 12:27:39</UpdateTime>
+    <Status>1</Status>
+    <PlanID>251625</PlanID>
+    <PlanName>人骨探秘 08</PlanName>
+    <JCheckID></JCheckID>
+    <CheckDesc></CheckDesc>
+    <ZMConfigID>12</ZMConfigID>
+    <ZMConfigName>hd1500k</ZMConfigName>
+    <JCheckType></JCheckType>
+    <OnlineStatus>1</OnlineStatus>
+    <ContentbmID></ContentbmID>
+    <MediaInfoID>351426</MediaInfoID>
+    <TaskGuid>6ae266b959ec451eb3e8191f250ab1d3_6fa650fd7b304284b839552c368f7301</TaskGuid>
+    <PublishStatus>3</PublishStatus>
+    <StorageAddress>\\10.168.20.64\storage\JMFW</StorageAddress>
+    <StorageMediaPath>/home/publish/m3u8/media/hls</StorageMediaPath>
+    <StorageFTPPath>ftp://ctc:ctc@10.168.21.16:21/</StorageFTPPath>
+    <OrderDate>2016/11/11</OrderDate>
+    <BMContentID>293084</BMContentID>
+    <PlatformID>3</PlatformID>
+    <PlatformName>CTC集成播控</PlatformName>
+    <FileStatus></FileStatus>
+    <SourceFrom>1</SourceFrom>
+    <StorageLocalPath>/home/media/JMFW</StorageLocalPath>
+    <PublishName>人骨探秘 08</PublishName>
+    <FilePath2></FilePath2>
+    <Storage2ID></Storage2ID>
+    <Storage2Name></Storage2Name>
+    <Storage2Address></Storage2Address>
+    <Storage2MediaPath></Storage2MediaPath>
+    <Storage2FTPPath></Storage2FTPPath>
+    <Storage2LocalPath></Storage2LocalPath>
+    <BackupStatus>0</BackupStatus>
+    <sequence>0</sequence>
+    <MD5>2b787d766f5e7390a6323a3602c9b108</MD5>
+    <PublishDate></PublishDate>
+    <Priority>2</Priority>
+    <CWidth>1920</CWidth>
+    <CHeight>1080</CHeight>
+    <CBitrate>3506</CBitrate>
+    <CFilesize>1128</CFilesize>
+    <CDefinition>2</CDefinition>
 </RECORD>

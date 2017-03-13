@@ -28,6 +28,7 @@ public class XMLSchemaLearner extends AbstractExtractor{
         try {
             Process process = processBuilder.start();
             bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            process.waitFor();
             while ((line = bufferedReader.readLine()) != null) {
                 stringBuilder.append(line);
             }
@@ -35,6 +36,11 @@ public class XMLSchemaLearner extends AbstractExtractor{
         }
         catch (IOException e) {
             e.printStackTrace();
+        }
+        catch (java.lang.InterruptedException e) {
+            logger.info("interrupted, exit");
+            e.printStackTrace();
+            System.exit(1);
         }
         docString = stringBuilder.toString();
     }
