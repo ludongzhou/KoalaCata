@@ -24,12 +24,13 @@ public class test {
         try {
             File file = new File("xslt/template/program.xslt");
             Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);
-            document.getDocumentElement().normalize();
+            // document.getDocumentElement().normalize();
             XPath xpath = XPathFactory.newInstance().newXPath();
             XPathExpression xPathExpression;
-            String key = "//xsl:value-of[@select=\'MetaData.Program.Language.AudioChannel.AudioChannelLanguage\']";
-            String key = "//xsl:value-of[@select=\'MetaData.Program.Language.AudioChannel.AudioChannelLanguage\']";
+            String key = "//*[name()='xsl:value-of'][@select='MetaData.Program.Language.AudioChannel.AudioChannelLanguage']";
+            // String key = "//xsl:value-of[@select=\'MetaData.Program.Language.AudioChannel.AudioChannelLanguage\']";
             xPathExpression = xpath.compile(key);
+
             NodeList nodeList = (NodeList) xPathExpression.evaluate(document, XPathConstants.NODESET);
             if (nodeList.getLength() != 0) {
                 System.out.println(key);
@@ -37,11 +38,12 @@ public class test {
                 element.setAttribute("select", "shit");
                 System.out.println("shit");
             }
+
             System.out.println(key);
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             DOMSource source = new DOMSource(document);
-            StreamResult consoleResult = new StreamResult(System.out);
-            transformer.transform(source, consoleResult);
+            // StreamResult consoleResult = new StreamResult(System.out);
+            // transformer.transform(source, consoleResult);
         } catch (IOException | TransformerException | ParserConfigurationException | SAXException | XPathExpressionException e) {
             e.printStackTrace();
         }
