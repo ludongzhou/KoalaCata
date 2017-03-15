@@ -60,7 +60,8 @@ public class MainAddressing {
                         System.out.println(key);
                         Element element = (Element) nodeList.item(0);
 //                    Element element = (Element) document.getDocumentElement().getElementsByTagName("xsl:value-of[@select=]");
-                        element.setAttribute("select", hashMap.get(key));
+//                       element.setAttribute("select", hashMap.get(key));
+                      element.setAttribute("select", "f**k");
                     }
                 }
                 Transformer transformer = TransformerFactory.newInstance().newTransformer();
@@ -68,8 +69,8 @@ public class MainAddressing {
 //                StreamResult result = new StreamResult(new File("template/sequence_new.xslt"));
 //                transformer.transform(source, result);
                 // Output to console for testing
-//                StreamResult consoleResult = new StreamResult(System.out);
-//                transformer.transform(source, consoleResult);
+               StreamResult consoleResult = new StreamResult(System.out);
+               transformer.transform(source, consoleResult);
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -27,14 +27,17 @@ public class test {
             document.getDocumentElement().normalize();
             XPath xpath = XPathFactory.newInstance().newXPath();
             XPathExpression xPathExpression;
-            String key = "//xsl:value-of[@select='" + "MetaData.Program.Language.AudioChannel.AudioChannelLanguage" + "']";
+            String key = "//xsl:value-of[@select=\'MetaData.Program.Language.AudioChannel.AudioChannelLanguage\']";
+            String key = "//xsl:value-of[@select=\'MetaData.Program.Language.AudioChannel.AudioChannelLanguage\']";
             xPathExpression = xpath.compile(key);
             NodeList nodeList = (NodeList) xPathExpression.evaluate(document, XPathConstants.NODESET);
             if (nodeList.getLength() != 0) {
                 System.out.println(key);
                 Element element = (Element) nodeList.item(0);
                 element.setAttribute("select", "shit");
+                System.out.println("shit");
             }
+            System.out.println(key);
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             DOMSource source = new DOMSource(document);
             StreamResult consoleResult = new StreamResult(System.out);
@@ -43,6 +46,4 @@ public class test {
             e.printStackTrace();
         }
     }
-
-
 }
