@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/ObjectData/Object[@CCID='新闻节目类']">
+    <xsl:template match="/">
         <MetaData>
             <xsl:for-each select="Object[@CCID='片段子类']/MetaData">
                 <Sequence>
@@ -47,21 +47,21 @@
                     <xsl:for-each select="MetaData">
                         <Awards>
                             <NameofAwards>
-                                <xsl:value-of select="CMS.MetaData.Description.Awards.NameofAwards"/>
+                                <xsl:value-of select="CMS/MetaData/Description/Awards/NameofAwards"/>
                             </NameofAwards>
                             <ItemofAwards>
-                                <xsl:value-of select="CMS.MetaData.Description.Awards.ItemofAwards"/>
+                                <xsl:value-of select="CMS/MetaData/Description/Awards/ItemofAwards"/>
                             </ItemofAwards>
                             <xsl:for-each select="sAttribute[@strName='获奖者']">
                                 <WinnersofAwards>
-                                    <xsl:value-of select="CMS.MetaData.Description.Awards.WinnersofAwards"/>
+                                    <xsl:value-of select="CMS/MetaData/Description/Awards/WinnersofAwards"/>
                                 </WinnersofAwards>
                             </xsl:for-each>
                             <YearorTimeofAwards>
-                                <xsl:value-of select="CMS.MetaData.Description.Awards.YearorTimeofAwards"/>
+                                <xsl:value-of select="CMS/MetaData/Description/Awards/YearorTimeofAwards"/>
                             </YearorTimeofAwards>
                             <DateofAwards>
-                                <xsl:value-of select="CMS.MetaData.Description.Awards.DateofAwards"/>
+                                <xsl:value-of select="CMS/MetaData/Description/Awards/DateofAwards"/>
                             </DateofAwards>
                         </Awards>
                     </xsl:for-each>
@@ -159,7 +159,7 @@
             </Type>
             <Format>
                 <Duration>
-                    <xsl:value-of select="CMS.MetaData.Clip.ClipBaseInfo.Duration"/>
+                    <xsl:value-of select="CMS/MetaData/Clip/ClipFiles/ClipFile/ClipFileInfo/duration"/>
                 </Duration>
                 <StartingPoint>
                     <xsl:value-of select="MetaData.Sequence.Format.StartingPoint"/>

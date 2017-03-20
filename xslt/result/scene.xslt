@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/ObjectData/Object[@CCID='新闻节目类']">
+    <xsl:template match="/">
         <MetaData>
             <xsl:for-each select="Object[@CCID='场景子类']/MetaData">
                 <Scene>
@@ -22,10 +22,10 @@
                     </Subject>
                     <Description>
                         <DescriptionofContent>
-                            <xsl:value-of select="CMS.MetaData.Description.DescriptionofContent"/>
+                            <xsl:value-of select="CMS/MetaData/Description/DescriptionofContent"/>
                         </DescriptionofContent>
                         <DateofEvent>
-                            <xsl:value-of select="CMS.MetaData.Description.DateofEvent"/>
+                            <xsl:value-of select="CMS/MetaData/Description/DateofEvent"/>
                         </DateofEvent>
                         <NaturalSound>
                             <xsl:value-of select="MetaData.Scene.Description.NaturalSound"/>
@@ -34,10 +34,10 @@
 
                     <Format>
                         <Duration>
-                            <xsl:value-of select="CMS.MetaData.Clip.ClipBaseInfo.Duration"/>
+                            <xsl:value-of select="CMS/MetaData/Clip/ClipFiles/ClipFile/ClipFileInfo/duration"/>
                         </Duration>
                         <StartingPoint>
-                            <xsl:value-of select="MetaData.Scene.Format.StartingPoint"/>
+                            <xsl:value-of select="CMS/MetaData/Clip/ClipBaseInfo/Format/StartingPoint"/>
                         </StartingPoint>
                         <SubtitleForm>
                             <xsl:value-of select="MetaData.Scene.Format.SubtitleForm"/>

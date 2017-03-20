@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/ObjectData/Object[@CCID='新闻节目类']/MetaData">
+    <xsl:template match="/">
         <MetaData>
             <Program>
                 <Title>

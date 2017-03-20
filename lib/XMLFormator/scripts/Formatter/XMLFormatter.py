@@ -1,12 +1,14 @@
 import glob
 import logging
 import os
+import sys
 from lxml import etree, objectify
-from ..Utility.FileUtility import FileUtility
+from FileUtility import FileUtility
 from datetime import datetime, date, time
 
 class XMLFormatter:
 
+    # xml_path is a file path, xsl_path is a dir
     def __init__(self, xml_path, xsl_path, dest_folder, attribs):
         self.xml_path = xml_path
         self.xsl_path = xsl_path
@@ -40,7 +42,7 @@ class XMLFormatter:
             self.raw_xml = ''
             return 3
 
-        XSLFiles = glob.glob(self.xsl_path + "/*.xsl")
+        XSLFiles = glob.glob(self.xsl_path + "/*.xslt")
         if len(XSLFiles) == 0:
             logging.error("xsl files: %s not exist" % self.xsl_path)
             return 2
@@ -55,7 +57,7 @@ class XMLFormatter:
 
         root = etree.fromstring(self.all_xml)
 
-        if len(self.attribs) == 0:
+        if not self.attribs:
             logging.warning("no attribs to add")
             return 0
 
@@ -95,7 +97,7 @@ class XMLFormatter:
         for tag_name in self.ready_to_write:
             for i in range(len(self.ready_to_write[tag_name])):
                 ele_string = self.ready_to_write[tag_name][i]
-                xml_file_name = self.dst_folder + "/" + tag_name + str(i) + "_" + self.attribs["MD5"] + ".xml"
+                xml_file_name = self.dst_folder + "/" + tag_name + str(i) + ".xml"
                 with open(xml_file_name, 'w+', encoding='utf-8') as outFile:
                     outFile.write(str(ele_string))
 
@@ -239,3 +241,13 @@ class XMLFormatter:
         objectify.deannotate(root, cleanup_namespaces=True)
         transRoot = transformer(root)
         return etree.tostring(transRoot, encoding='utf-8', pretty_print=True, xml_declaration=True)
+
+
+if __name__ == '__main__' :
+    if len(sys.argv) == 4 :
+        print(str(sys.argv))
+        xmlFormatter = XMLFormatter(sys.argv[1], sys.argv[2], sys.argv[3], None)
+        xmlFormatter.format()
+    else :
+        logging.error("no enough arguments")
+

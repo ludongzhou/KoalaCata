@@ -1,155 +1,296 @@
---------------------------------------------------------
-MatchResult of simMatrix [2008,253]
- + Name: MatchResult (2)
- + Info: ($ComaOptS)
- + Source: Users_zhouludong_IntelliJIDEAProjects_KoalaCata_sample_flatten_valide|SIMPLIFIED|/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/sample/flatten_valide.xsd
- + Target: Users_zhouludong_IntelliJIDEAProjects_KoalaCata_xslt_standard|SIMPLIFIED|/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/xslt/standard.xsd
- - CMS.MetaData <-> MetaData: 0.48005486
- - CMS.MetaData.Description <-> MetaData.Shot.Description: 0.5321943
- - CMS.MetaData.Description.caption <-> MetaData.Shot.Description.CameraMotion: 0.4706351
- - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Scene.Description.DescriptionofContent: 0.49014416
- - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Shot.Description.DescriptionofContent: 0.4927757
- - CMS.MetaData.Description.DateofEvent <-> MetaData.Scene.Description.DateofEvent: 0.48972532
- - CMS.MetaData.Description.Awards <-> MetaData.Sequence.Description.Awards: 0.50066805
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -Didea.launcher.port=7537 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/out/production/KoalaCata:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/log4j-core-2.7.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/log4j-api-2.7.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/junit-4.12.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/hamcrest-core-1.3.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/wiztools-commons-lib-0.4.1.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xom-1.2.5.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xml-apis-1.3.03.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xercesImpl-2.8.0.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xalan-2.7.0.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/cli-7.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/trang-20091111.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xercesImpl-2.9.1.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/xml-apis-1.0.b2.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/saxon-8.7.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/lib/isorelax-20030108.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/coma-engine/target/classes:/Users/zhouludong/.m2/repository/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9.jar:/Users/zhouludong/.m2/repository/org/codehaus/jettison/jettison/1.3/jettison-1.3.jar:/Users/zhouludong/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/zhouludong/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/Users/zhouludong/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/Users/zhouludong/.m2/repository/org/antlr/antlr/3.3/antlr-3.3.jar:/Users/zhouludong/.m2/repository/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar:/Users/zhouludong/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/zhouludong/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/zhouludong/.m2/repository/xerces/xercesImpl/2.9.0/xercesImpl-2.9.0.jar:/Users/zhouludong/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/zhouludong/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/zhouludong/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-analyzers/3.0.1/lucene-analyzers-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-core/3.0.1/lucene-core-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-highlighter/3.0.1/lucene-highlighter-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-memory/3.0.1/lucene-memory-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-queries/3.0.1/lucene-queries-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/lucene/lucene-spellchecker/3.0.1/lucene-spellchecker-3.0.1.jar:/Users/zhouludong/.m2/repository/org/apache/mahout/mahout-collections/1.0/mahout-collections-1.0.jar:/Users/zhouludong/.m2/repository/org/apache/mahout/mahout-core/0.5/mahout-core-0.5.jar:/Users/zhouludong/.m2/repository/org/apache/hadoop/hadoop-core/0.20.2/hadoop-core-0.20.2.jar:/Users/zhouludong/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/zhouludong/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/Users/zhouludong/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/zhouludong/.m2/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar:/Users/zhouludong/.m2/repository/commons-pool/commons-pool/1.4/commons-pool-1.4.jar:/Users/zhouludong/.m2/repository/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar:/Users/zhouludong/.m2/repository/org/uncommons/watchmaker/watchmaker-framework/0.6.2/watchmaker-framework-0.6.2.jar:/Users/zhouludong/.m2/repository/com/google/collections/google-collections/1.0-rc2/google-collections-1.0-rc2.jar:/Users/zhouludong/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar:/Users/zhouludong/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/zhouludong/.m2/repository/org/apache/mahout/commons/commons-cli/2.0-mahout/commons-cli-2.0-mahout.jar:/Users/zhouludong/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/Users/zhouludong/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/zhouludong/.m2/repository/org/apache/mahout/mahout-math/0.5/mahout-math-0.5.jar:/Users/zhouludong/.m2/repository/org/uncommons/maths/uncommons-maths/1.2/uncommons-maths-1.2.jar:/Users/zhouludong/.m2/repository/org/apache/mahout/mahout-utils/0.5/mahout-utils-0.5.jar:/Users/zhouludong/.m2/repository/org/apache/solr/solr-commons-csv/3.1.0/solr-commons-csv-3.1.0.jar:/Users/zhouludong/.m2/repository/org/slf4j/slf4j-jcl/1.6.0/slf4j-jcl-1.6.0.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/hadoop-core-0.20.2.jar:/Users/zhouludong/.m2/repository/com/google/guava/guava/10.0/guava-10.0.jar:/Users/zhouludong/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zhouludong/.m2/repository/javolution/javolution/5.5.1/javolution-5.5.1.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/jgrapht-jdk1.6-0.8.1.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/MatchLibrary-CE-1.0.2.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/owlapi-3.2.2.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/align-4.2-align.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/align-4.2-procalign.jar:/Users/zhouludong/IntelliJIDEAProjects/KoalaCata/src/coma/lib/align-4.2-ontowrap.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMain koalacata.xsd.mapping.Main
+Parse source flatten_valide from sample/flatten_valide.xsd as of Mon Mar 20 20:48:18 CST 2017
+Parse time: 696
+VertexSet: 1794  EdgeSet: 1807
+element with constituents
+Size: src 185, trg 185
+Matcher	src	185	trg	185
+Matcher	src	170	trg	170
+***	length:	12
+***	length:	12
+***	Trigram: 207ms
+execute matcher NameM	0.442 s
+Size: src 185, trg 185
+Matcher	src	185	trg	185
+Matcher	src	30	trg	30
+***	length:	19
+***	length:	19
+17/03/20 20:48:21 INFO meta.VectorMatcher: Match Start.
+***	FeatVect: 10ms
+execute matcher StatisticsM	0.056 s
+element w/o constituents
+MatchCount: 24915
+element with constituents
+Size: src 1439, trg 1439
+Matcher	src	1439	trg	1439
+Matcher	src	26	trg	26
+***	length:	8
+***	length:	8
+***	Trigram: 1ms
+execute matcher NameM	0.379 s
+Size: src 1439, trg 1439
+Matcher	src	1439	trg	1439
+Matcher	src	2	trg	2
+***	length:	3
+***	length:	3
+***	DatatypeSimilarity: 0ms
+17/03/20 20:48:21 INFO meta.DatatypeMatcher: Match Start.
+execute matcher DatatypeM	0.359 s
+element w/o constituents
+MatchCount: 2067857
+Parse source standard from xslt/standard.xsd as of Mon Mar 20 20:48:30 CST 2017
+Parse time: 83
+VertexSet: 246  EdgeSet: 245
+element with constituents
+Size: src 68, trg 68
+Matcher	src	68	trg	68
+Matcher	src	32	trg	32
+***	length:	9
+***	length:	9
+***	Trigram: 1ms
+execute matcher NameM	0.002 s
+Size: src 68, trg 68
+Matcher	src	68	trg	68
+Matcher	src	22	trg	22
+***	length:	16
+***	length:	16
+***	FeatVect: 2ms
+execute matcher StatisticsM	0.004 s
+element w/o constituents
+MatchCount: 3280
+17/03/20 20:48:30 INFO meta.VectorMatcher: Match Start.
+element with constituents
+Size: src 178, trg 178
+Matcher	src	178	trg	178
+Matcher	src	103	trg	103
+***	length:	13
+***	length:	13
+***	Trigram: 8ms
+17/03/20 20:48:31 INFO meta.DatatypeMatcher: Match Start.
+execute matcher NameM	0.015 s
+Size: src 178, trg 178
+Matcher	src	178	trg	178
+Matcher	src	6	trg	6
+***	length:	4
+***	length:	4
+***	DatatypeSimilarity: 1ms
+execute matcher DatatypeM	0.005 s
+element w/o constituents
+MatchCount: 30922
+element with constituents
+Size: src 3601, trg 253
+Matcher	src	3601	trg	253
+Matcher	src	195	trg	135
+***	length:	12
+***	length:	12
+***	Trigram: 17ms
+execute matcher NameM	0.098 s
+element w/o constituents
+element with constituents
+Size: src 3601, trg 253
+Matcher	src	3601	trg	253
+Matcher	src	3601	trg	252
+***	length:	81
+***	length:	42
+***	Trigram: 801ms
+execute matcher PathM	2.523 s
+element w/o constituents
+LeavesCM
+CMatcher	src	6617	trg	732
+CMatcher	src	26	trg	107
+element with constituents
+Size: src 26, trg 107
+Matcher	src	26	trg	107
+Matcher	src	26	trg	104
+***	length:	8
+***	length:	13
+***	Trigram: 5ms
+execute matcher NameM	0.019 s
+element w/o constituents
+Matcher	src	3231	trg	185
+Matcher	src	25	trg	103
+***	length:	8
+***	length:	13
+***	Trigram: 0ms
+ParentsCM
+CMatcher	src	508099	trg	363
+CMatcher	src	171	trg	44
+element with constituents
+Size: src 171, trg 44
+LeavesCM
+CMatcher	src	1584	trg	461
+CMatcher	src	26	trg	107
+element with constituents
+Size: src 26, trg 107
+Matcher	src	26	trg	107
+Matcher	src	26	trg	104
+***	length:	8
+***	length:	13
+***	Trigram: 2ms
+execute matcher NameM	0.003 s
+element w/o constituents
+execute matcher LeavesCM	0.101 s
+element w/o constituents
+LeavesCM
+CMatcher	src	25	trg	106
+CMatcher	src	25	trg	106
+element with constituents
+Size: src 25, trg 106
+Matcher	src	25	trg	106
+Matcher	src	25	trg	103
+***	length:	8
+***	length:	13
+***	Trigram: 1ms
+execute matcher NameM	0.001 s
+element w/o constituents
+MatchCount: 910931
+MatchResult [3601,253] flatten_validestandard--------------------------------------------------------
+ - CMS.MetaData <-> MetaData: 0.47677913
+ - CMS.MetaData.Description <-> MetaData.Shot.Description: 0.5299287
+ - CMS.MetaData.Description.caption <-> MetaData.Shot.Description.CameraMotion: 0.47061548
+ - CMS.MetaData.Description.Program <-> MetaData.Program: 0.47546828
+ - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Scene.Description.DescriptionofContent: 0.4889127
+ - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Shot.Description.DescriptionofContent: 0.49154425
+ - CMS.MetaData.Description.Character <-> MetaData.Program.Description.Character: 0.4872275
+ - CMS.MetaData.Description.DateofEvent <-> MetaData.Scene.Description.DateofEvent: 0.48898786
+ - CMS.MetaData.Description.VersionDescription <-> MetaData.Program.Description.VersionDescription: 0.48562723
+ - CMS.MetaData.Description.Awards <-> MetaData.Program.Description.Awards: 0.5026067
+ - CMS.MetaData.Description.Awards <-> MetaData.Sequence.Description.Awards: 0.49999097
+ - CMS.MetaData.Description.Column <-> MetaData.Program.Description.Column: 0.52969956
+ - CMS.MetaData.Description.Audience <-> MetaData.Program.Description.Audience: 0.48562723
+ - CMS.MetaData.Description.AdditionalLogo <-> MetaData.Program.Description.AdditionalLogo: 0.49155998
+ - CMS.MetaData.Description.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.51550406
+ - CMS.MetaData.Description.Attachment <-> MetaData.Program.Description.Attachment: 0.48874575
+ - CMS.MetaData.Description.Program.Title <-> MetaData.Program.Title: 0.49588346
+ - CMS.MetaData.Description.Program.Subject <-> MetaData.Program.Subject: 0.49201334
+ - CMS.MetaData.Description.Program.Creator <-> MetaData.Program.Creator: 0.50085855
+ - CMS.MetaData.Description.Program.Contributor <-> MetaData.Program.Contributor: 0.5060663
+ - CMS.MetaData.Description.Program.Publisher <-> MetaData.Program.Publisher: 0.49108413
+ - CMS.MetaData.Description.Program.Copyright <-> MetaData.Program.Copyright: 0.49414337
+ - CMS.MetaData.Description.Program.Language <-> MetaData.Program.Language: 0.4899156
+ - CMS.MetaData.Description.Program.Date <-> MetaData.Program.Date: 0.4771924
+ - CMS.MetaData.Description.Program.Type <-> MetaData.Program.Type: 0.4776591
+ - CMS.MetaData.Description.Program.Format <-> MetaData.Program.Format: 0.49708867
+ - CMS.MetaData.Description.Program.Identifier <-> MetaData.Program.Identifier: 0.49738365
+ - CMS.MetaData.Description.Program.Coverage <-> MetaData.Program.Coverage: 0.48829117
+ - CMS.MetaData.Description.Program.Source <-> MetaData.Program.Source: 0.46263722
+ - CMS.MetaData.Description.Program.Relation <-> MetaData.Program.Relation: 0.492078
+ - CMS.MetaData.Description.Program.Title.ProperTitle <-> MetaData.Program.Title.ProperTitle: 0.46502498
+ - CMS.MetaData.Description.Program.Title.ParallelProperTitle <-> MetaData.Program.Title.ParallelProperTitle: 0.48564157
+ - CMS.MetaData.Description.Program.Title.SubordinateTitle <-> MetaData.Program.Title.SubordinateTitle: 0.48315063
+ - CMS.MetaData.Description.Program.Title.AlternativeTitle <-> MetaData.Program.Title.AlternativeProperTitle: 0.40351254
+ - CMS.MetaData.Description.Program.Title.TitleDescription <-> MetaData.Program.Title.TitleDescription: 0.5028098
+ - CMS.MetaData.Description.Program.Title.Series <-> MetaData.Program.Title.Series: 0.4978588
+ - CMS.MetaData.Description.Program.Title.Series.SeriesTitle <-> MetaData.Program.Title.Series.SeriesTitle: 0.45992106
+ - CMS.MetaData.Description.Program.Title.Series.ParallelSeriesTitle <-> MetaData.Program.Title.Series.ParallelSeriesTitle: 0.47255376
+ - CMS.MetaData.Description.Program.Title.Series.TotalNumberofEpisodes <-> MetaData.Program.Title.Series.TotalNumberofEpisodes: 0.48204994
+ - CMS.MetaData.Description.Program.Title.Series.EpisodesNumber <-> MetaData.Program.Title.Series.EpisodesNumber: 0.47637296
+ - CMS.MetaData.Description.Program.Subject.Class <-> MetaData.Program.Subject.Class: 0.49941942
+ - CMS.MetaData.Description.Program.Subject.SubjectTerm <-> MetaData.Program.Subject.SubjectTerm: 0.45992005
+ - CMS.MetaData.Description.Program.Subject.Keyword <-> MetaData.Program.Subject.Keyword: 0.46089956
+ - CMS.MetaData.Description.Program.Subject.Class.Classification <-> MetaData.Program.Subject.Class.Classification: 0.48346388
+ - CMS.MetaData.Description.Program.Subject.Class.ClassNumber <-> MetaData.Program.Subject.Class.ClassNumber: 0.4761722
+ - CMS.MetaData.Description.Program.Creator.DescriptionofCreator <-> MetaData.Program.Creator.DescriptionofCreator: 0.55376816
+ - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.NameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.NameofCreator: 0.514139
+ - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.ParallelNameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.ParallelNameofCreator: 0.518127
+ - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.Role <-> MetaData.Program.Creator.DescriptionofCreator.Role: 0.51211196
+ - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.OtherInformation <-> MetaData.Program.Creator.DescriptionofCreator.OtherInformation: 0.5153177
+ - CMS.MetaData.Description.Program.Contributor.DescriptionofContributor <-> MetaData.Program.Contributor.DescriptionofContributor: 0.5498769
+ - CMS.MetaData.Description.Program.Contributor.DescriptionofContributor.Role <-> MetaData.Program.Contributor.DescriptionofContributor.Role: 0.5144223
+ - CMS.MetaData.Description.Program.Contributor.DescriptionofContributor.OtherInformation <-> MetaData.Program.Contributor.DescriptionofContributor.OtherInformation: 0.5169319
+ - CMS.MetaData.Description.Program.Contributor.DescriptionofContributor.NameofContributor <-> MetaData.Program.Contributor.DescriptionofContributor.NameofContributor: 0.5129718
+ - CMS.MetaData.Description.Program.Contributor.DescriptionofContributor.ParallelNameofContributor <-> MetaData.Program.Contributor.DescriptionofContributor.ParallelNameofContributor: 0.516435
+ - CMS.MetaData.Description.Program.Publisher.DescriptionofPublisher <-> MetaData.Program.Publisher.DescriptionofPublisher: 0.51240385
+ - CMS.MetaData.Description.Program.Publisher.DescriptionofProducer <-> MetaData.Program.Publisher.DescriptionofProducer: 0.5300533
+ - CMS.MetaData.Description.Program.Publisher.DescriptionofPublisher.NameofPublisher <-> MetaData.Program.Publisher.DescriptionofPublisher.NameofPublisher: 0.486734
+ - CMS.MetaData.Description.Program.Publisher.DescriptionofProducer.NameofProducer <-> MetaData.Program.Publisher.DescriptionofProducer.NameofProducer: 0.50375456
+ - CMS.MetaData.Description.Program.Publisher.DescriptionofProducer.PlaceofProduction <-> MetaData.Program.Publisher.DescriptionofProducer.PlaceofProduction: 0.50502646
+ - CMS.MetaData.Description.Program.Copyright.NameofCopyrightOwner <-> MetaData.Program.Copyright.NameofCopyrightOwner: 0.47734207
+ - CMS.MetaData.Description.Program.Copyright.CopyrightStatement <-> MetaData.Program.Copyright.CopyrightStatement: 0.47383144
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse: 0.53648096
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.OtherInformation <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.OtherInformation: 0.5201935
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.NameofAuthorizedUser <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.NameofAuthorizedUser: 0.5072737
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedWayofUsage <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedWayofUsage: 0.5088742
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDateofStart <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDateofStart: 0.5088742
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline: 0.5082618
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea: 0.509453
+ - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage: 0.5082618
+ - CMS.MetaData.Description.Program.Language.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.5123013
+ - CMS.MetaData.Description.Program.Language.AudioChannel <-> MetaData.Program.Language.AudioChannel: 0.51309043
+ - CMS.MetaData.Description.Program.Language.Subtitle <-> MetaData.Program.Language.Subtitle: 0.48335546
+ - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.47759655
+ - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelNumber <-> MetaData.Program.Language.AudioChannel.AudioChannelNumber: 0.47848943
+ - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelDescription <-> MetaData.Program.Language.AudioChannel.AudioChannelDescription: 0.4988355
+ - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelLanguage <-> MetaData.Program.Description.AudioChannel.AudioChannelLanguage: 0.48998594
+ - CMS.MetaData.Description.Program.Language.Subtitle.SubtitleNumber <-> MetaData.Program.Language.Subtitle.SubtitleNumber: 0.46163702
+ - CMS.MetaData.Description.Program.Language.Subtitle.SubtitleLanguage <-> MetaData.Program.Language.Subtitle.SubtitleLanguage: 0.457048
+ - CMS.MetaData.Description.Program.Date.ProducedDate <-> MetaData.Program.Date.ProducedDate: 0.45945856
+ - CMS.MetaData.Description.Program.Date.PublishedDate <-> MetaData.Program.Date.PublishedDate: 0.4644952
+ - CMS.MetaData.Description.Program.Date.Debut.DateofDebut <-> MetaData.Program.Date.DateofDebut: 0.4549714
+ - CMS.MetaData.Description.Program.Type.ProgramType <-> MetaData.Program.Type.ProgramType: 0.44890964
+ - CMS.MetaData.Description.Program.Type.ProgramForm <-> MetaData.Program.Type.ProgramForm: 0.4478522
+ - CMS.MetaData.Description.Program.Format.StartingPoint <-> MetaData.Program.Format.StartingPoint: 0.48018324
+ - CMS.MetaData.Description.Program.Format.Color <-> MetaData.Program.Format.Color: 0.46626106
+ - CMS.MetaData.Description.Program.Format.AudioChannelFormat <-> MetaData.Program.Format.AudioChannelFormat: 0.4794822
+ - CMS.MetaData.Description.Program.Format.AudioQuality <-> MetaData.Program.Format.AudioQuality: 0.47699127
+ - CMS.MetaData.Description.Program.Format.VideoQuality <-> MetaData.Program.Format.VideoQuality: 0.47699127
+ - CMS.MetaData.Description.Program.Format.AspectRatio <-> MetaData.Program.Format.AspectRatio: 0.47778514
+ - CMS.MetaData.Description.Program.Format.PhysicalMediaType <-> MetaData.Program.Format.PhysicalMediaType: 0.4828523
+ - CMS.MetaData.Description.Program.Format.System <-> MetaData.Program.Format.System: 0.4703182
+ - CMS.MetaData.Description.Program.Format.AudioDataRate <-> MetaData.Program.Format.AudioDataRate: 0.4756628
+ - CMS.MetaData.Description.Program.Format.AudioCodingFormat <-> MetaData.Program.Format.AudioCodingFormat: 0.47826326
+ - CMS.MetaData.Description.Program.Format.AudioSamplingFrequency <-> MetaData.Program.Format.AudioSamplingFrequency: 0.48766676
+ - CMS.MetaData.Description.Program.Format.AudioBitDepth <-> MetaData.Program.Format.AudioBitDepth: 0.47826326
+ - CMS.MetaData.Description.Program.Format.VideoBitrate <-> MetaData.Program.Format.VideoBitRate: 0.47699127
+ - CMS.MetaData.Description.Program.Format.VideoCodingFormat <-> MetaData.Program.Format.VideoCodingFormat: 0.47826326
+ - CMS.MetaData.Description.Program.Format.VideoSamplingType <-> MetaData.Program.Format.VideoSamplingType: 0.4828523
+ - CMS.MetaData.Description.Program.Identifier.ISRC <-> MetaData.Program.Identifier.ISRC: 0.47026473
+ - CMS.MetaData.Description.Program.Identifier.RelationsID <-> MetaData.Program.Identifier.RelationsID: 0.48143446
+ - CMS.MetaData.Description.Program.Coverage.YearsCovered <-> MetaData.Program.Coverage.YearsCovered: 0.49215382
+ - CMS.MetaData.Description.Program.Coverage.Spatial <-> MetaData.Program.Coverage.Spatial: 0.46471894
+ - CMS.MetaData.Description.Program.Coverage.YearsCovered.YearofStart <-> MetaData.Program.Coverage.YearsCovered.YearofStart: 0.47366658
+ - CMS.MetaData.Description.Program.Coverage.YearsCovered.YearofEnd <-> MetaData.Program.Coverage.YearsCovered.YearofEnd: 0.47170788
+ - CMS.MetaData.Description.Program.Coverage.YearsCovered.DescriptionofYearsCovered <-> MetaData.Program.Coverage.YearsCovered.DescriptionofYearsCovered: 0.49780676
+ - CMS.MetaData.Description.Program.Source.AcquiringMethodofSource <-> MetaData.Program.Source.AcquiringMethodofSource: 0.45489573
+ - CMS.MetaData.Description.Program.Source.SourceProvider <-> MetaData.Program.Source.SourceProvider: 0.44230416
+ - CMS.MetaData.Description.Program.Relation.PartofSeries <-> MetaData.Program.Relation.PartofSeries: 0.47780666
+ - CMS.MetaData.Description.Program.Relation.IsPartof <-> MetaData.Program.Relation.IsPartof: 0.4649611
+ - CMS.MetaData.Description.Program.Relation.HasPart <-> MetaData.Program.Relation.HasPart: 0.4694908
+ - CMS.MetaData.Description.Program.Relation.References <-> MetaData.Program.Relation.References: 0.46624574
+ - CMS.MetaData.Description.Program.Relation.IsReferencedby <-> MetaData.Program.Relation.IsReferencedby: 0.47775063
+ - CMS.MetaData.Description.Program.Relation.Replaces <-> MetaData.Program.Relation.Replaces: 0.4694908
+ - CMS.MetaData.Description.Program.Relation.IsReplacedby <-> MetaData.Program.Relation.IsReplacedby: 0.47564444
+ - CMS.MetaData.Description.Program.Relation.Requires <-> MetaData.Program.Relation.Requires: 0.4694908
+ - CMS.MetaData.Description.Program.Relation.IsRequiredby <-> MetaData.Program.Relation.IsRequiredby: 0.47564444
+ - CMS.MetaData.Description.Program.Relation.IsVersionof <-> MetaData.Program.Relation.IsVersionof: 0.47334895
+ - CMS.MetaData.Description.Program.Relation.HasVersionof <-> MetaData.Program.Relation.HasVersionof: 0.4745219
+ - CMS.MetaData.Description.Awards.NameofAwards <-> MetaData.Program.Description.Awards.NameofAwards: 0.47386152
  - CMS.MetaData.Description.Awards.NameofAwards <-> MetaData.Sequence.Description.Awards.NameofAwards: 0.47162712
+ - CMS.MetaData.Description.Awards.ItemofAwards <-> MetaData.Program.Description.Awards.ItemofAwards: 0.47386152
  - CMS.MetaData.Description.Awards.ItemofAwards <-> MetaData.Sequence.Description.Awards.ItemofAwards: 0.47162712
+ - CMS.MetaData.Description.Awards.WinnersofAwards <-> MetaData.Program.Description.Awards.WinnersofAwards: 0.47712556
  - CMS.MetaData.Description.Awards.WinnersofAwards <-> MetaData.Sequence.Description.Awards.WinnersofAwards: 0.47499788
+ - CMS.MetaData.Description.Awards.YearorTimeofAwards <-> MetaData.Program.Description.Awards.YearorTimeofAwards: 0.47999787
  - CMS.MetaData.Description.Awards.YearorTimeofAwards <-> MetaData.Sequence.Description.Awards.YearorTimeofAwards: 0.4779682
+ - CMS.MetaData.Description.Awards.DateofAwards <-> MetaData.Program.Description.Awards.DateofAwards: 0.4726723
  - CMS.MetaData.Description.Awards.DateofAwards <-> MetaData.Sequence.Description.Awards.DateofAwards: 0.47040018
- - CMS.MetaData.Description.Caption.caption <-> MetaData.Shot.Description.CameraMotion: 0.4706351
- - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Program.Format.Duration: 0.69647014
- - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Sequence.Format.Duration: 0.6949481
- - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Scene.Format.Duration: 0.69964474
- - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Shot.Format.Duration: 0.70130104
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.format <-> MetaData.Program.Format.FileFormat: 0.5454646
- - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Program.Format.Duration: 0.69647014
- - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Sequence.Format.Duration: 0.6949481
- - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Scene.Format.Duration: 0.69964474
- - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Shot.Format.Duration: 0.70130104
- - CMS.MetaData.Clip.ClipBaseInfo.bitrate <-> MetaData.Program.Format.VideoBitRate: 0.48355663
- - Program.Description <-> MetaData.Program.Description: 0.54023755
- - Program.Title <-> MetaData.Program.Title: 0.50270945
- - Program.Subject <-> MetaData.Program.Subject: 0.502612
- - Program.Creator <-> MetaData.Program.Creator: 0.51145726
- - Program.Contributor <-> MetaData.Program.Contributor: 0.520007
- - Program.Publisher <-> MetaData.Program.Publisher: 0.50362176
- - Program.Copyright <-> MetaData.Program.Copyright: 0.506681
- - Program.Language <-> MetaData.Program.Language: 0.50156254
- - Program.Date <-> MetaData.Program.Date: 0.48974755
- - Program.Type <-> MetaData.Program.Type: 0.4827527
- - Program.Format <-> MetaData.Program.Format: 0.5006151
- - Program.Identifier <-> MetaData.Program.Identifier: 0.5106791
- - Program.Coverage <-> MetaData.Program.Coverage: 0.4999381
- - Program.Source <-> MetaData.Program.Source: 0.47199997
- - Program.Relation <-> MetaData.Program.Relation: 0.49760696
- - Program.Description.DescriptionofContent <-> MetaData.Program.Description.DescriptionofContent: 0.49825516
- - Program.Description.Character <-> MetaData.Program.Description.Character: 0.501429
- - Program.Description.DateofEvent <-> MetaData.Program.Description.DateofEvent: 0.50181633
- - Program.Description.VersionDescription <-> MetaData.Program.Description.VersionDescription: 0.5001022
- - Program.Description.Awards <-> MetaData.Program.Description.Awards: 0.5175694
- - Program.Description.Column <-> MetaData.Program.Description.Column: 0.5447509
- - Program.Description.Audience <-> MetaData.Program.Description.Audience: 0.5001022
- - Program.Description.AdditionalLogo <-> MetaData.Program.Description.AdditionalLogo: 0.5049959
- - Program.Description.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.5283658
- - Program.Description.Attachment <-> MetaData.Program.Description.Attachment: 0.5026831
- - Program.Description.Awards.NameofAwards <-> MetaData.Program.Description.Awards.NameofAwards: 0.48584127
- - Program.Description.Awards.ItemofAwards <-> MetaData.Program.Description.Awards.ItemofAwards: 0.48584127
- - Program.Description.Awards.WinnersofAwards <-> MetaData.Program.Description.Awards.WinnersofAwards: 0.48848104
- - Program.Description.Awards.YearorTimeofAwards <-> MetaData.Program.Description.Awards.YearorTimeofAwards: 0.49078736
- - Program.Description.Awards.DateofAwards <-> MetaData.Program.Description.Awards.DateofAwards: 0.48841253
- - Program.Description.Column.ColumnName <-> MetaData.Program.Description.Column.ColumnName: 0.5070067
- - Program.Description.Column.IssueNumber <-> MetaData.Program.Description.Column.IssueNumber: 0.51103044
- - Program.Description.Column.IssueYear <-> MetaData.Program.Description.Column.IssueYear: 0.509312
- - Program.Description.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.49265033
- - Program.Description.AudioChannel.AudioChannelDescription <-> MetaData.Program.Description.AudioChannel.AudioChannelDescription: 0.48936126
- - Program.Description.AudioChannel.AudioChannelLanguage <-> MetaData.Program.Description.AudioChannel.AudioChannelLanguage: 0.49409142
- - Program.Title.ProperTitle <-> MetaData.Program.Title.ProperTitle: 0.47998226
- - Program.Title.ParallelProperTitle <-> MetaData.Program.Title.ParallelProperTitle: 0.49715862
- - Program.Title.SubordinateTitle <-> MetaData.Program.Title.SubordinateTitle: 0.4944258
- - Program.Title.AlternativeTitle <-> MetaData.Program.Title.AlternativeProperTitle: 0.40702054
- - Program.Title.TitleDescription <-> MetaData.Program.Title.TitleDescription: 0.49293324
- - Program.Title.Series <-> MetaData.Program.Title.Series: 0.5070509
- - Program.Title.Series.SeriesTitle <-> MetaData.Program.Title.Series.SeriesTitle: 0.47059584
- - Program.Title.Series.ParallelSeriesTitle <-> MetaData.Program.Title.Series.ParallelSeriesTitle: 0.48429912
- - Program.Title.Series.TotalNumberofEpisodes <-> MetaData.Program.Title.Series.TotalNumberofEpisodes: 0.49193323
- - Program.Title.Series.EpisodesNumber <-> MetaData.Program.Title.Series.EpisodesNumber: 0.48628175
- - Program.Subject.Class <-> MetaData.Program.Subject.Class: 0.5090785
- - Program.Subject.SubjectTerm <-> MetaData.Program.Subject.SubjectTerm: 0.4708202
- - Program.Subject.Keyword <-> MetaData.Program.Subject.Keyword: 0.47129098
- - Program.Subject.Class.Classification <-> MetaData.Program.Subject.Class.Classification: 0.49125612
- - Program.Subject.Class.ClassNumber <-> MetaData.Program.Subject.Class.ClassNumber: 0.48768926
- - Program.Creator.DescriptionofCreator <-> MetaData.Program.Creator.DescriptionofCreator: 0.5437681
- - Program.Creator.DescriptionofCreator.NameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.NameofCreator: 0.5061944
- - Program.Creator.DescriptionofCreator.ParallelNameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.ParallelNameofCreator: 0.51199734
- - Program.Creator.DescriptionofCreator.Role <-> MetaData.Program.Creator.DescriptionofCreator.Role: 0.5035676
- - Program.Creator.DescriptionofCreator.OtherInformation <-> MetaData.Program.Creator.DescriptionofCreator.OtherInformation: 0.50918806
- - Program.Contributor.DescriptionofContributor <-> MetaData.Program.Contributor.DescriptionofContributor: 0.54133254
- - Program.Contributor.DescriptionofContributor.Role <-> MetaData.Program.Contributor.DescriptionofContributor.Role: 0.5070099
- - Program.Contributor.DescriptionofContributor.OtherInformation <-> MetaData.Program.Contributor.DescriptionofContributor.OtherInformation: 0.51146215
- - Program.Contributor.DescriptionofContributor.NameofContributor <-> MetaData.Program.Contributor.DescriptionofContributor.NameofContributor: 0.506034
- - Program.Contributor.DescriptionofContributor.ParallelNameofContributor <-> MetaData.Program.Contributor.DescriptionofContributor.ParallelNameofContributor: 0.5109653
- - Program.Publisher.DescriptionofPublisher <-> MetaData.Program.Publisher.DescriptionofPublisher: 0.5031795
- - Program.Publisher.DescriptionofProducer <-> MetaData.Program.Publisher.DescriptionofProducer: 0.5223826
- - Program.Publisher.DescriptionofPublisher.NameofPublisher <-> MetaData.Program.Publisher.DescriptionofPublisher.NameofPublisher: 0.47932163
- - Program.Publisher.DescriptionofProducer.NameofProducer <-> MetaData.Program.Publisher.DescriptionofProducer.NameofProducer: 0.4974384
- - Program.Publisher.DescriptionofProducer.PlaceofProduction <-> MetaData.Program.Publisher.DescriptionofProducer.PlaceofProduction: 0.4992428
- - Program.Copyright.NameofCopyrightOwner <-> MetaData.Program.Copyright.NameofCopyrightOwner: 0.48900872
- - Program.Copyright.CopyrightStatement <-> MetaData.Program.Copyright.CopyrightStatement: 0.48524064
- - Program.Copyright.DescriptionofAuthorizedUse <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse: 0.5301648
- - Program.Copyright.DescriptionofAuthorizedUse.OtherInformation <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.OtherInformation: 0.51593226
- - Program.Copyright.DescriptionofAuthorizedUse.NameofAuthorizedUser <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.NameofAuthorizedUser: 0.50222313
- - Program.Copyright.DescriptionofAuthorizedUse.AuthorizedWayofUsage <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedWayofUsage: 0.5044104
- - Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDateofStart <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDateofStart: 0.5065634
- - Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline: 0.5035782
- - Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea: 0.50519174
- - Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage: 0.5035782
- - Program.Language.AudioChannel <-> MetaData.Program.Language.AudioChannel: 0.5247989
- - Program.Language.Subtitle <-> MetaData.Program.Language.Subtitle: 0.49426818
- - Program.Language.AudioChannel.AudioChannelNumber <-> MetaData.Program.Language.AudioChannel.AudioChannelNumber: 0.49024025
- - Program.Language.AudioChannel.AudioChannelDescription <-> MetaData.Program.Language.AudioChannel.AudioChannelDescription: 0.49409142
- - Program.Language.AudioChannel.AudioChannelLanguage <-> MetaData.Program.Language.AudioChannel.AudioChannelLanguage: 0.48645732
- - Program.Language.Subtitle.SubtitleNumber <-> MetaData.Program.Language.Subtitle.SubtitleNumber: 0.47335082
- - Program.Language.Subtitle.SubtitleLanguage <-> MetaData.Program.Language.Subtitle.SubtitleLanguage: 0.46845716
- - Program.Date.ProducedDate <-> MetaData.Program.Date.ProducedDate: 0.47997138
- - Program.Date.PublishedDate <-> MetaData.Program.Date.PublishedDate: 0.47997138
- - Program.Date.Debut.DateofDebut <-> MetaData.Program.Date.DateofDebut: 0.46418193
- - Program.Type.ProgramType <-> MetaData.Program.Type.ProgramType: 0.4622637
- - Program.Type.ProgramForm <-> MetaData.Program.Type.ProgramForm: 0.46364754
- - Program.Format.StartingPoint <-> MetaData.Program.Format.StartingPoint: 0.49159244
- - Program.Format.Color <-> MetaData.Program.Format.Color: 0.47545314
- - Program.Format.AudioChannelFormat <-> MetaData.Program.Format.AudioChannelFormat: 0.49099925
- - Program.Format.AudioQuality <-> MetaData.Program.Format.AudioQuality: 0.48826644
- - Program.Format.VideoQuality <-> MetaData.Program.Format.VideoQuality: 0.48826644
- - Program.Format.AspectRatio <-> MetaData.Program.Format.AspectRatio: 0.48677388
- - Program.Format.PhysicalMediaType <-> MetaData.Program.Format.PhysicalMediaType: 0.4945661
- - Program.Format.System <-> MetaData.Program.Format.System: 0.48121834
- - Program.Format.AudioDataRate <-> MetaData.Program.Format.AudioDataRate: 0.49572912
- - Program.Format.AudioCodingFormat <-> MetaData.Program.Format.AudioCodingFormat: 0.48967245
- - Program.Format.AudioSamplingFrequency <-> MetaData.Program.Format.AudioSamplingFrequency: 0.49941757
- - Program.Format.AudioBitDepth <-> MetaData.Program.Format.AudioBitDepth: 0.48967245
- - Program.Format.VideoBitrate <-> MetaData.Program.Format.VideoBitRate: 0.48826644
- - Program.Format.VideoCodingFormat <-> MetaData.Program.Format.VideoCodingFormat: 0.48967245
- - Program.Format.VideoSamplingType <-> MetaData.Program.Format.VideoSamplingType: 0.4945661
- - Program.Identifier.ISRC <-> MetaData.Program.Identifier.ISRC: 0.478433
- - Program.Identifier.RelationsID <-> MetaData.Program.Identifier.RelationsID: 0.48899722
- - Program.Coverage.YearsCovered <-> MetaData.Program.Coverage.YearsCovered: 0.5032649
- - Program.Coverage.Spatial <-> MetaData.Program.Coverage.Spatial: 0.47539374
- - Program.Coverage.YearsCovered.YearofStart <-> MetaData.Program.Coverage.YearsCovered.YearofStart: 0.48543587
- - Program.Coverage.YearsCovered.YearofEnd <-> MetaData.Program.Coverage.YearsCovered.YearofEnd: 0.48345324
- - Program.Coverage.YearsCovered.DescriptionofYearsCovered <-> MetaData.Program.Coverage.YearsCovered.DescriptionofYearsCovered: 0.49108735
- - Program.Source.AcquiringMethodofSource <-> MetaData.Program.Source.AcquiringMethodofSource: 0.47028035
- - Program.Source.SourceProvider <-> MetaData.Program.Source.SourceProvider: 0.45269558
- - Program.Relation.PartofSeries <-> MetaData.Program.Relation.PartofSeries: 0.48094508
- - Program.Relation.IsPartof <-> MetaData.Program.Relation.IsPartof: 0.46925616
- - Program.Relation.HasPart <-> MetaData.Program.Relation.HasPart: 0.47344103
- - Program.Relation.References <-> MetaData.Program.Relation.References: 0.47084343
- - Program.Relation.IsReferencedby <-> MetaData.Program.Relation.IsReferencedby: 0.48338637
- - Program.Relation.Replaces <-> MetaData.Program.Relation.Replaces: 0.47344103
- - Program.Relation.IsReplacedby <-> MetaData.Program.Relation.IsReplacedby: 0.48094508
- - Program.Relation.Requires <-> MetaData.Program.Relation.Requires: 0.47344103
- - Program.Relation.IsRequiredby <-> MetaData.Program.Relation.IsRequiredby: 0.48094508
- - Program.Relation.IsVersionof <-> MetaData.Program.Relation.IsVersionof: 0.47821227
- - Program.Relation.HasVersionof <-> MetaData.Program.Relation.HasVersionof: 0.47961828
- - Program <-> MetaData.Program: 0.42772487
- + Total: 147 correspondences
+ - CMS.MetaData.Description.Column.ColumnName <-> MetaData.Program.Description.Column.ColumnName: 0.49374977
+ - CMS.MetaData.Description.Column.IssueNumber <-> MetaData.Program.Description.Column.IssueNumber: 0.49967492
+ - CMS.MetaData.Description.Column.IssueYear <-> MetaData.Program.Description.Column.IssueYear: 0.49754724
+ - CMS.MetaData.Description.Caption.caption <-> MetaData.Shot.Description.CameraMotion: 0.47061548
+ - CMS.MetaData.Description.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.48167822
+ - CMS.MetaData.Description.AudioChannel.AudioChannelDescription <-> MetaData.Program.Description.AudioChannel.AudioChannelDescription: 0.47759655
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Program.Format.Duration: 0.6935406
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Sequence.Format.Duration: 0.6922085
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Scene.Format.Duration: 0.6963111
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Shot.Format.Duration: 0.69775254
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.format <-> MetaData.Program.Format.FileFormat: 0.5470494
+ - CMS.MetaData.Clip.ClipBaseInfo.Format <-> MetaData.Shot.Format: 0.4571493
+ - CMS.MetaData.Clip.ClipBaseInfo.bitrate <-> MetaData.Program.Format.VideoBitRate: 0.47366118
+ - CMS.MetaData.Clip.ClipBaseInfo.Format.StartingPoint <-> MetaData.Scene.Format.StartingPoint: 0.44961342
+ - CMS.MetaData.Clip.ClipBaseInfo.Format.StartingPoint <-> MetaData.Shot.Format.StartingPoint: 0.4514846
+ + Total: 144 correspondences
 --------------------------------------------------------
+
+
+Process finished with exit code 0

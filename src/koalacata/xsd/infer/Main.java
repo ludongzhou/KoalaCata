@@ -15,9 +15,10 @@ public class Main {
     public static void main(String[] args) {
         System.setProperty("log4j.configurationFile","log4j2.xml");
         Logger logger = LogManager.getLogger(Main.class);
-//        XSDGenExtractor extractor = new XSDGenExtractor();
+        // XSDGenExtractor extractor = new XSDGenExtractor();
         XMLSchemaLearner extractor = new XMLSchemaLearner();
-        extractor.extract(new File("src/koalacata/xsd/infer/test/test.xml"));
+        // extractor.extract(new File("src/koalacata/xsd/infer/test/test.xml"));
+        extractor.extract(new File("sample/2.xml"));
         logger.info(extractor.toString());
     }
 }

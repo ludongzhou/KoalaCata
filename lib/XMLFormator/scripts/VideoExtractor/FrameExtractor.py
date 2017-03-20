@@ -111,4 +111,4 @@ class KeyframeExtractor:
 
 if __name__ == '__main__':
     extractor = KeyframeExtractor()
-    extractor.extract('test/iPadPro.mp4', 'test/result', 10)
+    extractor.extract('Main/iPadPro.mp4', 'Main/result', 10)

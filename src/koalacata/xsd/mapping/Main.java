@@ -9,8 +9,8 @@ import java.io.File;
  */
 public class Main {
     public static void main(String[] args) {
-        File sourceFile = new File("sample/flatten.xsd");
-        File targetFile = new File("sample/liquid.xsd");
+        File sourceFile = new File("sample/flatten_valide.xsd");
+        File targetFile = new File("xslt/standard.xsd");
 
         ComaMatcher comaMatcher = new ComaMatcher(sourceFile, targetFile);
         comaMatcher.match();

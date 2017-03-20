@@ -1,4 +1,4 @@
-package koalacata.template.address;
+package koalacata.xsd.template;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

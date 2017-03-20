@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/ObjectData/Object[@CCID='新闻节目类']/Object[@CCID='场景子类']">
+    <xsl:template match="/">
         <MetaData>
             <xsl:for-each select="Object[@CCID='镜头子类']/MetaData">
                 <Shot>
@@ -22,14 +22,14 @@
                     </Subject>
                     <Description>
                         <DescriptionofContent>
-                            <xsl:value-of select="CMS.MetaData.Description.DescriptionofContent"/>
+                            <xsl:value-of select="CMS/MetaData/Description/DescriptionofContent"/>
                         </DescriptionofContent>
                         <ShootingPlace>
                             <xsl:value-of select="MetaData.Shot.Description.ShootingPlace"/>
                         </ShootingPlace>
                         <xsl:for-each select="sAttribute[@strName='拍摄方式']">
                             <CameraMotion>
-                                <xsl:value-of select="CMS.MetaData.Description.Caption.caption"/>
+                                <xsl:value-of select="CMS/MetaData/Description/Caption/caption"/>
                             </CameraMotion>
                         </xsl:for-each>
                         <xsl:for-each select="sAttribute[@strName='景别']">
@@ -51,10 +51,10 @@
                     </Date>
                     <Format>
                         <Duration>
-                            <xsl:value-of select="CMS.MetaData.Clip.ClipBaseInfo.Duration"/>
+                            <xsl:value-of select="CMS/MetaData/Clip/ClipFiles/ClipFile/ClipFileInfo/duration"/>
                         </Duration>
                         <StartingPoint>
-                            <xsl:value-of select="MetaData.Shot.Format.StartingPoint"/>
+                            <xsl:value-of select="CMS/MetaData/Clip/ClipBaseInfo/Format/StartingPoint"/>
                         </StartingPoint>
                     </Format>
                 </Shot>

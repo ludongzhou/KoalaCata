@@ -9,6 +9,7 @@ public class TrangExtractor extends AbstractExtractor{
 //    can extract from many xml files
     @Override
     public void extract(InputStream inputStream) {
+        // TODO
 
     }
 

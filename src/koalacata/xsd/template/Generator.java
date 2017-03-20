@@ -1,4 +1,4 @@
-package koalacata.template.address;
+package koalacata.xsd.template;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 /**
  * Created by zhouludong on 2017/3/9.
  */
-public class Addressing {
+public class Generator {
     public static void generateXLST(String correspondencePath) {
         String sourceRE = "(?<=\\-\\s)[\\w|.]*(?=\\s\\<)";
         String targetRE = "(?<=\\>\\s)[\\w|.]*(?=\\:\\s)";
@@ -55,16 +55,16 @@ public class Addressing {
                 XPathExpression xPathExpression;
 
                 for (String key : hashMap.keySet()) {
-                    System.out.println(hashMap.get(key));
+                    // System.out.println(hashMap.get(key));
                     String xpathExpresion = "//*[name()='xsl:value-of'][@select='" + key + "']"; // MetaData.Program.Language.AudioChannel.AudioChannelLanguage']";
                     xPathExpression = xpath.compile(xpathExpresion);
                     NodeList nodeList = (NodeList) xPathExpression.evaluate(document, XPathConstants.NODESET);
                     if (nodeList.getLength() != 0) {
                         Element element = (Element) nodeList.item(0);
-                        String targetPath = '/' + hashMap.get(key).replace('.', '/');
+                        String targetPath = hashMap.get(key).replace('.', '/');
                         element.setAttribute("select", targetPath);
-                        System.out.println(element.getTagName() + " select=" + element.getAttribute("select"));
-                        element.setAttribute("select", "f**k");
+                        // System.out.println(element.getTagName() + " select=" + element.getAttribute("select"));
+                        // element.setAttribute("select", "f**k");
                     }
                 }
 
