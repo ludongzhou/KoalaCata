@@ -5,7 +5,6 @@ package koalacata.xsd.infer;
  */
 
 import koalacata.xsd.infer.extractor.XMLSchemaLearner;
-import koalacata.xsd.infer.extractor.XSDGenExtractor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,6 +18,6 @@ public class Main {
         XMLSchemaLearner extractor = new XMLSchemaLearner();
         // extractor.extract(new File("src/koalacata/xsd/infer/test/test.xml"));
         extractor.extract(new File("sample/2.xml"));
-        logger.info(extractor.toString());
+        logger.info(extractor.getXSD());
     }
 }

@@ -8,9 +8,8 @@ import java.io.InputStreamReader;
  * Created by zhouludong on 2017/3/15.
  */
 public class Transfer {
-    public String start() {
+    public String start(String xmlPath) {
         String xslFolder = "xslt/result";
-        String xmlPath = "sample/2.xml";
         try {
             Process process = Runtime.getRuntime().exec(
                     "python3 lib/XMLFormator/scripts/Formatter/XMLFormatter.py "
@@ -36,10 +35,5 @@ public class Transfer {
             e.printStackTrace();
         }
         return null;
-    }
-
-    public static void main(String[] args) {
-        Transfer transfer = new Transfer();
-        transfer.start();
     }
 }

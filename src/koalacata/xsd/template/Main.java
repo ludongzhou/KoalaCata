@@ -32,7 +32,7 @@ public class Main {
         //         e.printStackTrace();
         //     }
         // }
-        Generator generator = new Generator();
+        XSLTGenerator generator = new XSLTGenerator();
         generator.generateXLST("sample/correspondence.txt");
     }
 }

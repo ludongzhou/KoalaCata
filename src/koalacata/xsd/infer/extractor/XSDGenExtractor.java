@@ -38,7 +38,7 @@ public class XSDGenExtractor extends AbstractExtractor{
     }
 
     @Override
-    public String toString() {
+    public String getXSD() {
         return  gen.toString();
     }
 }

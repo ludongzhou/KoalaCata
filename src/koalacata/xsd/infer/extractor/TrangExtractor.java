@@ -14,7 +14,7 @@ public class TrangExtractor extends AbstractExtractor{
     }
 
     @Override
-    public String toString() {
+    public String getXSD() {
         return null;
     }
 }

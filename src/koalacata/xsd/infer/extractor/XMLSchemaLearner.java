@@ -53,7 +53,7 @@ public class XMLSchemaLearner extends AbstractExtractor{
     }
 
     @Override
-    public String toString() {
+    public String getXSD() {
         return docString;
     }
 }

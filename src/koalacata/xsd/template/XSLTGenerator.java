@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 /**
  * Created by zhouludong on 2017/3/9.
  */
-public class Generator {
+public class XSLTGenerator {
     public static void generateXLST(String correspondencePath) {
         String sourceRE = "(?<=\\-\\s)[\\w|.]*(?=\\s\\<)";
         String targetRE = "(?<=\\>\\s)[\\w|.]*(?=\\:\\s)";

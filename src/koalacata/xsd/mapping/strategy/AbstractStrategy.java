@@ -1,4 +1,4 @@
-package koalacata.xsd.mapping.Strategy;
+package koalacata.xsd.mapping.strategy;
 
 /**
  * Created by zhouludong on 2017/3/14.

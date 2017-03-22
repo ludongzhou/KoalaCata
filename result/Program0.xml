@@ -1,30 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Metadata>
-    <Program>
-        <Title>
-            <ProperTitle>恶作剧2吻 第08集
-            </ProperTitle>
-            <TitleDescription> 台湾偶像剧《恶作剧之吻》续集；改编自日本漫画家多田薰的《淘气小亲亲》 </TitleDescription>
-            <Series>
-                <TotalNumberofEpisodes>20 </TotalNumberofEpisodes>
-                <EpisodesNumber>8 </EpisodesNumber>
-            </Series>
-        </Title>
-        <Date>
-            <DateofDebut>2007-12-16 00:00:00 </DateofDebut>
-        </Date>
-        <Format>
-            <StartingPoint>0:0:0</StartingPoint>
-            <Color>彩色 </Color>
-            <AudioQuality>④质量好，比较满意 </AudioQuality>
-            <VideoQuality>④质量好，比较满意 </VideoQuality>
-            <AspectRatio>4:3 </AspectRatio>
-            <System>PAL </System>
-            <AudioDataRate>128Kbps </AudioDataRate>
-            <AudioCodingFormat>MP2 </AudioCodingFormat>
-            <AudioSamplingFrequency> 48KHz </AudioSamplingFrequency>
-            <AudioBitDepth>16bit </AudioBitDepth>
-            <VideoCodingFormat>MPEG2_IBP </VideoCodingFormat>
-        </Format>
-    </Program>
+<Metadata><Program>
+    <Title>
+      <ProperTitle>恶作剧2吻 第08集
+                    </ProperTitle>
+      <TitleDescription>
+                        台湾偶像剧《恶作剧之吻》续集；改编自日本漫画家多田薰的《淘气小亲亲》
+                    </TitleDescription>
+      <Series>
+        <TotalNumberofEpisodes>20
+                        </TotalNumberofEpisodes>
+        <EpisodesNumber>8
+                        </EpisodesNumber>
+      </Series>
+    </Title>
+    <Date>
+      <DateofDebut>2007-12-16
+                         00:00:00</DateofDebut>
+    </Date>
+    <Format>
+      <StartingPoint>0:0:0</StartingPoint>
+      <Color>彩色
+                    </Color>
+      <AudioQuality>④质量好，比较满意
+                    </AudioQuality>
+      <VideoQuality>④质量好，比较满意
+                    </VideoQuality>
+      <AspectRatio>4:3
+                    </AspectRatio>
+      <System>PAL
+                    </System>
+      <AudioDataRate>128Kbps
+                    </AudioDataRate>
+      <AudioCodingFormat>MP2
+                    </AudioCodingFormat>
+      <AudioSamplingFrequency>
+                        48KHz
+                    </AudioSamplingFrequency>
+      <AudioBitDepth>16bit
+                    </AudioBitDepth>
+      <VideoCodingFormat>MPEG2_IBP
+                    </VideoCodingFormat>
+    </Format>
+  </Program>
 </Metadata>

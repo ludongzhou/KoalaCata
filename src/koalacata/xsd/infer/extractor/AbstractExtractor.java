@@ -12,13 +12,17 @@ import java.io.*;
 public abstract class AbstractExtractor {
     private Document doc;
     public Logger logger = LogManager.getLogger(this);
-    public abstract String toString();
+    public abstract String getXSD();
     public abstract void extract(InputStream inputStream);
     public void extract(String xml) {
         ByteArrayInputStream stream = new ByteArrayInputStream(xml.getBytes());
         extract(stream);
     }
 
+    /**
+     * extract xml schema
+     * @param f
+     */
     public void extract(File f) {
         try {
             InputStream inputStream = new FileInputStream(f);
