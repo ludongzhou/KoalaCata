@@ -55,7 +55,7 @@ public class XSLTGenerator {
                 XPathExpression xPathExpression;
 
                 for (String key : hashMap.keySet()) {
-                    // System.out.println(hashMap.get(key));
+                    System.out.println(key + " : " + hashMap.get(key));
                     String xpathExpresion = "//*[name()='xsl:value-of'][@select='" + key + "']"; // MetaData.Program.Language.AudioChannel.AudioChannelLanguage']";
                     xPathExpression = xpath.compile(xpathExpresion);
                     NodeList nodeList = (NodeList) xPathExpression.evaluate(document, XPathConstants.NODESET);

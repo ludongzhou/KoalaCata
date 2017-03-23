@@ -19,8 +19,8 @@ public class XMLSchemaLearner extends AbstractExtractor{
         StringBuilder stringBuilder = new StringBuilder();
         logger.info(System.getProperty("user.dir"));
         System.out.println(file.getAbsolutePath());
-        ProcessBuilder processBuilder = new ProcessBuilder("lib/XML-Schema-learner/schema-learn", "-t", "xsd",
-               file.getAbsolutePath());
+        ProcessBuilder processBuilder = new ProcessBuilder("lib/XML-Schema-learner/schema-learn", "-t", "xsd"
+                , "--locality", "1", file.getAbsolutePath());
         // ProcessBuilder processBuilder = new ProcessBuilder("lib/XML-Schema-learner/schema-learn", "-t", "xsd",
         //         "--locality", "1", file.getAbsolutePath());
         try {

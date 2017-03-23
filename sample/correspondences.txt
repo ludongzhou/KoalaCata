@@ -1,40 +1,29 @@
-MatchResult [3601,253] sourcestandard--------------------------------------------------------
- - CMS.MetaData <-> MetaData: 0.47677913
- - CMS.MetaData.Description <-> MetaData.Shot.Description: 0.5299287
- - CMS.MetaData.Description.caption <-> MetaData.Shot.Description.CameraMotion: 0.47061548
- - CMS.MetaData.Description.Program <-> MetaData.Program: 0.47546828
- - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Scene.Description.DescriptionofContent: 0.4889127
- - CMS.MetaData.Description.DescriptionofContent <-> MetaData.Shot.Description.DescriptionofContent: 0.49154425
- - CMS.MetaData.Description.Character <-> MetaData.Program.Description.Character: 0.4872275
- - CMS.MetaData.Description.DateofEvent <-> MetaData.Scene.Description.DateofEvent: 0.48898786
- - CMS.MetaData.Description.VersionDescription <-> MetaData.Program.Description.VersionDescription: 0.48562723
- - CMS.MetaData.Description.Awards <-> MetaData.Program.Description.Awards: 0.5026067
- - CMS.MetaData.Description.Awards <-> MetaData.Sequence.Description.Awards: 0.49999097
- - CMS.MetaData.Description.Column <-> MetaData.Program.Description.Column: 0.52969956
- - CMS.MetaData.Description.Audience <-> MetaData.Program.Description.Audience: 0.48562723
- - CMS.MetaData.Description.AdditionalLogo <-> MetaData.Program.Description.AdditionalLogo: 0.49155998
- - CMS.MetaData.Description.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.51550406
- - CMS.MetaData.Description.Attachment <-> MetaData.Program.Description.Attachment: 0.48874575
- - CMS.MetaData.Description.Program.Title <-> MetaData.Program.Title: 0.49588346
- - CMS.MetaData.Description.Program.Subject <-> MetaData.Program.Subject: 0.49201334
- - CMS.MetaData.Description.Program.Creator <-> MetaData.Program.Creator: 0.50085855
- - CMS.MetaData.Description.Program.Contributor <-> MetaData.Program.Contributor: 0.5060663
- - CMS.MetaData.Description.Program.Publisher <-> MetaData.Program.Publisher: 0.49108413
- - CMS.MetaData.Description.Program.Copyright <-> MetaData.Program.Copyright: 0.49414337
- - CMS.MetaData.Description.Program.Language <-> MetaData.Program.Language: 0.4899156
- - CMS.MetaData.Description.Program.Date <-> MetaData.Program.Date: 0.4771924
- - CMS.MetaData.Description.Program.Type <-> MetaData.Program.Type: 0.4776591
- - CMS.MetaData.Description.Program.Format <-> MetaData.Program.Format: 0.49708867
- - CMS.MetaData.Description.Program.Identifier <-> MetaData.Program.Identifier: 0.49738365
- - CMS.MetaData.Description.Program.Coverage <-> MetaData.Program.Coverage: 0.48829117
- - CMS.MetaData.Description.Program.Source <-> MetaData.Program.Source: 0.46263722
- - CMS.MetaData.Description.Program.Relation <-> MetaData.Program.Relation: 0.492078
- - CMS.MetaData.Description.Program.Title.ProperTitle <-> MetaData.Program.Title.ProperTitle: 0.46502498
- - CMS.MetaData.Description.Program.Title.ParallelProperTitle <-> MetaData.Program.Title.ParallelProperTitle: 0.48564157
- - CMS.MetaData.Description.Program.Title.SubordinateTitle <-> MetaData.Program.Title.SubordinateTitle: 0.48315063
- - CMS.MetaData.Description.Program.Title.AlternativeTitle <-> MetaData.Program.Title.AlternativeProperTitle: 0.40351254
- - CMS.MetaData.Description.Program.Title.TitleDescription <-> MetaData.Program.Title.TitleDescription: 0.5028098
- - CMS.MetaData.Description.Program.Title.Series <-> MetaData.Program.Title.Series: 0.4978588
+MatchResult [1699,252] sourcestandard--------------------------------------------------------
+ - CMS.MetaData <-> MetaData: 0.48019505
+ - CMS.MetaData.Description <-> MetaData.Shot.Description: 0.5336199
+ - CMS.MetaData.Description.Program <-> MetaData.Program: 0.484229
+ - CMS.MetaData.Description.Program.caption <-> MetaData.Shot.Description.CameraMotion: 0.45407197
+ - CMS.MetaData.Description.Program.Title <-> MetaData.Program.Title: 0.500821
+ - CMS.MetaData.Description.Program.Subject <-> MetaData.Program.Subject: 0.49732223
+ - CMS.MetaData.Description.Program.Description <-> MetaData.Program.Description: 0.54489213
+ - CMS.MetaData.Description.Program.Creator <-> MetaData.Program.Creator: 0.5061675
+ - CMS.MetaData.Description.Program.Contributor <-> MetaData.Program.Contributor: 0.5113752
+ - CMS.MetaData.Description.Program.Publisher <-> MetaData.Program.Publisher: 0.49639302
+ - CMS.MetaData.Description.Program.Copyright <-> MetaData.Program.Copyright: 0.49945226
+ - CMS.MetaData.Description.Program.Language <-> MetaData.Program.Language: 0.4952245
+ - CMS.MetaData.Description.Program.Date <-> MetaData.Program.Date: 0.48144776
+ - CMS.MetaData.Description.Program.Type <-> MetaData.Program.Type: 0.48191443
+ - CMS.MetaData.Description.Program.Format <-> MetaData.Program.Format: 0.4965836
+ - CMS.MetaData.Description.Program.Identifier <-> MetaData.Program.Identifier: 0.5026925
+ - CMS.MetaData.Description.Program.Coverage <-> MetaData.Program.Coverage: 0.49360007
+ - CMS.MetaData.Description.Program.Source <-> MetaData.Program.Source: 0.4679461
+ - CMS.MetaData.Description.Program.Relation <-> MetaData.Program.Relation: 0.49633333
+ - CMS.MetaData.Description.Program.Title.ProperTitle <-> MetaData.Program.Title.ProperTitle: 0.4654798
+ - CMS.MetaData.Description.Program.Title.ParallelProperTitle <-> MetaData.Program.Title.ParallelProperTitle: 0.47870094
+ - CMS.MetaData.Description.Program.Title.SubordinateTitle <-> MetaData.Program.Title.SubordinateTitle: 0.48383287
+ - CMS.MetaData.Description.Program.Title.AlternativeTitle <-> MetaData.Program.Title.AlternativeTitle: 0.48383287
+ - CMS.MetaData.Description.Program.Title.TitleDescription <-> MetaData.Program.Title.TitleDescription: 0.50349206
+ - CMS.MetaData.Description.Program.Title.Series <-> MetaData.Program.Title.Series: 0.49854103
  - CMS.MetaData.Description.Program.Title.Series.SeriesTitle <-> MetaData.Program.Title.Series.SeriesTitle: 0.45992106
  - CMS.MetaData.Description.Program.Title.Series.ParallelSeriesTitle <-> MetaData.Program.Title.Series.ParallelSeriesTitle: 0.47255376
  - CMS.MetaData.Description.Program.Title.Series.TotalNumberofEpisodes <-> MetaData.Program.Title.Series.TotalNumberofEpisodes: 0.48204994
@@ -44,6 +33,29 @@ MatchResult [3601,253] sourcestandard-------------------------------------------
  - CMS.MetaData.Description.Program.Subject.Keyword <-> MetaData.Program.Subject.Keyword: 0.46089956
  - CMS.MetaData.Description.Program.Subject.Class.Classification <-> MetaData.Program.Subject.Class.Classification: 0.48346388
  - CMS.MetaData.Description.Program.Subject.Class.ClassNumber <-> MetaData.Program.Subject.Class.ClassNumber: 0.4761722
+ - CMS.MetaData.Description.Program.Description.caption <-> MetaData.Shot.Description.CameraMotion: 0.4586507
+ - CMS.MetaData.Description.Program.Description.DescriptionofContent <-> MetaData.Program.Description.DescriptionofContent: 0.5111665
+ - CMS.MetaData.Description.Program.Description.Character <-> MetaData.Program.Description.Character: 0.51485074
+ - CMS.MetaData.Description.Program.Description.DateofEvent <-> MetaData.Program.Description.DateofEvent: 0.5107477
+ - CMS.MetaData.Description.Program.Description.VersionDescription <-> MetaData.Program.Description.VersionDescription: 0.51407117
+ - CMS.MetaData.Description.Program.Description.Awards <-> MetaData.Program.Description.Awards: 0.5327593
+ - CMS.MetaData.Description.Program.Description.Column <-> MetaData.Program.Description.Column: 0.5599408
+ - CMS.MetaData.Description.Program.Description.Audience <-> MetaData.Program.Description.Audience: 0.51407117
+ - CMS.MetaData.Description.Program.Description.AdditionalLogo <-> MetaData.Program.Description.AdditionalLogo: 0.51698387
+ - CMS.MetaData.Description.Program.Description.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.5403538
+ - CMS.MetaData.Description.Program.Description.Attachment <-> MetaData.Program.Description.Attachment: 0.5155945
+ - CMS.MetaData.Description.Program.Description.Awards.NameofAwards <-> MetaData.Program.Description.Awards.NameofAwards: 0.49664736
+ - CMS.MetaData.Description.Program.Description.Awards.ItemofAwards <-> MetaData.Program.Description.Awards.ItemofAwards: 0.49664736
+ - CMS.MetaData.Description.Program.Description.Awards.WinnersofAwards <-> MetaData.Program.Description.Awards.WinnersofAwards: 0.49829885
+ - CMS.MetaData.Description.Program.Description.Awards.YearorTimeofAwards <-> MetaData.Program.Description.Awards.YearorTimeofAwards: 0.49976853
+ - CMS.MetaData.Description.Program.Description.Awards.DateofAwards <-> MetaData.Program.Description.Awards.DateofAwards: 0.49605054
+ - CMS.MetaData.Description.Program.Description.Column.ColumnName <-> MetaData.Program.Description.Column.ColumnName: 0.51913816
+ - CMS.MetaData.Description.Program.Description.Column.IssueNumber <-> MetaData.Program.Description.Column.IssueNumber: 0.5208482
+ - CMS.MetaData.Description.Program.Description.Column.IssueYear <-> MetaData.Program.Description.Column.IssueYear: 0.5197695
+ - CMS.MetaData.Description.Program.Description.Caption.caption <-> MetaData.Shot.Description.CameraMotion: 0.4586507
+ - CMS.MetaData.Description.Program.Description.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.50189567
+ - CMS.MetaData.Description.Program.Description.AudioChannel.AudioChannelDescription <-> MetaData.Program.Description.AudioChannel.AudioChannelDescription: 0.49981877
+ - CMS.MetaData.Description.Program.Description.AudioChannel.AudioChannelLanguage <-> MetaData.Program.Description.AudioChannel.AudioChannelLanguage: 0.5028218
  - CMS.MetaData.Description.Program.Creator.DescriptionofCreator <-> MetaData.Program.Creator.DescriptionofCreator: 0.55376816
  - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.NameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.NameofCreator: 0.514139
  - CMS.MetaData.Description.Program.Creator.DescriptionofCreator.ParallelNameofCreator <-> MetaData.Program.Creator.DescriptionofCreator.ParallelNameofCreator: 0.518127
@@ -69,13 +81,10 @@ MatchResult [3601,253] sourcestandard-------------------------------------------
  - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedDeadline: 0.5082618
  - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.AuthorizedGeographicArea: 0.509453
  - CMS.MetaData.Description.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage <-> MetaData.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage: 0.5082618
- - CMS.MetaData.Description.Program.Language.AudioChannel <-> MetaData.Program.Description.AudioChannel: 0.5123013
- - CMS.MetaData.Description.Program.Language.AudioChannel <-> MetaData.Program.Language.AudioChannel: 0.51309043
+ - CMS.MetaData.Description.Program.Language.AudioChannel <-> MetaData.Program.Language.AudioChannel: 0.5132819
  - CMS.MetaData.Description.Program.Language.Subtitle <-> MetaData.Program.Language.Subtitle: 0.48335546
- - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.47759655
  - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelNumber <-> MetaData.Program.Language.AudioChannel.AudioChannelNumber: 0.47848943
  - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelDescription <-> MetaData.Program.Language.AudioChannel.AudioChannelDescription: 0.4988355
- - CMS.MetaData.Description.Program.Language.AudioChannel.AudioChannelLanguage <-> MetaData.Program.Description.AudioChannel.AudioChannelLanguage: 0.48998594
  - CMS.MetaData.Description.Program.Language.Subtitle.SubtitleNumber <-> MetaData.Program.Language.Subtitle.SubtitleNumber: 0.46163702
  - CMS.MetaData.Description.Program.Language.Subtitle.SubtitleLanguage <-> MetaData.Program.Language.Subtitle.SubtitleLanguage: 0.457048
  - CMS.MetaData.Description.Program.Date.ProducedDate <-> MetaData.Program.Date.ProducedDate: 0.45945856
@@ -95,7 +104,6 @@ MatchResult [3601,253] sourcestandard-------------------------------------------
  - CMS.MetaData.Description.Program.Format.AudioCodingFormat <-> MetaData.Program.Format.AudioCodingFormat: 0.47826326
  - CMS.MetaData.Description.Program.Format.AudioSamplingFrequency <-> MetaData.Program.Format.AudioSamplingFrequency: 0.48766676
  - CMS.MetaData.Description.Program.Format.AudioBitDepth <-> MetaData.Program.Format.AudioBitDepth: 0.47826326
- - CMS.MetaData.Description.Program.Format.VideoBitrate <-> MetaData.Program.Format.VideoBitRate: 0.47699127
  - CMS.MetaData.Description.Program.Format.VideoCodingFormat <-> MetaData.Program.Format.VideoCodingFormat: 0.47826326
  - CMS.MetaData.Description.Program.Format.VideoSamplingType <-> MetaData.Program.Format.VideoSamplingType: 0.4828523
  - CMS.MetaData.Description.Program.Identifier.ISRC <-> MetaData.Program.Identifier.ISRC: 0.47026473
@@ -118,30 +126,16 @@ MatchResult [3601,253] sourcestandard-------------------------------------------
  - CMS.MetaData.Description.Program.Relation.IsRequiredby <-> MetaData.Program.Relation.IsRequiredby: 0.47564444
  - CMS.MetaData.Description.Program.Relation.IsVersionof <-> MetaData.Program.Relation.IsVersionof: 0.47334895
  - CMS.MetaData.Description.Program.Relation.HasVersionof <-> MetaData.Program.Relation.HasVersionof: 0.4745219
- - CMS.MetaData.Description.Awards.NameofAwards <-> MetaData.Program.Description.Awards.NameofAwards: 0.47386152
- - CMS.MetaData.Description.Awards.NameofAwards <-> MetaData.Sequence.Description.Awards.NameofAwards: 0.47162712
- - CMS.MetaData.Description.Awards.ItemofAwards <-> MetaData.Program.Description.Awards.ItemofAwards: 0.47386152
- - CMS.MetaData.Description.Awards.ItemofAwards <-> MetaData.Sequence.Description.Awards.ItemofAwards: 0.47162712
- - CMS.MetaData.Description.Awards.WinnersofAwards <-> MetaData.Program.Description.Awards.WinnersofAwards: 0.47712556
- - CMS.MetaData.Description.Awards.WinnersofAwards <-> MetaData.Sequence.Description.Awards.WinnersofAwards: 0.47499788
- - CMS.MetaData.Description.Awards.YearorTimeofAwards <-> MetaData.Program.Description.Awards.YearorTimeofAwards: 0.47999787
- - CMS.MetaData.Description.Awards.YearorTimeofAwards <-> MetaData.Sequence.Description.Awards.YearorTimeofAwards: 0.4779682
- - CMS.MetaData.Description.Awards.DateofAwards <-> MetaData.Program.Description.Awards.DateofAwards: 0.4726723
- - CMS.MetaData.Description.Awards.DateofAwards <-> MetaData.Sequence.Description.Awards.DateofAwards: 0.47040018
- - CMS.MetaData.Description.Column.ColumnName <-> MetaData.Program.Description.Column.ColumnName: 0.49374977
- - CMS.MetaData.Description.Column.IssueNumber <-> MetaData.Program.Description.Column.IssueNumber: 0.49967492
- - CMS.MetaData.Description.Column.IssueYear <-> MetaData.Program.Description.Column.IssueYear: 0.49754724
- - CMS.MetaData.Description.Caption.caption <-> MetaData.Shot.Description.CameraMotion: 0.47061548
- - CMS.MetaData.Description.AudioChannel.AudioChannelNumber <-> MetaData.Program.Description.AudioChannel.AudioChannelNumber: 0.48167822
- - CMS.MetaData.Description.AudioChannel.AudioChannelDescription <-> MetaData.Program.Description.AudioChannel.AudioChannelDescription: 0.47759655
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Program.Format.Duration: 0.6935406
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Sequence.Format.Duration: 0.6922085
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Scene.Format.Duration: 0.6963111
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.duration <-> MetaData.Shot.Format.Duration: 0.69775254
- - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.format <-> MetaData.Program.Format.FileFormat: 0.5470494
- - CMS.MetaData.Clip.ClipBaseInfo.Format <-> MetaData.Shot.Format: 0.4571493
- - CMS.MetaData.Clip.ClipBaseInfo.bitrate <-> MetaData.Program.Format.VideoBitRate: 0.47366118
- - CMS.MetaData.Clip.ClipBaseInfo.Format.StartingPoint <-> MetaData.Scene.Format.StartingPoint: 0.44961342
- - CMS.MetaData.Clip.ClipBaseInfo.Format.StartingPoint <-> MetaData.Shot.Format.StartingPoint: 0.4514846
- + Total: 144 correspondences
+ - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Program.Format.Duration: 0.69647014
+ - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Sequence.Format.Duration: 0.6949481
+ - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Scene.Format.Duration: 0.69964474
+ - CMS.MetaData.BaseAttributes.Duration <-> MetaData.Shot.Format.Duration: 0.70130104
+ - CMS.MetaData.KeyFrames.KeyFrame.KeyFrameDescription.Description.caption <-> MetaData.Shot.Description.CameraMotion: 0.45407197
+ - CMS.MetaData.Clip.ClipFiles.ClipFile.ClipFileInfo.format <-> MetaData.Program.Format.FileFormat: 0.5454646
+ - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Program.Format.Duration: 0.69647014
+ - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Sequence.Format.Duration: 0.6949481
+ - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Scene.Format.Duration: 0.69964474
+ - CMS.MetaData.Clip.ClipBaseInfo.Duration <-> MetaData.Shot.Format.Duration: 0.70130104
+ - CMS.MetaData.Clip.ClipBaseInfo.bitrate <-> MetaData.Program.Format.VideoBitrate: 0.48355663
+ + Total: 138 correspondences
 --------------------------------------------------------

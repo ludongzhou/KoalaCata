@@ -11,9 +11,8 @@
                                     <xs:all>
                                         <xs:element minOccurs="0" type="xs:string" name="ProperTitle"/>
                                         <xs:element minOccurs="0" type="xs:string" name="ParallelProperTitle"/>
-                                        <xs:element minOccurs="0" name="ParallelProperTitle"/>
                                         <xs:element minOccurs="0" type="xs:string" name="SubordinateTitle"/>
-                                        <xs:element minOccurs="0" type="xs:string" name="AlternativeProperTitle"/>
+                                        <xs:element minOccurs="0" type="xs:string" name="AlternativeTitle"/>
                                         <xs:element minOccurs="0" type="xs:string" name="TitleDescription"/>
                                         <xs:element minOccurs="0" name="Series">
                                             <xs:complexType>
@@ -213,7 +212,7 @@
                                         <xs:element minOccurs="0" type="xs:string" name="VideoCodingFormat"/>
                                         <xs:element minOccurs="0" type="xs:string" name="AspectRatio"/>
                                         <xs:element minOccurs="0" type="xs:time" name="StartingPoint"/>
-                                        <xs:element minOccurs="0" type="xs:int" name="VideoBitRate"/>
+                                        <xs:element minOccurs="0" type="xs:int" name="VideoBitrate"/>
                                         <xs:element minOccurs="0" type="xs:string" name="VideoSamplingType"/>
                                         <xs:element minOccurs="0" type="xs:string" name="AudioChannelFormat"/>
                                         <xs:element minOccurs="0" type="xs:int" name="AudioDataRate"/>

@@ -3,6 +3,10 @@
     <Title>
       <ProperTitle>恶作剧2吻 第08集
                     </ProperTitle>
+      <ParallelProperTitle>They Kiss Again
+                    </ParallelProperTitle>
+      <AlternativeTitle>甜蜜再恋
+                    </AlternativeTitle>
       <TitleDescription>
                         台湾偶像剧《恶作剧之吻》续集；改编自日本漫画家多田薰的《淘气小亲亲》
                     </TitleDescription>
@@ -13,11 +17,67 @@
                         </EpisodesNumber>
       </Series>
     </Title>
+    <Subject>
+      <Class>
+        <Classification>广播电视节目资料分类法
+                        </Classification>
+        <ClassNumber>J3825 | 都市生活情感题材
+                        </ClassNumber>
+      </Class>
+      <Keyword>言情剧；偶像剧；喜剧；台剧
+                    </Keyword>
+    </Subject>
+    <Description>
+      <DescriptionofContent>本集剧情介绍：
+                        湘琴对自己和直树“见不得光”的爱情很苦恼，向直树抱怨。在做急救练习时，湘琴错误百出，惹得启太忍无可忍，亲自示范，差点把假人按坏，众人纷纷指责湘琴太笨。回家后，湘琴觉得自己看不进去书，就拿出早已写好的第二天的约会计划欣赏。虽然湘琴对计划已久的约会充满期待，但仍是糗事连连，直树只好无奈笑笑。
+                        　　妮娜打算带湘琴去一个好玩的地方，湘琴到后发现竟是自己的家，原来大家准备去偷窥直树。正巧子瑜来家中做客，大家以为子瑜就是直树的太太，都自叹不如。湘琴连忙回家，却被子瑜一番嘲笑，湘琴很是郁闷，想找机会说出真相。
+                        　　湘琴在给启太量血压的时候精神不集中，启太批评湘琴，湘琴委屈之下说出自己就是江直树的太太，大家不以为然。这时直树来找，大家对湘琴刮目相看。
+                        　　马上要练习抽血了，大家都不愿意当湘琴的练习对象。只好抽签决定，倒霉的启太成为签王，不得不被湘琴练习。湘琴错误不断，把启太吓到。可是直树非但没有安慰湘琴而且还说湘琴太笨。启太很是生气。智仪为启太抽血，湘琴误以为智仪喜欢启太。
+                        　　大家逼湘琴去约直树来联谊，直树否决，湘琴很是为难。
+                    </DescriptionofContent>
+      <VersionDescription>播出版
+                    </VersionDescription>
+      <Awards>
+        <NameofAwards>金钟奖
+                        </NameofAwards>
+        <ItemofAwards>戏剧节目女主角奖
+                        </ItemofAwards>
+        <WinnersofAwards>林依晨
+                        </WinnersofAwards>
+        <YearorTimeofAwards>43
+                        </YearorTimeofAwards>
+        <DateofAwards>2008-00-00
+                         00:00:00</DateofAwards>
+      </Awards>
+      <AdditionalLogo>节目名称
+                    </AdditionalLogo>
+    </Description>
+    <Contributor>
+      <DescriptionofContributor>
+        <NameofContributor>瞿友宁
+                        </NameofContributor>
+        <Role>导演
+                        </Role>
+      </DescriptionofContributor>
+    </Contributor>
+    <Language>
+      <Subtitle>
+        <SubtitleLanguage>中文繁体
+                        </SubtitleLanguage>
+      </Subtitle>
+    </Language>
     <Date>
       <DateofDebut>2007-12-16
                          00:00:00</DateofDebut>
     </Date>
+    <Type>
+      <ProgramType>影视剧类
+                    </ProgramType>
+      <ProgramForm>电视剧
+                    </ProgramForm>
+    </Type>
     <Format>
+      <Duration>28:48:0</Duration>
       <StartingPoint>0:0:0</StartingPoint>
       <Color>彩色
                     </Color>
@@ -41,5 +101,13 @@
       <VideoCodingFormat>MPEG2_IBP
                     </VideoCodingFormat>
     </Format>
+    <Coverage>
+      <Spatial>中国台湾
+                    </Spatial>
+    </Coverage>
+    <Source>
+      <AcquiringMethodofSource>购买
+                    </AcquiringMethodofSource>
+    </Source>
   </Program>
 </Metadata>
