@@ -80,39 +80,39 @@
                         </VersionDescription>
                     </xsl:for-each>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='获奖']">
-                            <Awards>
-                                <NameofAwards>
-                                    <xsl:value-of select="sAttribute[@strName='奖名']"></xsl:value-of>
-                                </NameofAwards>
-                                <ItemofAwards>
-                                    <xsl:value-of select="sAttribute[@strName='奖项']"></xsl:value-of>
-                                </ItemofAwards>
-                                <xsl:for-each select="sAttribute[@strName='获奖者']">
-                                    <WinnersofAwards>
-                                        <xsl:value-of select="current()"></xsl:value-of>
-                                    </WinnersofAwards>
-                                </xsl:for-each>
-                                <YearorTimeofAwards>
-                                    <xsl:value-of select="sAttribute[@strName='获奖年度']"></xsl:value-of>
-                                </YearorTimeofAwards>
-                                <DateofAwards>
-                                    <xsl:value-of select="sAttribute[@strName='获奖日期']"></xsl:value-of>
-                                </DateofAwards>
-                            </Awards>
+                        <Awards>
+                            <NameofAwards>
+                                <xsl:value-of select="sAttribute[@strName='奖名']"></xsl:value-of>
+                            </NameofAwards>
+                            <ItemofAwards>
+                                <xsl:value-of select="sAttribute[@strName='奖项']"></xsl:value-of>
+                            </ItemofAwards>
+                            <xsl:for-each select="sAttribute[@strName='获奖者']">
+                                <WinnersofAwards>
+                                    <xsl:value-of select="current()"></xsl:value-of>
+                                </WinnersofAwards>
+                            </xsl:for-each>
+                            <YearorTimeofAwards>
+                                <xsl:value-of select="sAttribute[@strName='获奖年度']"></xsl:value-of>
+                            </YearorTimeofAwards>
+                            <DateofAwards>
+                                <xsl:value-of select="sAttribute[@strName='获奖日期']"></xsl:value-of>
+                            </DateofAwards>
+                        </Awards>
                     </xsl:for-each>
 
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='栏目']">
-                            <Column>
-                                <ColumnName>
-                                    <xsl:value-of select="sAttribute[@strName='栏目名称']"></xsl:value-of>
-                                </ColumnName>
-                                <IssueNumber>
-                                    <xsl:value-of select="sAttribute[@strName='栏目期次']"></xsl:value-of>
-                                </IssueNumber>
-                                <IssueYear>
-                                    <xsl:value-of select="sAttribute[@strName='栏目年度']"></xsl:value-of>
-                                </IssueYear>
-                            </Column>
+                        <Column>
+                            <ColumnName>
+                                <xsl:value-of select="sAttribute[@strName='栏目名称']"></xsl:value-of>
+                            </ColumnName>
+                            <IssueNumber>
+                                <xsl:value-of select="sAttribute[@strName='栏目期次']"></xsl:value-of>
+                            </IssueNumber>
+                            <IssueYear>
+                                <xsl:value-of select="sAttribute[@strName='栏目年度']"></xsl:value-of>
+                            </IssueYear>
+                        </Column>
                     </xsl:for-each>
                     <Audience>
                         <xsl:value-of select="sAttribute[@strName='受众']"></xsl:value-of>
@@ -121,14 +121,14 @@
                         <xsl:value-of select="sAttribute[@strName='附加标志']"></xsl:value-of>
                     </AdditionalLogo>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='声道描述']">
-                            <AudioChannel>
-                                <AudioChannelNumber>
-                                    <xsl:value-of select="sAttribute[@strName='声道号']"></xsl:value-of>
-                                </AudioChannelNumber>
-                                <AudioChannelDescription>
-                                    <xsl:value-of select="sAttribute[@strName='声道内容']"></xsl:value-of>
-                                </AudioChannelDescription>
-                            </AudioChannel>
+                        <AudioChannel>
+                            <AudioChannelNumber>
+                                <xsl:value-of select="sAttribute[@strName='声道号']"></xsl:value-of>
+                            </AudioChannelNumber>
+                            <AudioChannelDescription>
+                                <xsl:value-of select="sAttribute[@strName='声道内容']"></xsl:value-of>
+                            </AudioChannelDescription>
+                        </AudioChannel>
                     </xsl:for-each>
                     <xsl:for-each select="sAttribute[@strName='附件']">
                         <Attachment>
@@ -138,44 +138,66 @@
                 </Description>
                 <Creator>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='创建者']">
-                            <DescriptionofCreator>
-                                <NameofCreator>
-                                    <xsl:value-of select="sAttribute[@strName='创建者名称']"></xsl:value-of>
-                                </NameofCreator>
-                                <xsl:for-each select="sAttribute[@strName='创建者并列名']">
-                                    <ParallelNameofCreator>
-                                        <xsl:value-of select="current()"></xsl:value-of>
-                                    </ParallelNameofCreator>
-                                </xsl:for-each>
-                                <Role>
-                                    <xsl:value-of select="sAttribute[@strName='责任方式']"></xsl:value-of>
-                                </Role>
-                                <OtherInformation>
-                                    <xsl:value-of select="sAttribute[@strName='其他信息']"></xsl:value-of>
-                                </OtherInformation>
-                            </DescriptionofCreator>
+                        <DescriptionofCreator>
+                            <NameofCreator>
+                                <xsl:value-of select="sAttribute[@strName='创建者名称']"></xsl:value-of>
+                            </NameofCreator>
+                            <xsl:for-each select="sAttribute[@strName='创建者并列名']">
+                                <ParallelNameofCreator>
+                                    <xsl:value-of select="current()"></xsl:value-of>
+                                </ParallelNameofCreator>
+                            </xsl:for-each>
+                            <Role>
+                                <xsl:value-of select="sAttribute[@strName='责任方式']"></xsl:value-of>
+                            </Role>
+                            <OtherInformation>
+                                <xsl:value-of select="sAttribute[@strName='其他信息']"></xsl:value-of>
+                            </OtherInformation>
+                        </DescriptionofCreator>
                     </xsl:for-each>
                 </Creator>
                 <Contributor>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='责任者描述（节目）']">
-                            <DescriptionofContributor>
-                                <NameofContributor>
-                                    <xsl:value-of select="sAttribute[@strName='责任者名称']"></xsl:value-of>
-                                </NameofContributor>
-                                <xsl:for-each select="sAttribute[@strName='责任者并列名']">
-                                    <ParallelNameofContributor>
-                                        <xsl:value-of select="current()"></xsl:value-of>
-                                    </ParallelNameofContributor>
-                                </xsl:for-each>
-                                <Role>
-                                    <xsl:value-of select="sAttribute[@strName='责任方式（节目）']"></xsl:value-of>
-                                </Role>
-                                <OtherInformation>
-                                    <xsl:value-of select="其他信息"></xsl:value-of>
-                                </OtherInformation>
-                            </DescriptionofContributor>
+                        <DescriptionofContributor>
+                            <NameofContributor>
+                                <xsl:value-of select="sAttribute[@strName='责任者名称']"></xsl:value-of>
+                            </NameofContributor>
+                            <xsl:for-each select="sAttribute[@strName='责任者并列名']">
+                                <ParallelNameofContributor>
+                                    <xsl:value-of select="current()"></xsl:value-of>
+                                </ParallelNameofContributor>
+                            </xsl:for-each>
+                            <Role>
+                                <xsl:value-of select="sAttribute[@strName='责任方式（节目）']"></xsl:value-of>
+                            </Role>
+                            <OtherInformation>
+                                <xsl:value-of select="其他信息"></xsl:value-of>
+                            </OtherInformation>
+                        </DescriptionofContributor>
                     </xsl:for-each>
                 </Contributor>
+                <Publisher>
+                    <xsl:for-each select="publisher">
+                        <DescriptionofPublisher>
+                            <NameofPublisher>
+                                <xsl:value-of select="name of publisher"></xsl:value-of>
+                            </NameofPublisher>
+                            <PlaceofPublication>
+                                <xsl:value-of select="publication"></xsl:value-of>
+                            </PlaceofPublication>
+                        </DescriptionofPublisher>
+                    </xsl:for-each>
+                    <xsl:for-each select="production">
+                        <DescriptionofProducer>
+                            <NameofProducer>
+                                <xsl:value-of select="name of production"></xsl:value-of>
+                            </NameofProducer>
+                            <PlaceofProduction>
+                                <xsl:value-of select="production"></xsl:value-of>
+                            </PlaceofProduction>
+                        </DescriptionofProducer>
+                    </xsl:for-each>
+                </Publisher>
                 <Copyright>
                     <xsl:for-each select="Copyright/DescriptionofAuthorizedUse">
                         <DescriptionofAuthorizedUse>
@@ -187,24 +209,24 @@
                 </Copyright>
                 <Language>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='声道语种描述']">
-                            <AudioChannel>
-                                <AudioChannelNumber>
-                                    <xsl:value-of select="sAttribute[@strName='声道号']"></xsl:value-of>
-                                </AudioChannelNumber>
-                                <AudioChannelLanguage>
-                                    <xsl:value-of select="sAttribute[@strName='声道语种']"></xsl:value-of>
-                                </AudioChannelLanguage>
-                            </AudioChannel>
+                        <AudioChannel>
+                            <AudioChannelNumber>
+                                <xsl:value-of select="sAttribute[@strName='声道号']"></xsl:value-of>
+                            </AudioChannelNumber>
+                            <AudioChannelLanguage>
+                                <xsl:value-of select="sAttribute[@strName='声道语种']"></xsl:value-of>
+                            </AudioChannelLanguage>
+                        </AudioChannel>
                     </xsl:for-each>
                     <xsl:for-each select="sAttributeGroups/sAttributeGroup[@Name='字幕语种描述']">
-                            <Subtitle>
-                                <SubtitleNumber>
-                                    <xsl:value-of select="sAttribute[@strName='字幕号']"></xsl:value-of>
-                                </SubtitleNumber>
-                                <SubtitleLanguage>
-                                    <xsl:value-of select="sAttribute[@strName='字幕语种']"></xsl:value-of>
-                                </SubtitleLanguage>
-                            </Subtitle>
+                        <Subtitle>
+                            <SubtitleNumber>
+                                <xsl:value-of select="sAttribute[@strName='字幕号']"></xsl:value-of>
+                            </SubtitleNumber>
+                            <SubtitleLanguage>
+                                <xsl:value-of select="sAttribute[@strName='字幕语种']"></xsl:value-of>
+                            </SubtitleLanguage>
+                        </Subtitle>
                     </xsl:for-each>
                 </Language>
                 <Date>

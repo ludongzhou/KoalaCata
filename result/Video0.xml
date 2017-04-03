@@ -182,6 +182,26 @@
                         </OtherInformation>
       </DescriptionofContributor>
     </Contributor>
+    <Publisher>
+      <DescriptionofProducer>
+        <NameofProducer>可米影视
+                        </NameofProducer>
+        <PlaceofProduction>中国台湾
+                        </PlaceofProduction>
+      </DescriptionofProducer>
+      <DescriptionofProducer>
+        <NameofProducer>八大电视
+                        </NameofProducer>
+        <PlaceofProduction>中国台湾
+                        </PlaceofProduction>
+      </DescriptionofProducer>
+      <DescriptionofProducer>
+        <NameofProducer>中国电视
+                        </NameofProducer>
+        <PlaceofProduction>中国台湾
+                        </PlaceofProduction>
+      </DescriptionofProducer>
+    </Publisher>
     <Language>
       <Subtitle>
         <SubtitleLanguage>中文繁体
