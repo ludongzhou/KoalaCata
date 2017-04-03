@@ -42,7 +42,7 @@ class XMLFormatter:
             self.raw_xml = ''
             return 3
 
-        XSLFiles = glob.glob(self.xsl_path + "/*.resource.xslt")
+        XSLFiles = glob.glob(self.xsl_path + "/*.xslt")
         if len(XSLFiles) == 0:
             logging.error("xsl files: %s not exist" % self.xsl_path)
             return 2
@@ -58,7 +58,7 @@ class XMLFormatter:
         root = etree.fromstring(self.all_xml)
 
         if not self.attribs:
-            logging.warning("no attribs to add")
+            logging.info("no attribs to add")
             return 0
 
         for key in self.attribs:

@@ -35,7 +35,7 @@ public final class XsdGen {
     /**
      * Constructs new {@code XsdGen} with parameters :
      *
-     * @param config             the resource.XSD configuration
+     * @param config             the resource.xsd configuration
      */
     public XsdGen(XsdConfig config) {
         xsdPrefix = config.getXsdPrefix();

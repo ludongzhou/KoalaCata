@@ -11,9 +11,16 @@ public class Transfer {
     public String start(String xmlPath) {
         String xslFolder = "resource/xslt/result";
         try {
-            Process process = Runtime.getRuntime().exec(
-                    "python3 lib/XMLFormator/scripts/Formatter/XMLFormatter.py "
-                            + xmlPath + " " + xslFolder + " result");
+            String[] cmds = new String[5];
+
+            // set command and args
+            cmds[0] = "python3";
+            cmds[1] = "lib/XMLFormator/scripts/Formatter/XMLFormatter.py";
+            cmds[2] = xmlPath;
+            cmds[3] = xslFolder;
+            cmds[4] = "result";
+
+            Process process = Runtime.getRuntime().exec(cmds);
             process.waitFor();
 
             BufferedReader stdInput = new BufferedReader(new InputStreamReader(process.getInputStream()));

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <MetaData>
-            <xsl:for-each select="MetaData.Shot">
                 <Shot>
                     <Title>
                         <ShotTitle>
@@ -9,16 +9,12 @@
                         </ShotTitle>
                     </Title>
                     <Subject>
-                        <xsl:for-each select="MetaData.Shot.Subject.SubjectTerm">
                             <SubjectTerm>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="MetaData.Shot.Subject.SubjectTerm"/>
                             </SubjectTerm>
-                        </xsl:for-each>
-                        <xsl:for-each select="MetaData.Shot.Subject.Keyword">
                             <Keyword>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="MetaData.Shot.Subject.Keyword"/>
                             </Keyword>
-                        </xsl:for-each>
                     </Subject>
                     <Description>
                         <DescriptionofContent>
@@ -27,21 +23,15 @@
                         <ShootingPlace>
                             <xsl:value-of select="MetaData.Shot.Description.ShootingPlace"/>
                         </ShootingPlace>
-                        <xsl:for-each select="MetaData.Shot.Description.CameraMotion">
                             <CameraMotion>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="MetaData.Shot.Description.CameraMotion"/>
                             </CameraMotion>
-                        </xsl:for-each>
-                        <xsl:for-each select="MetaData.Shot.Description.CameraMotion">
                             <CameraMotion>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="MetaData.Shot.Description.CameraMotion"/>
                             </CameraMotion>
-                        </xsl:for-each>
-                        <xsl:for-each select="MetaData.Shot.Description.CameraMotion">
                             <CameraMotion>
-                                <xsl:value-of select="current()"/>
+                                <xsl:value-of select="MetaData.Shot.Description.CameraMotion"/>
                             </CameraMotion>
-                        </xsl:for-each>
                         <NaturalSound>
                             <xsl:value-of select="MetaData.Shot.Description.NaturalSound"/>
                         </NaturalSound>
@@ -57,8 +47,15 @@
                             <xsl:value-of select="MetaData.Shot.Format.StartingPoint"/>
                         </StartingPoint>
                     </Format>
+                    <Relation>
+                        <IsPartof>
+                            <xsl:value-of select="MetaData.Shot.Relation.IsPartof"/>
+                        </IsPartof>
+                        <References>
+                            <xsl:value-of select="MetaData.Shot.Relation.References"/>
+                        </References>
+                    </Relation>
                 </Shot>
-            </xsl:for-each>
         </MetaData>
     </xsl:template>
     <xsl:template match="text()"/>

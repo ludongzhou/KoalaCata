@@ -1,4 +1,4 @@
-MatchResult [1699,252] sourcestandard--------------------------------------------------------
+MatchResult [1699,252] xsd_sourcexsd_standard--------------------------------------------------------
  - CMS.MetaData <-> MetaData: 0.48019505
  - CMS.MetaData.Description <-> MetaData.Shot.Description: 0.5336199
  - CMS.MetaData.Description.Program <-> MetaData.Program: 0.484229

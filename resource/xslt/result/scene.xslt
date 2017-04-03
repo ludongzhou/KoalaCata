@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <MetaData>
-                <Scene>
+            
+        <Scene>
                     <Title>
                         <SceneTitle>
                             <xsl:value-of select="MetaData.Scene.Title.SceneTitle"/>
                         </SceneTitle>
                     </Title>
                     <Subject>
+                        <xsl:for-each select="MetaData.Scene.Subject.SubjectTerm">
                             <SubjectTerm>
-                                <xsl:value-of select="MetaData.Scene.Subject.SubjectTerm"/>
+                                <xsl:value-of select="current()"/>
                             </SubjectTerm>
+                        </xsl:for-each>
+                        <xsl:for-each select="MetaData.Scene.Subject.Keyword">
                             <Keyword>
-                                <xsl:value-of select="MetaData.Scene.Subject.Keyword"/>
+                                <xsl:value-of select="current()"/>
                             </Keyword>
+                        </xsl:for-each>
                     </Subject>
                     <Description>
                         <DescriptionofContent>
@@ -29,7 +34,7 @@
 
                     <Format>
                         <Duration>
-                            <xsl:value-of select="CMS/MetaData/Clip/ClipBaseInfo/Duration"/>
+                            <xsl:value-of select="MetaData.Scene.Format.Duration"/>
                         </Duration>
                         <StartingPoint>
                             <xsl:value-of select="MetaData.Scene.Format.StartingPoint"/>
@@ -38,15 +43,6 @@
                             <xsl:value-of select="MetaData.Scene.Format.SubtitleForm"/>
                         </SubtitleForm>
                     </Format>
-                    <Relation>
-                        <IsPartof>
-                            <xsl:value-of select="MetaData.Scene.Relation.IsPartof"/>
-                        </IsPartof>
-                        <References>
-                            <xsl:value-of select="MetaData.Scene.Relation.References"/>
-                        </References>
-                    </Relation>
-                </Scene>
-        </MetaData>
+                </Scene></MetaData>
     </xsl:template>
 </xsl:stylesheet>

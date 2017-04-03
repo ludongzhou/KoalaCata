@@ -25,53 +25,67 @@ import java.io.IOException;
 public class MainTemplating {
 
     public static void main(String[] args) {
-        System.setProperty("log4j.configurationFile", "log4j2.xml");
-        Logger logger = LogManager.getLogger(MainTemplating.class);
         try {
-            File file = new File("template/sequence.resource.xslt");
-            Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);
-            document.getDocumentElement().normalize();
-            Element root = (Element) document.getDocumentElement().getElementsByTagName("MetaData").item(0);
-            DFS(root, "");
-            Transformer transformer = TransformerFactory.newInstance().newTransformer();
-            DOMSource source = new DOMSource(document);
-            StreamResult result =
-                    new StreamResult(new File("template/sequence_new.resource.xslt"));
-            transformer.transform(source, result);
-            // Output to console for testing
-//            StreamResult consoleResult = new StreamResult(System.out);
-//            transformer.transform(source, consoleResult);
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (TransformerConfigurationException e) {
-            e.printStackTrace();
-        } catch (TransformerException e) {
+            File dir = new File("resource/xslt/template/original");
+            for (File file: dir.listFiles()) {
+                if (file.isFile() && file.getName().endsWith("xslt")) {
+                    Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);
+                    document.getDocumentElement().normalize();
+                    Element root = (Element) document.getDocumentElement().getElementsByTagName("MetaData").item(0);
+                    DFS(root, root.getTagName());
+                    Transformer transformer = TransformerFactory.newInstance().newTransformer();
+                    DOMSource source = new DOMSource(document);
+                    StreamResult result =
+                            new StreamResult(new File("resource/xslt/template/" + file.getName()));
+                    transformer.transform(source, result);
+                    // Output to console for testing
+                    // StreamResult consoleResult = new StreamResult(System.out);
+                    // transformer.transform(source, consoleResult);
+                }
+            }
+        } catch (ParserConfigurationException | SAXException | IOException | TransformerException e) {
             e.printStackTrace();
         }
     }
 
     private static void DFS(Element root, String path) {
         NodeList nodeList = root.getChildNodes();
+
+        // add select to value-of
         if (nodeList.getLength() == 0) {
-//            System.out.println(path.substring(0, path.length() - 1));
-            root.setAttribute("select", path.substring(0, path.length() - 1));
-        } else {
-            if (root.getTagName().equalsIgnoreCase("xsl:for-each")) {
-//                System.out.println(path.substring(0, path.length() - 1));
-//                root.setAttribute("select", path.substring(0, path.length() - 1));
+            // if this is a leaf node and can repeat
+            if (((Element)root.getParentNode().getParentNode()).getTagName().contains("each")) {
+                root.setAttribute("select", "current()");
             }
+            else { // leaf node and can't repeat
+                root.setAttribute("select", path);
+            }
+        } else {
+
+            // add select to for-each
+            if (root.getTagName().endsWith("each")) {
+                for (int i = 0; i < nodeList.getLength(); i++) {
+                    Node node = nodeList.item(i);
+                    if (node.getNodeType() == Node.ELEMENT_NODE) {
+                        Element child = (Element) node;
+                        root.setAttribute("select", path + "." + child.getTagName());
+                        break;
+                    }
+                }
+            }
+
+            // recursive
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node node = nodeList.item(i);
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element child = (Element) node;
-                    if (root.getTagName().endsWith("each")) {
+
+                    // current is for-each node
+                    if (child.getTagName().endsWith("each") || child.getTagName().endsWith("value-of")) {
                         DFS(child, path);
-                    } else {
-                        DFS(child, path + root.getTagName() + '.');
+                    }
+                    else {
+                        DFS(child, path + '.' + child.getTagName());
                     }
                 }
             }

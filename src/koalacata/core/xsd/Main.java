@@ -25,15 +25,16 @@ public class Main {
 
         xsdExtractor.extract(new File(xmlPath));
         String sourceXSD = xsdExtractor.getXSD();
-        write2File(sourceXSD, "resource/XSD/source.xsd");
+        write2File(sourceXSD, "resource/xsd/source.xsd");
 
-        matcher.match("resource/XSD/source.xsd", "resource/XSD/standard.xsd");
+        matcher.match("resource/xsd/source.xsd", "resource/xsd/standard.xsd");
 
         String correspondences = matcher.getCorrespondence();
         String crspdsPath = "sample/correspondences.txt";
         write2File(correspondences, crspdsPath);
 
-        XSLTGenerator.generateXLST(crspdsPath);
+        XSLTGenerator generator = new XSLTGenerator(crspdsPath);
+        generator.generateXLST();
         transfer.start(xmlPath);
     }
 
