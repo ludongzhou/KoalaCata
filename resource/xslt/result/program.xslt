@@ -295,7 +295,7 @@
                         <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioBitDepth"/>
                     </AudioBitDepth>
                     <VideoBitrate>
-                        <xsl:value-of select="CMS/MetaData/Clip/ClipBaseInfo/bitrate"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoBitrate"/>
                     </VideoBitrate>
                     <VideoCodingFormat>
                         <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoCodingFormat"/>

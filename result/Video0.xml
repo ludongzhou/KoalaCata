@@ -240,6 +240,8 @@
                     </AudioSamplingFrequency>
       <AudioBitDepth>16bit
                     </AudioBitDepth>
+      <VideoBitrate>3.60Mbps
+                    </VideoBitrate>
       <VideoCodingFormat>MPEG2_IBP
                     </VideoCodingFormat>
     </Format>

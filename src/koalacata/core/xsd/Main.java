@@ -2,6 +2,7 @@ package koalacata.core.xsd;
 
 import koalacata.core.xsd.infer.extractor.AbstractExtractor;
 import koalacata.core.xsd.infer.extractor.XMLSchemaLearner;
+import koalacata.core.xsd.infer.extractor.XSDGenExtractor;
 import koalacata.core.xsd.mapping.matcher.AbstractMatcher;
 import koalacata.core.xsd.mapping.matcher.ComaMatcher;
 import koalacata.core.xsd.template.XSLTGenerator;
@@ -18,8 +19,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         String xmlPath = args[0];
-        AbstractExtractor xsdExtractor = new XMLSchemaLearner();
-        // AbstractExtractor xsdExtractor = new XSDGenExtractor();
+        // AbstractExtractor xsdExtractor = new XMLSchemaLearner();
+        AbstractExtractor xsdExtractor = new XSDGenExtractor();
         AbstractMatcher matcher = new ComaMatcher();
         Transfer transfer = new Transfer();
 
