@@ -14,7 +14,7 @@
                                 <xsl:value-of select="current()"/>
                             </SubjectTerm>
                         </xsl:for-each>
-                        <xsl:for-each select="MetaData.Shot.Subject.Keyword">
+                        <xsl:for-each select="RECORD/Keyword">
                             <Keyword>
                                 <xsl:value-of select="current()"/>
                             </Keyword>
@@ -51,7 +51,7 @@
                     </Date>
                     <Format>
                         <Duration>
-                            <xsl:value-of select="CMS/MetaData/Clip/ClipBaseInfo/Duration"/>
+                            <xsl:value-of select="MetaData.Shot.Format.Duration"/>
                         </Duration>
                         <StartingPoint>
                             <xsl:value-of select="MetaData.Shot.Format.StartingPoint"/>

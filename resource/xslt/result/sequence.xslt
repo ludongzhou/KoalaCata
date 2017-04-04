@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <MetaData>
-            
-        <Sequence>
+            <xsl:for-each select="RECORD/sequence">
+                <Sequence>
                     <Title>
                         <ProperTitle>
                             <xsl:value-of select="MetaData.Sequence.Title.ProperTitle"/>
@@ -200,7 +200,9 @@
                             </Spatial>
                         </xsl:for-each>
                     </Coverage>
-                </Sequence></MetaData>
+                </Sequence>
+            </xsl:for-each>
+        </MetaData>
     </xsl:template>
     <xsl:template match="text()"/>
 </xsl:stylesheet>

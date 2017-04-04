@@ -16,9 +16,9 @@ import java.util.*;
  */
 public class MyMatcher extends AbstractMatcher{
     private ArrayList<String> results;
-    private HashMap<String, PriorityQueue<Entry>> rawResults;
+    private HashMap<String, TreeSet<Entry>> rawResults;
     private HashMap<String, String> dict;
-    private double simThreshold = 0.2;
+    private double simThreshold = 0.3;
 
     public MyMatcher(File source, File target, File dictFile) {
         this.sourceFile = source;
@@ -65,7 +65,7 @@ public class MyMatcher extends AbstractMatcher{
 
     private void storeResult() {
         for (String sourceElement: rawResults.keySet()) {
-            Entry headEntry = rawResults.get(sourceElement).peek();
+            Entry headEntry = rawResults.get(sourceElement).last();
             if (headEntry.similarity >= simThreshold) {
                 String subResult = String.format("- %s <-> %s: %f", sourceElement, headEntry.element, headEntry.similarity);
                 results.add(subResult);
@@ -82,9 +82,9 @@ public class MyMatcher extends AbstractMatcher{
         }
         else {
             TComparator tc = new TComparator();
-            PriorityQueue<Entry> priorityQueue = new PriorityQueue<>(2, tc);
-            priorityQueue.add(entry);
-            rawResults.put(sourceElement, priorityQueue);
+            TreeSet<Entry> treeSet = new TreeSet<>(tc);
+            treeSet.add(entry);
+            rawResults.put(sourceElement, treeSet);
         }
     }
 
@@ -92,6 +92,7 @@ public class MyMatcher extends AbstractMatcher{
         String[] sourceWords = sourceElement.toLowerCase().split("\\.");
         String[] targetWords = targetElement.toLowerCase().split("\\.");
         HashSet<String> uniqueWords = new HashSet<>();
+        boolean lastMatch = false;
 
         uniqueWords.addAll(new ArrayList<>(Arrays.asList(sourceWords)));
         for (String targetWord: targetWords) {
@@ -101,13 +102,26 @@ public class MyMatcher extends AbstractMatcher{
             uniqueWords.add(targetWord);
         }
 
+        if (wordMatch(sourceWords[sourceWords.length - 1], targetWords[targetWords.length - 1])) {
+            lastMatch = true;
+        }
+
         int editDistance = EDIST.editDistDP(sourceElement, targetElement, sourceElement.length(), targetElement.length());
         int maxDistance = Math.max(sourceElement.length(), targetElement.length());
         int sourceLen = sourceWords.length, targetLen = targetWords.length, uniqueLen = uniqueWords.size();
 
         double wordsSim = (sourceLen + targetLen - uniqueLen) * 1.0 / (sourceLen + targetLen);
         double editSim = (maxDistance - editDistance) * 1.0 / maxDistance;
-        return 0.5 * wordsSim + 0.5 * editSim;
+        return 0.4 * wordsSim + 0.4 * editSim + 0.2 * (lastMatch? 1:0);
+    }
+
+    private boolean wordMatch(String sourceWord, String targetWord) {
+        if (sourceWord.equals(targetWord) || sourceWord.equals(dict.get(targetWord))) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     private ArrayList<String> getElements(File file) {
@@ -184,7 +198,7 @@ public class MyMatcher extends AbstractMatcher{
     public String getCorrespondence() {
         StringBuilder sb = new StringBuilder();
         for (String s: results) {
-            sb.append(s);
+            sb.append(s + "\n");
         }
         return sb.toString();
     }
