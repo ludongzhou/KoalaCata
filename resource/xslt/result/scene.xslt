@@ -14,7 +14,7 @@
                                 <xsl:value-of select="current()"/>
                             </SubjectTerm>
                         </xsl:for-each>
-                        <xsl:for-each select="RECORD/Keyword">
+                        <xsl:for-each select="MetaData.Scene.Subject.Keyword">
                             <Keyword>
                                 <xsl:value-of select="current()"/>
                             </Keyword>

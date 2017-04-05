@@ -17,8 +17,11 @@ import java.util.*;
 public class MyMatcher extends AbstractMatcher{
     private ArrayList<String> results;
     private HashMap<String, TreeSet<Entry>> rawResults;
-    private HashMap<String, String> dict;
     private double simThreshold = 0.3;
+
+    public MyMatcher(File source, File target) { // with default dict file
+        this(source, target, new File("resource/thesaurus.dict"));
+    }
 
     public MyMatcher(File source, File target, File dictFile) {
         this.sourceFile = source;
@@ -30,20 +33,28 @@ public class MyMatcher extends AbstractMatcher{
         loadDict(dictFile);
     }
 
+    public MyMatcher() {
+    }
+
     private void loadDict(File dictFile) {
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(dictFile)));
+        if (dictFile.exists()){
+            try {
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(dictFile)));
 
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                String[] words = line.toLowerCase().split(",");
-                dict.put(words[0], words[1]);
-                dict.put(words[1], words[0]);
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
+                    String[] words = line.toLowerCase().split(",");
+                    dict.put(words[0], words[1]);
+                    dict.put(words[1], words[0]);
+                }
+                bufferedReader.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-            bufferedReader.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        }
+        else {
+            System.out.println("dict file not found");
         }
     }
 
@@ -96,7 +107,8 @@ public class MyMatcher extends AbstractMatcher{
 
         uniqueWords.addAll(new ArrayList<>(Arrays.asList(sourceWords)));
         for (String targetWord: targetWords) {
-            if (uniqueWords.contains(targetWord) || uniqueWords.contains(dict.get(targetWord))) {
+            if (uniqueWords.contains(targetWord)
+                    || (dict != null && dict.containsKey(targetWord) && uniqueWords.contains(dict.get(targetWord)))) {
                 continue;
             }
             uniqueWords.add(targetWord);
@@ -110,6 +122,8 @@ public class MyMatcher extends AbstractMatcher{
         int maxDistance = Math.max(sourceElement.length(), targetElement.length());
         int sourceLen = sourceWords.length, targetLen = targetWords.length, uniqueLen = uniqueWords.size();
 
+        // TODO. words in different position should have different match weight in similarity calculation.
+        // The latter, the bigger. For instance: 1. a.b.c.d; 2.b.c.d;
         double wordsSim = (sourceLen + targetLen - uniqueLen) * 1.0 / (sourceLen + targetLen);
         double editSim = (maxDistance - editDistance) * 1.0 / maxDistance;
         return 0.4 * wordsSim + 0.4 * editSim + 0.2 * (lastMatch? 1:0);
@@ -191,6 +205,10 @@ public class MyMatcher extends AbstractMatcher{
     public void match(String sourcePath, String targetPath) {
         this.sourceFile = new File(sourcePath);
         this.targetFile = new File(targetPath);
+        this.dict = new HashMap<>();
+        rawResults = new HashMap<>();
+        results = new ArrayList<>();
+        this.loadDict(new File("resource/thesaurus.dict"));
         this.match();
     }
 

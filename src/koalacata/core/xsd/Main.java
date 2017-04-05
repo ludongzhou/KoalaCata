@@ -5,6 +5,7 @@ import koalacata.core.xsd.infer.extractor.XMLSchemaLearner;
 import koalacata.core.xsd.infer.extractor.XSDGenExtractor;
 import koalacata.core.xsd.mapping.matcher.AbstractMatcher;
 import koalacata.core.xsd.mapping.matcher.ComaMatcher;
+import koalacata.core.xsd.mapping.matcher.MyMatcher;
 import koalacata.core.xsd.template.XSLTGenerator;
 import koalacata.core.xsd.transfer.Transfer;
 
@@ -21,7 +22,8 @@ public class Main {
         String xmlPath = args[0];
         // AbstractExtractor xsdExtractor = new XMLSchemaLearner();
         AbstractExtractor xsdExtractor = new XSDGenExtractor();
-        AbstractMatcher matcher = new ComaMatcher();
+        // AbstractMatcher matcher = new ComaMatcher();
+        AbstractMatcher matcher = new MyMatcher();
         Transfer transfer = new Transfer();
 
         xsdExtractor.extract(new File(xmlPath));

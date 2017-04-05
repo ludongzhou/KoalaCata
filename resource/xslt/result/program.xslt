@@ -4,58 +4,58 @@
             <Program>
                 <Title>
                     <ProperTitle>
-                        <xsl:value-of select="MetaData.Program.Title.ProperTitle"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Title/ProperTitle"/>
                     </ProperTitle>
-                    <xsl:for-each select="MetaData.Program.Title.ParallelProperTitle">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Title/ParallelProperTitle">
                         <ParallelProperTitle>
                             <xsl:value-of select="current()"/>
                         </ParallelProperTitle>
                     </xsl:for-each>
                     <SubordinateTitle>
-                        <xsl:value-of select="MetaData.Program.Title.SubordinateTitle"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Title/SubordinateTitle"/>
                     </SubordinateTitle>
-                    <xsl:for-each select="MetaData.Program.Title.AlternativeTitle">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Title/AlternativeTitle">
                         <AlternativeTitle>
                             <xsl:value-of select="current()"/>
                         </AlternativeTitle>
                     </xsl:for-each>
                     <TitleDescription>
-                        <xsl:value-of select="MetaData.Program.Title.TitleDescription"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Title/TitleDescription"/>
                     </TitleDescription>
                     <Series>
                         <SeriesTitle>
-                            <xsl:value-of select="MetaData.Program.Title.Series.SeriesTitle"/>
+                            <xsl:value-of select="CMS/MetaData/Description/Program/Title/Series/SeriesTitle"/>
                         </SeriesTitle>
-                        <xsl:for-each select="MetaData.Program.Title.Series.ParallelSeriesTitle">
+                        <xsl:for-each select="CMS/MetaData/Description/Program/Title/Series/ParallelSeriesTitle">
                             <ParallelSeriesTitle>
                                 <xsl:value-of select="current()"/>
                             </ParallelSeriesTitle>
                         </xsl:for-each>
                         <TotalNumberofEpisodes>
-                            <xsl:value-of select="MetaData.Program.Title.Series.TotalNumberofEpisodes"/>
+                            <xsl:value-of select="CMS/MetaData/Description/Program/Title/Series/TotalNumberofEpisodes"/>
                         </TotalNumberofEpisodes>
                         <EpisodesNumber>
-                            <xsl:value-of select="MetaData.Program.Title.Series.EpisodesNumber"/>
+                            <xsl:value-of select="CMS/MetaData/Description/Program/Title/Series/EpisodesNumber"/>
                         </EpisodesNumber>
                     </Series>
                 </Title>
                 <Subject>
-                    <xsl:for-each select="MetaData.Program.Subject.Class">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Subject/Class">
                         <Class>
                             <Classification>
-                                <xsl:value-of select="MetaData.Program.Subject.Class.Classification"/>
+                                <xsl:value-of select="Classification"/>
                             </Classification>
                             <ClassNumber>
-                                <xsl:value-of select="MetaData.Program.Subject.Class.ClassNumber"/>
+                                <xsl:value-of select="ClassNumber"/>
                             </ClassNumber>
                         </Class>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Subject.SubjectTerm">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Subject/SubjectTerm">
                         <SubjectTerm>
                             <xsl:value-of select="current()"/>
                         </SubjectTerm>
                     </xsl:for-each>
-                    <xsl:for-each select="RECORD/Keyword">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Subject/Keyword">
                         <Keyword>
                             <xsl:value-of select="current()"/>
                         </Keyword>
@@ -63,189 +63,189 @@
                 </Subject>
                 <Description>
                     <DescriptionofContent>
-                        <xsl:value-of select="MetaData.Program.Description.DescriptionofContent"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Description/DescriptionofContent"/>
                     </DescriptionofContent>
-                    <xsl:for-each select="MetaData.Program.Description.Character">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/Character">
                         <Character>
                             <xsl:value-of select="current()"/>
                         </Character>
                     </xsl:for-each>
                     <DateofEvent>
-                        <xsl:value-of select="MetaData.Program.Description.DateofEvent"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Description/DateofEvent"/>
                     </DateofEvent>
-                    <xsl:for-each select="RECORD/Description">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/Encrypt/RemarkInformation">
                         <VersionDescription>
                             <xsl:value-of select="current()"/>
                         </VersionDescription>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Description.Awards">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/Awards">
                         <Awards>
                             <NameofAwards>
-                                <xsl:value-of select="MetaData.Program.Description.Awards.NameofAwards"/>
+                                <xsl:value-of select="NameofAwards"/>
                             </NameofAwards>
                             <ItemofAwards>
-                                <xsl:value-of select="MetaData.Program.Description.Awards.ItemofAwards"/>
+                                <xsl:value-of select="ItemofAwards"/>
                             </ItemofAwards>
-                            <xsl:for-each select="MetaData.Program.Description.Awards.WinnersofAwards">
+                            <xsl:for-each select="WinnersofAwards">
                                 <WinnersofAwards>
                                     <xsl:value-of select="current()"/>
                                 </WinnersofAwards>
                             </xsl:for-each>
                             <YearorTimeofAwards>
-                                <xsl:value-of select="MetaData.Program.Description.Awards.YearorTimeofAwards"/>
+                                <xsl:value-of select="YearorTimeofAwards"/>
                             </YearorTimeofAwards>
                             <DateofAwards>
-                                <xsl:value-of select="MetaData.Program.Description.Awards.DateofAwards"/>
+                                <xsl:value-of select="DateofAwards"/>
                             </DateofAwards>
                         </Awards>
                     </xsl:for-each>
 
-                    <xsl:for-each select="MetaData.Program.Description.Column">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/Column">
                         <Column>
                             <ColumnName>
-                                <xsl:value-of select="MetaData.Program.Description.Column.ColumnName"/>
+                                <xsl:value-of select="ColumnName"/>
                             </ColumnName>
                             <IssueNumber>
-                                <xsl:value-of select="MetaData.Program.Description.Column.IssueNumber"/>
+                                <xsl:value-of select="IssueNumber"/>
                             </IssueNumber>
                             <IssueYear>
-                                <xsl:value-of select="MetaData.Program.Description.Column.IssueYear"/>
+                                <xsl:value-of select="IssueYear"/>
                             </IssueYear>
                         </Column>
                     </xsl:for-each>
                     <Audience>
-                        <xsl:value-of select="MetaData.Program.Description.Audience"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Description/Audience"/>
                     </Audience>
                     <AdditionalLogo>
-                        <xsl:value-of select="MetaData.Program.Description.AdditionalLogo"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Description/SplendidDialogue"/>
                     </AdditionalLogo>
-                    <xsl:for-each select="MetaData.Program.Description.AudioChannel">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/AudioChannel">
                         <AudioChannel>
                             <AudioChannelNumber>
-                                <xsl:value-of select="MetaData.Program.Description.AudioChannel.AudioChannelNumber"/>
+                                <xsl:value-of select="AudioChannelNumber"/>
                             </AudioChannelNumber>
                             <AudioChannelDescription>
-                                <xsl:value-of select="MetaData.Program.Description.AudioChannel.AudioChannelDescription"/>
+                                <xsl:value-of select="AudioChannelDescription"/>
                             </AudioChannelDescription>
                         </AudioChannel>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Description.Attachment">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Description/Attachment">
                         <Attachment>
                             <xsl:value-of select="current()"/>
                         </Attachment>
                     </xsl:for-each>
                 </Description>
                 <Creator>
-                    <xsl:for-each select="MetaData.Program.Creator.DescriptionofCreator">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Creator/DescriptionofCreator">
                         <DescriptionofCreator>
                             <NameofCreator>
-                                <xsl:value-of select="MetaData.Program.Creator.DescriptionofCreator.NameofCreator"/>
+                                <xsl:value-of select="NameofCreator"/>
                             </NameofCreator>
-                            <xsl:for-each select="MetaData.Program.Creator.DescriptionofCreator.ParallelNameofCreator">
+                            <xsl:for-each select="ParallelNameofCreator">
                                 <ParallelNameofCreator>
                                     <xsl:value-of select="current()"/>
                                 </ParallelNameofCreator>
                             </xsl:for-each>
                             <Role>
-                                <xsl:value-of select="MetaData.Program.Creator.DescriptionofCreator.Role"/>
+                                <xsl:value-of select="Role"/>
                             </Role>
                             <OtherInformation>
-                                <xsl:value-of select="MetaData.Program.Creator.DescriptionofCreator.OtherInformation"/>
+                                <xsl:value-of select="OtherInformation"/>
                             </OtherInformation>
                         </DescriptionofCreator>
                     </xsl:for-each>
                 </Creator>
                 <Contributor>
-                    <xsl:for-each select="MetaData.Program.Contributor.DescriptionofContributor">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Contributor/DescriptionofContributor">
                         <DescriptionofContributor>
                             <NameofContributor>
-                                <xsl:value-of select="MetaData.Program.Contributor.DescriptionofContributor.NameofContributor"/>
+                                <xsl:value-of select="NameofContributor"/>
                             </NameofContributor>
-                            <xsl:for-each select="MetaData.Program.Contributor.DescriptionofContributor.ParallelNameofContributor">
+                            <xsl:for-each select="ParallelNameofContributor">
                                 <ParallelNameofContributor>
                                     <xsl:value-of select="current()"/>
                                 </ParallelNameofContributor>
                             </xsl:for-each>
                             <Role>
-                                <xsl:value-of select="MetaData.Program.Contributor.DescriptionofContributor.Role"/>
+                                <xsl:value-of select="Role"/>
                             </Role>
                             <OtherInformation>
-                                <xsl:value-of select="MetaData.Program.Contributor.DescriptionofContributor.OtherInformation"/>
+                                <xsl:value-of select="OtherInformation"/>
                             </OtherInformation>
                         </DescriptionofContributor>
                     </xsl:for-each>
                 </Contributor>
                 <Publisher>
-                    <xsl:for-each select="MetaData.Program.Publisher.DescriptionofPublisher">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Publisher/DescriptionofPublisher">
                         <DescriptionofPublisher>
                             <NameofPublisher>
-                                <xsl:value-of select="MetaData.Program.Publisher.DescriptionofPublisher.NameofPublisher"/>
+                                <xsl:value-of select="NameofPublisher"/>
                             </NameofPublisher>
                             <PlaceofPublication>
                                 <xsl:value-of select="MetaData.Program.Publisher.DescriptionofPublisher.PlaceofPublication"/>
                             </PlaceofPublication>
                         </DescriptionofPublisher>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Publisher.DescriptionofProducer">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Publisher/DescriptionofProducer">
                         <DescriptionofProducer>
                             <NameofProducer>
-                                <xsl:value-of select="MetaData.Program.Publisher.DescriptionofProducer.NameofProducer"/>
+                                <xsl:value-of select="NameofProducer"/>
                             </NameofProducer>
                             <PlaceofProduction>
-                                <xsl:value-of select="MetaData.Program.Publisher.DescriptionofProducer.PlaceofProduction"/>
+                                <xsl:value-of select="YearofProduction"/>
                             </PlaceofProduction>
                         </DescriptionofProducer>
                     </xsl:for-each>
                 </Publisher>
                 <Copyright>
-                    <xsl:for-each select="MetaData.Program.Copyright.DescriptionofAuthorizedUse">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Copyright/AuthorizeDescription/AuthorizeEndDate">
                         <DescriptionofAuthorizedUse>
                             <TimesofAuthorizedUsage>
-                                <xsl:value-of select="MetaData.Program.Copyright.DescriptionofAuthorizedUse.TimesofAuthorizedUsage"/>
+                                <xsl:value-of select="horizedUsage"/>
                             </TimesofAuthorizedUsage>
                         </DescriptionofAuthorizedUse>
                     </xsl:for-each>
                 </Copyright>
                 <Language>
-                    <xsl:for-each select="MetaData.Program.Language.AudioChannel">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Language/AudioChannel">
                         <AudioChannel>
                             <AudioChannelNumber>
-                                <xsl:value-of select="MetaData.Program.Language.AudioChannel.AudioChannelNumber"/>
+                                <xsl:value-of select="AudioChannelNumber"/>
                             </AudioChannelNumber>
                             <AudioChannelLanguage>
-                                <xsl:value-of select="MetaData.Program.Language.AudioChannel.AudioChannelLanguage"/>
+                                <xsl:value-of select="AudioChannelLanguage"/>
                             </AudioChannelLanguage>
                         </AudioChannel>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Language.Subtitle">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Language/Subtitle">
                         <Subtitle>
                             <SubtitleNumber>
-                                <xsl:value-of select="MetaData.Program.Language.Subtitle.SubtitleNumber"/>
+                                <xsl:value-of select="SubtitleNumber"/>
                             </SubtitleNumber>
                             <SubtitleLanguage>
-                                <xsl:value-of select="MetaData.Program.Language.Subtitle.SubtitleLanguage"/>
+                                <xsl:value-of select="SubtitleLanguage"/>
                             </SubtitleLanguage>
                         </Subtitle>
                     </xsl:for-each>
                 </Language>
                 <Date>
                     <ProducedDate>
-                        <xsl:value-of select="MetaData.Program.Date.ProducedDate"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Date/ProducedDate"/>
                     </ProducedDate>
                     <DateofDebut>
-                        <xsl:value-of select="MetaData.Program.Date.DateofDebut"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Date/Debut/Remark"/>
                     </DateofDebut>
                     <PublishedDate>
-                        <xsl:value-of select="RECORD/PublishDate"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Date/PublishedDate"/>
                     </PublishedDate>
                 </Date>
                 <Type>
-                    <xsl:for-each select="RECORD/ProgramTime">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Type/ResourceClass">
                         <ProgramType>
                             <xsl:value-of select="current()"/>
                         </ProgramType>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Type.ProgramForm">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Type/ProgramForm">
                         <ProgramForm>
                             <xsl:value-of select="current()"/>
                         </ProgramForm>
@@ -253,72 +253,72 @@
                 </Type>
                 <Format>
                     <Duration>
-                        <xsl:value-of select="RECORD/Duration"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/Duration"/>
                     </Duration>
                     <StartingPoint>
-                        <xsl:value-of select="MetaData.Program.Format.StartingPoint"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/StartingPoint"/>
                     </StartingPoint>
                     <Color>
-                        <xsl:value-of select="MetaData.Program.Format.Color"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/Color"/>
                     </Color>
                     <SubtitleForm>
                         <xsl:value-of select="MetaData.Program.Format.SubtitleForm"/>
                     </SubtitleForm>
                     <AudioChannelFormat>
-                        <xsl:value-of select="MetaData.Program.Format.AudioChannelFormat"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioChannelFormat"/>
                     </AudioChannelFormat>
                     <AudioQuality>
-                        <xsl:value-of select="MetaData.Program.Format.AudioQuality"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioQuality"/>
                     </AudioQuality>
                     <VideoQuality>
-                        <xsl:value-of select="MetaData.Program.Format.VideoQuality"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoQuality"/>
                     </VideoQuality>
                     <AspectRatio>
-                        <xsl:value-of select="MetaData.Program.Format.AspectRatio"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AspectRatio"/>
                     </AspectRatio>
                     <PhysicalMediaType>
-                        <xsl:value-of select="MetaData.Program.Format.PhysicalMediaType"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/PhysicalMediaType"/>
                     </PhysicalMediaType>
                     <System>
-                        <xsl:value-of select="MetaData.Program.Format.System"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/System"/>
                     </System>
                     <AudioDataRate>
-                        <xsl:value-of select="MetaData.Program.Format.AudioDataRate"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioDataRate"/>
                     </AudioDataRate>
                     <AudioCodingFormat>
-                        <xsl:value-of select="MetaData.Program.Format.AudioCodingFormat"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioCodingFormat"/>
                     </AudioCodingFormat>
                     <AudioSamplingFrequency>
-                        <xsl:value-of select="MetaData.Program.Format.AudioSamplingFrequency"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioSamplingFrequency"/>
                     </AudioSamplingFrequency>
                     <AudioBitDepth>
-                        <xsl:value-of select="MetaData.Program.Format.AudioBitDepth"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/AudioBitDepth"/>
                     </AudioBitDepth>
                     <VideoBitrate>
-                        <xsl:value-of select="MetaData.Program.Format.VideoBitrate"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoBitrate"/>
                     </VideoBitrate>
                     <VideoCodingFormat>
-                        <xsl:value-of select="MetaData.Program.Format.VideoCodingFormat"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoCodingFormat"/>
                     </VideoCodingFormat>
                     <VideoSamplingType>
-                        <xsl:value-of select="MetaData.Program.Format.VideoSamplingType"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/VideoSamplingType"/>
                     </VideoSamplingType>
                     <FileFormat>
-                        <xsl:value-of select="MetaData.Program.Format.FileFormat"/>
+                        <xsl:value-of select="CMS/MetaData/Description/Program/Format/FileFormat"/>
                     </FileFormat>
                 </Format>
                 <Coverage>
-                    <xsl:for-each select="MetaData.Program.Coverage.YearsCovered">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Coverage/YearsCovered">
                         <YearsCovered>
                             <YearofStart>
-                                <xsl:value-of select="MetaData.Program.Coverage.YearsCovered.YearofStart"/>
+                                <xsl:value-of select="YearofStart"/>
                             </YearofStart>
                             <YearofEnd>
-                                <xsl:value-of select="MetaData.Program.Coverage.YearsCovered.YearofEnd"/>
+                                <xsl:value-of select="YearofEnd"/>
                             </YearofEnd>
                         </YearsCovered>
                     </xsl:for-each>
-                    <xsl:for-each select="MetaData.Program.Coverage.Spatial">
+                    <xsl:for-each select="CMS/MetaData/Description/Program/Coverage/Spatial">
                         <Spatial>
                             <xsl:value-of select="current()"/>
                         </Spatial>
