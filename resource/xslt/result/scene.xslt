@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <MetaData>
-            
-        <Scene>
+            <xsl:for-each select="MetaData.Scene">
+                <Scene>
                     <Title>
                         <SceneTitle>
                             <xsl:value-of select="MetaData.Scene.Title.SceneTitle"/>
@@ -43,6 +43,8 @@
                             <xsl:value-of select="MetaData.Scene.Format.SubtitleForm"/>
                         </SubtitleForm>
                     </Format>
-                </Scene></MetaData>
+                </Scene>
+            </xsl:for-each>
+        </MetaData>
     </xsl:template>
 </xsl:stylesheet>

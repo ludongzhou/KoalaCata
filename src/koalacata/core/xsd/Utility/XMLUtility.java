@@ -13,10 +13,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.IOException;
-import java.io.StringReader;
-import java.io.StringWriter;
-import java.io.Writer;
+import javax.xml.transform.stream.StreamSource;
+import java.io.*;
 
 /**
  * Created by zhouludong on 2017/4/6.
@@ -93,5 +91,26 @@ public class XMLUtility {
         Node root = resultDoc.importNode(doc.getDocumentElement(), true);
         resultDoc.appendChild(root);
         return resultDoc;
+    }
+
+    public static String removeNS(String docString) {
+        try{
+            TransformerFactory factory = TransformerFactory.newInstance();
+            Source xslt = new StreamSource(new File("removeNS.xsl"));
+            Transformer transformer = factory.newTransformer(xslt);
+
+            StringWriter outWriter = new StringWriter();
+            StreamResult result = new StreamResult( outWriter );
+
+            Source text = new StreamSource(new ByteArrayInputStream(docString.getBytes()));
+            transformer.transform(text, result);
+            StringBuffer sb = outWriter.getBuffer();
+            return sb.toString();
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

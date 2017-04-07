@@ -1,5 +1,8 @@
 package koalacata.core.xsd.transfer;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,6 +11,7 @@ import java.io.InputStreamReader;
  * Created by zhouludong on 2017/3/15.
  */
 public class Transfer {
+    private Logger logger = LogManager.getLogger();
     public String start(String xmlPath) {
         String xslFolder = "resource/xslt/result";
         try {
