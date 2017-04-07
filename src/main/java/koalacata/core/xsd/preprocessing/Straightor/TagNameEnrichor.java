@@ -1,6 +1,6 @@
-package koalacata.core.xsd.preprocessing.Straightor;
+package main.java.koalacata.core.xsd.preprocessing.Straightor;
 
-import koalacata.core.xsd.Utility.XMLUtility;
+import main.java.koalacata.core.xsd.Utility.XMLUtility;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

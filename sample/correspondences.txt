@@ -1,6 +1,0 @@
-- RECORD.sequence <-> MetaData.Sequence: 0.488235
-- RECORD.Language <-> MetaData.Program.Language: 0.424000
-- RECORD.Name <-> MetaData.Program.Title.ProperTitle: 0.313725
-- RECORD.Keyword <-> MetaData.Shot.Subject.Keyword: 0.377011
-- RECORD.Duration <-> MetaData.Shot.Format.Duration: 0.390805
-- RECORD.Description <-> MetaData.Shot.Description: 0.472000

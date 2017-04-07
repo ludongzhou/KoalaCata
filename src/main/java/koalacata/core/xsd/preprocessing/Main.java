@@ -1,6 +1,6 @@
-package koalacata.core.xsd.preprocessing;
+package main.java.koalacata.core.xsd.preprocessing;
 
-import koalacata.core.xsd.preprocessing.Processor.PreProcessor;
+import main.java.koalacata.core.xsd.preprocessing.Processor.PreProcessor;
 
 import java.io.File;
 

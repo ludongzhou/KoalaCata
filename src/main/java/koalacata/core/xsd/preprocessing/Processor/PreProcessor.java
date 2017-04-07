@@ -1,25 +1,18 @@
-package koalacata.core.xsd.preprocessing.Processor;
+package main.java.koalacata.core.xsd.preprocessing.Processor;
 
-import koalacata.core.xsd.Utility.XMLUtility;
-import koalacata.core.xsd.preprocessing.Straightor.AbstractStraightor;
-import koalacata.core.xsd.preprocessing.Straightor.TagNameEnrichor;
+import main.java.koalacata.core.xsd.Utility.XMLUtility;
+import main.java.koalacata.core.xsd.preprocessing.Straightor.AbstractStraightor;
+import main.java.koalacata.core.xsd.preprocessing.Straightor.TagNameEnrichor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
 import java.util.ArrayList;
 
 import static java.lang.System.exit;
