@@ -1,6 +1,6 @@
-package main.java.koalacata.core.xsd.preprocessing;
+package koalacata.core.xsd.preprocessing;
 
-import main.java.koalacata.core.xsd.preprocessing.Processor.PreProcessor;
+import koalacata.core.xsd.preprocessing.Processor.PreProcessor;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class Main {
     public static void main(String[] args) {
-        PreProcessor preProcessor = new PreProcessor(new File("sample/preprocess.xml"));
+        PreProcessor preProcessor = new PreProcessor(new File("test/resources/XMLSample/preprocess.xml"));
         preProcessor.process();
         System.out.println(preProcessor.getDocString());
     }

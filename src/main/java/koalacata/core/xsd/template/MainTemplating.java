@@ -28,7 +28,7 @@ public class MainTemplating {
         try {
             File dir = new File("resource/xslt/template/original");
             for (File file: dir.listFiles()) {
-                if (file.isFile() && file.getName().endsWith("xslt")) {
+                if (file.isFile() && file.getName().endsWith("XSLTTemplate")) {
                     Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);
                     document.getDocumentElement().normalize();
                     Element root = (Element) document.getDocumentElement().getElementsByTagName("MetaData").item(0);

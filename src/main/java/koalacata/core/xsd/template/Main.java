@@ -5,7 +5,7 @@ package koalacata.core.xsd.template;
  */
 public class Main {
     public static void main(String[] args) {
-        XSLTGenerator generator = new XSLTGenerator("sample/correspondences.txt");
+        XSLTGenerator generator = new XSLTGenerator("test/resources/XMLSample/correspondences.txt");
         generator.generateXLST();
     }
 }

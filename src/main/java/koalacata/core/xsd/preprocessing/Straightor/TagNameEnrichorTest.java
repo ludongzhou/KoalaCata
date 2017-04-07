@@ -1,4 +1,4 @@
-package main.java.koalacata.core.xsd.preprocessing.Straightor;
+package koalacata.core.xsd.preprocessing.Straightor;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;

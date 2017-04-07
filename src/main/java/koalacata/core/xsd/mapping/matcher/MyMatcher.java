@@ -20,7 +20,7 @@ public class MyMatcher extends AbstractMatcher{
     private double simThreshold = 0.3;
 
     public MyMatcher(File source, File target) { // with default dict file
-        this(source, target, new File("resource/thesaurus.dict"));
+        this(source, target, new File("main/resources/thesaurus.dict"));
     }
 
     public MyMatcher(File source, File target, File dictFile) {
@@ -208,7 +208,7 @@ public class MyMatcher extends AbstractMatcher{
         this.dict = new HashMap<>();
         rawResults = new HashMap<>();
         results = new ArrayList<>();
-        this.loadDict(new File("resource/thesaurus.dict"));
+        this.loadDict(new File("main/resources/thesaurus.dict"));
         this.match();
     }
 

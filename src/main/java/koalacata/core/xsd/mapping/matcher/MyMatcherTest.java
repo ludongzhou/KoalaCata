@@ -9,8 +9,8 @@ public class MyMatcherTest {
     public static void main(String[] args) {
         MyMatcher myMatcher = new MyMatcher(
                 new File("resource/xsd/source.xsd"),
-                new File("resource/xsd/standard.xsd"),
-                new File("resource/thesaurus.dict"));
+                new File("main/resources/standard.xsd"),
+                new File("main/resources/thesaurus.dict"));
         myMatcher.match();
         System.out.println(myMatcher.getCorrespondence());
     }

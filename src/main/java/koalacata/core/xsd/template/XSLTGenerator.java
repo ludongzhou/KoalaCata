@@ -40,7 +40,7 @@ public class XSLTGenerator {
     public void generateXLST() {
         try {
             for (String xsltPath : xsltSet) {
-                // get xslt document
+                // get XSLTTemplate document
                 File xsltFile = new File(xsltPath);
                 Document xsltDocument = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(xsltFile);
                 xsltDocument.getDocumentElement().normalize();
@@ -181,7 +181,7 @@ public class XSLTGenerator {
 
         File dir = new File(dirPath);
         for (File file : dir.listFiles()) {
-            if (file.isFile() && file.getName().endsWith("xslt")) {
+            if (file.isFile() && file.getName().endsWith("XSLTTemplate")) {
                 hashSet.add(file.getAbsolutePath());
             }
         }

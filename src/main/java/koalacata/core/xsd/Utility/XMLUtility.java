@@ -46,7 +46,7 @@ public class XMLUtility {
         }
         tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         tf.setOutputProperty(OutputKeys.INDENT, "yes");
-        tf.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+        tf.setOutputProperty("{http://xml.apache.org/XSLTTemplate}indent-amount", "4");
         Writer out = new StringWriter();
         try {
             tf.transform(new DOMSource(doc), new StreamResult(out));
@@ -96,7 +96,7 @@ public class XMLUtility {
     public static String removeNS(String docString) {
         try{
             TransformerFactory factory = TransformerFactory.newInstance();
-            Source xslt = new StreamSource(new File("removeNS.xsl"));
+            Source xslt = new StreamSource(new File("main/resources/removeNS.xsl"));
             Transformer transformer = factory.newTransformer(xslt);
 
             StringWriter outWriter = new StringWriter();

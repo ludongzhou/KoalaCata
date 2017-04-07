@@ -1,7 +1,5 @@
 package koalacata.gui;
 
-import sun.plugin.javascript.JSClassLoader;
-
 import javax.swing.*;
 import java.awt.GridLayout;
 import java.awt.FlowLayout;

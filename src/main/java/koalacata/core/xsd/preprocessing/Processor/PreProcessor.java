@@ -1,8 +1,8 @@
-package main.java.koalacata.core.xsd.preprocessing.Processor;
+package koalacata.core.xsd.preprocessing.Processor;
 
-import main.java.koalacata.core.xsd.Utility.XMLUtility;
-import main.java.koalacata.core.xsd.preprocessing.Straightor.AbstractStraightor;
-import main.java.koalacata.core.xsd.preprocessing.Straightor.TagNameEnrichor;
+import koalacata.core.xsd.Utility.XMLUtility;
+import koalacata.core.xsd.preprocessing.Straightor.AbstractStraightor;
+import koalacata.core.xsd.preprocessing.Straightor.TagNameEnrichor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;

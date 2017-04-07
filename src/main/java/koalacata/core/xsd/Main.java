@@ -8,6 +8,7 @@ import koalacata.core.xsd.mapping.matcher.MyMatcher;
 import koalacata.core.xsd.preprocessing.Processor.PreProcessor;
 import koalacata.core.xsd.template.XSLTGenerator;
 import koalacata.core.xsd.transfer.Transfer;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,7 +24,7 @@ public class Main {
     public static Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
         String xmlPath = args[0];
-        String tempFilePath = "temp/source.xml";
+        String tempFilePath = "tmp/source.xml";
 
         PreProcessor preprocessor = new PreProcessor();
         // AbstractExtractor xsdExtractor = new XMLSchemaLearner();
@@ -41,10 +42,10 @@ public class Main {
         String sourceXSD = xsdExtractor.getXSD();
         write2File(sourceXSD, "resource/xsd/source.xsd");
 
-        matcher.match("resource/xsd/source.xsd", "resource/xsd/standard.xsd");
+        matcher.match("resource/xsd/source.xsd", "main/resources/standard.xsd");
 
         String correspondences = matcher.getCorrespondence();
-        String crspdsPath = "sample/correspondences.txt";
+        String crspdsPath = "test/resources/XMLSample/correspondences.txt";
         write2File(correspondences, crspdsPath);
 
         XSLTGenerator generator = new XSLTGenerator(crspdsPath);

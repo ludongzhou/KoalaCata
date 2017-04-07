@@ -1,4 +1,4 @@
-package main.java.koalacata.core.xsd.preprocessing.Straightor;
+package koalacata.core.xsd.preprocessing.Straightor;
 
 import org.w3c.dom.Document;
 
