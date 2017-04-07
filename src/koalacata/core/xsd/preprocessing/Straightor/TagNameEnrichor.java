@@ -7,6 +7,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 /**
  * Created by zhouludong on 2017/4/5.
@@ -18,7 +19,7 @@ public class TagNameEnrichor extends AbstractStraightor {
     // given a doc, return resultDoc
     @Override
     public Document run(Document doc) {
-        Document resultDoc = XMLUtility.getCopiedDoc(doc);
+        resultDoc = XMLUtility.getCopiedDoc(doc);
         Element resultRoot = resultDoc.getDocumentElement();
         simplifyAttrItem(resultRoot);
         return resultDoc;
@@ -35,7 +36,7 @@ public class TagNameEnrichor extends AbstractStraightor {
                 Element child = (Element) node;
 
                 String tagName = child.getTagName();
-                if (tagName.equals("AttributeItem")) {
+                if (tagName.equals("AttributeItem") && child.hasChildNodes()) {
                     elements2Add.add(flatten(child));
                     elements2Delete.add(child);
                 }
@@ -60,13 +61,15 @@ public class TagNameEnrichor extends AbstractStraightor {
         String newTagName = getItemCode(element);
 
         if (!newTagName.isEmpty()) {
+            newTagName = newTagName.replaceAll(" ", "");
             Element newElement = resultDoc.createElement(newTagName);
             String newValue = getValue(element);
 
+            // if this is leaf element
             if (!newValue.isEmpty()) {
                 newElement.setTextContent(newValue);
             }
-            else {
+            else { // this is not a leaf, it's a inner node
                 adoptUsefulChildren(newElement, element);
             }
 
@@ -78,7 +81,21 @@ public class TagNameEnrichor extends AbstractStraightor {
     }
 
     private void adoptUsefulChildren(Element newElement, Element element) {
-        // TODO
+
+        /*
+          element is a inner node, not leaf so adopt all children except "ItemCode" and "ItemName"
+         */
+        HashSet<String> uselessNodeName = new HashSet<>();
+        uselessNodeName.add("ItemCode");
+        uselessNodeName.add("ItemName");
+
+        NodeList nodeList = element.getChildNodes();
+        for (int i = 0; i < nodeList.getLength(); i++) {
+            Node node = nodeList.item(i);
+            if (node.getNodeType() == Element.ELEMENT_NODE && !uselessNodeName.contains(node.getNodeName())) {
+                newElement.appendChild(node.cloneNode(true));
+            }
+        }
     }
 
     private String getValue(Element element) {
@@ -90,7 +107,7 @@ public class TagNameEnrichor extends AbstractStraightor {
     }
 
     private String getChildElementValue(Element element, String tagName) {
-        NodeList nodeList = element.getElementsByTagName(tagName);
+        NodeList nodeList = element.getChildNodes();
 
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
@@ -98,7 +115,7 @@ public class TagNameEnrichor extends AbstractStraightor {
             if (node.getNodeType() == Element.ELEMENT_NODE) {
                 Element child = (Element) node;
                 if (child.getTagName().equals(tagName)) {
-                    return child.getNodeValue();
+                    return child.getTextContent();
                 }
             }
         }

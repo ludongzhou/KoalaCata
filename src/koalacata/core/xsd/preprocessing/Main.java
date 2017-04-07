@@ -11,5 +11,6 @@ public class Main {
     public static void main(String[] args) {
         PreProcessor preProcessor = new PreProcessor(new File("sample/preprocess.xml"));
         preProcessor.process();
+        System.out.println(preProcessor.toString());
     }
 }
