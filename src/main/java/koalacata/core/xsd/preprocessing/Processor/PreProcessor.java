@@ -42,7 +42,7 @@ public class PreProcessor {
 
     private void init() {
         if (!sourceFile.exists()) {
-            System.out.println("file not found");
+            logger.error("source xml file not found: " + sourceFile.getPath());
             exit(1);
         }
         readFileContent();

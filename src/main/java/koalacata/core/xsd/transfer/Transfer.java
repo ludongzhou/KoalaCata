@@ -12,8 +12,9 @@ import java.io.InputStreamReader;
  */
 public class Transfer {
     private Logger logger = LogManager.getLogger();
+
     public String start(String xmlPath) {
-        String xslFolder = "resource/xslt/result";
+        String xslFolder = "tmp/XSLT";
         try {
             String[] cmds = new String[5];
 

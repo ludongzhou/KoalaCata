@@ -42,7 +42,7 @@ class XMLFormatter:
             self.raw_xml = ''
             return 3
 
-        XSLFiles = glob.glob(self.xsl_path + "/*.xslt")
+        XSLFiles = glob.glob(self.xsl_path + "/*.xsl")
         if len(XSLFiles) == 0:
             logging.error("xsl files: %s not exist" % self.xsl_path)
             return 2

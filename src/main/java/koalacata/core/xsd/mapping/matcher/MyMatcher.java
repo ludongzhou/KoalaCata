@@ -1,5 +1,7 @@
 package koalacata.core.xsd.mapping.matcher;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -15,12 +17,14 @@ import java.util.*;
  * Created by zhouludong on 2017/4/4.
  */
 public class MyMatcher extends AbstractMatcher{
+    private Logger logger = LogManager.getLogger();
+
     private ArrayList<String> results;
     private HashMap<String, TreeSet<Entry>> rawResults;
     private double simThreshold = 0.3;
 
     public MyMatcher(File source, File target) { // with default dict file
-        this(source, target, new File("main/resources/thesaurus.dict"));
+        this(source, target, new File("src/main/resources/thesaurus.dict"));
     }
 
     public MyMatcher(File source, File target, File dictFile) {
@@ -54,7 +58,7 @@ public class MyMatcher extends AbstractMatcher{
             }
         }
         else {
-            System.out.println("dict file not found");
+            logger.error("dict file not found");
         }
     }
 
@@ -63,14 +67,14 @@ public class MyMatcher extends AbstractMatcher{
         ArrayList<String> sourceElements = getElements(this.sourceFile);
         ArrayList<String> targetElements = getElements(this.targetFile);
 
-        System.out.println("1");
+        logger.debug("1");
         for (String sourceElement: sourceElements) {
             for (String targetElement: targetElements) {
                 double similarity = calcSimilarity(sourceElement, targetElement);
                 addSubResult(sourceElement, targetElement, similarity);
             }
         }
-        System.out.println("2");
+        logger.debug("2");
         storeResult();
     }
 
@@ -208,7 +212,7 @@ public class MyMatcher extends AbstractMatcher{
         this.dict = new HashMap<>();
         rawResults = new HashMap<>();
         results = new ArrayList<>();
-        this.loadDict(new File("main/resources/thesaurus.dict"));
+        this.loadDict(new File("src/main/resources/thesaurus.dict"));
         this.match();
     }
 

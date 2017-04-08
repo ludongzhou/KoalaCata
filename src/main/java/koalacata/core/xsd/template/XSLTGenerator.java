@@ -27,7 +27,8 @@ import java.util.regex.Pattern;
  * Created by zhouludong on 2017/3/9.
  */
 public class XSLTGenerator {
-    private String xsltDir = "resource/xslt/template/";
+    private String xsltDir = "src/main/resources/XSLTTemplate/";
+    private String xsltResultDir = "tmp/XSLT/";
     private TreeMap<String, String> sortedMap;
     private HashSet<String> xsltSet;
 
@@ -123,7 +124,7 @@ public class XSLTGenerator {
         try {
             transformer = TransformerFactory.newInstance().newTransformer();
             DOMSource source = new DOMSource(xsltDocument);
-            StreamResult result = new StreamResult(new File("resource/xslt/result/" + xsltFile.getName()));
+            StreamResult result = new StreamResult(new File(this.xsltResultDir + xsltFile.getName()));
             transformer.transform(source, result);
         } catch (TransformerException e) {
             e.printStackTrace();
@@ -181,7 +182,7 @@ public class XSLTGenerator {
 
         File dir = new File(dirPath);
         for (File file : dir.listFiles()) {
-            if (file.isFile() && file.getName().endsWith("XSLTTemplate")) {
+            if (file.isFile() && file.getName().endsWith("xsl")) {
                 hashSet.add(file.getAbsolutePath());
             }
         }

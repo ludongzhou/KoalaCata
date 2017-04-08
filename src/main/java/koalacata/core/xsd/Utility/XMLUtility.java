@@ -96,7 +96,7 @@ public class XMLUtility {
     public static String removeNS(String docString) {
         try{
             TransformerFactory factory = TransformerFactory.newInstance();
-            Source xslt = new StreamSource(new File("main/resources/removeNS.xsl"));
+            Source xslt = new StreamSource(new File("src/main/resources/removeNS.xsl"));
             Transformer transformer = factory.newTransformer(xslt);
 
             StringWriter outWriter = new StringWriter();

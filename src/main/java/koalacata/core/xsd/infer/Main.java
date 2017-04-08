@@ -4,7 +4,7 @@ package koalacata.core.xsd.infer;
  * Created by zhouludong on 2017/1/18.
  */
 
-import main.java.koalacata.core.xsd.infer.extractor.XSDGenExtractor;
+import koalacata.core.xsd.infer.extractor.XSDGenExtractor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
