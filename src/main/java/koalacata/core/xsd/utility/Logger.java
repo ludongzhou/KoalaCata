@@ -1,4 +1,4 @@
-package koalacata.core.xsd.Utility;
+package koalacata.core.xsd.utility;
 
 /**
  * Created by zhouludong on 2017/4/7.

@@ -1,6 +1,10 @@
 package koalacata.core.xsd.infer.extractor;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 /**
  * Created by zhouludong on 2017/3/6.

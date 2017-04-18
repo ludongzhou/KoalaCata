@@ -1,6 +1,6 @@
 package koalacata.core.xsd;
 
-import koalacata.core.xsd.Utility.XMLUtility;
+import koalacata.core.xsd.utility.XMLUtility;
 import koalacata.core.xsd.infer.extractor.AbstractExtractor;
 import koalacata.core.xsd.infer.extractor.XSDGenExtractor;
 import koalacata.core.xsd.mapping.matcher.AbstractMatcher;
@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 
-import static koalacata.core.xsd.Utility.FileUtility.write2File;
+import static koalacata.core.xsd.utility.FileUtility.write2File;
 
 /**
  * Created by zhouludong on 2017/4/8.

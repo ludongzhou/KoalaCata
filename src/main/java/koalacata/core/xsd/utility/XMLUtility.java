@@ -1,4 +1,4 @@
-package koalacata.core.xsd.Utility;
+package koalacata.core.xsd.utility;
 
 import org.apache.xml.serialize.OutputFormat;
 import org.apache.xml.serialize.XMLSerializer;

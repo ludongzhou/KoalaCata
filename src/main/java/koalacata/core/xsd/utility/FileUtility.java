@@ -1,4 +1,4 @@
-package koalacata.core.xsd.Utility;
+package koalacata.core.xsd.utility;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

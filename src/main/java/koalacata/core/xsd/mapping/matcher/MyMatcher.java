@@ -1,5 +1,7 @@
 package koalacata.core.xsd.mapping.matcher;
 
+import koalacata.core.xsd.utility.StringUtility;
+import koalacata.core.xsd.mapping.matcher.entry.SimEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
@@ -20,7 +22,7 @@ public class MyMatcher extends AbstractMatcher{
     private Logger logger = LogManager.getLogger();
 
     private ArrayList<String> results;
-    private HashMap<String, TreeSet<Entry>> rawResults;
+    private HashMap<String, TreeSet<SimEntry>> rawResults;
     private double simThreshold = 0.3;
 
     public MyMatcher(File source, File target) { // with default dict file
@@ -67,40 +69,63 @@ public class MyMatcher extends AbstractMatcher{
         ArrayList<String> sourceElements = getElements(this.sourceFile);
         ArrayList<String> targetElements = getElements(this.targetFile);
 
-        logger.debug("1");
         for (String sourceElement: sourceElements) {
             for (String targetElement: targetElements) {
                 double similarity = calcSimilarity(sourceElement, targetElement);
                 addSubResult(sourceElement, targetElement, similarity);
             }
         }
-        logger.debug("2");
+
         storeResult();
     }
 
     private void storeResult() {
         for (String sourceElement: rawResults.keySet()) {
-            Entry headEntry = rawResults.get(sourceElement).last();
-            if (headEntry.similarity >= simThreshold) {
-                String subResult = String.format("- %s <-> %s: %f", sourceElement, headEntry.element, headEntry.similarity);
+            SimEntry headSimEntry = rawResults.get(sourceElement).last();
+            if (headSimEntry.similarity >= simThreshold) {
+                String subResult = String.format("- %s <-> %s: %f", sourceElement, headSimEntry.element, headSimEntry.similarity);
                 results.add(subResult);
             }
         }
     }
 
     private void addSubResult(String sourceElement, String targetElement, double similarity) {
-        Entry entry = new Entry();
-        entry.element = targetElement;
-        entry.similarity = similarity;
+        SimEntry simEntry = new SimEntry();
+        simEntry.element = targetElement;
+        simEntry.similarity = similarity;
+
+        if (containLayer(sourceElement) == 0 && containLayer(targetElement) != 1) {
+            simEntry.similarity = 0;
+        }
+
         if (rawResults.containsKey(sourceElement)) {
-            rawResults.get(sourceElement).add(entry);
+            rawResults.get(sourceElement).add(simEntry);
         }
         else {
             TComparator tc = new TComparator();
-            TreeSet<Entry> treeSet = new TreeSet<>(tc);
-            treeSet.add(entry);
+            TreeSet<SimEntry> treeSet = new TreeSet<>(tc);
+            treeSet.add(simEntry);
             rawResults.put(sourceElement, treeSet);
         }
+    }
+
+    private int containLayer(String element) {
+        int rtn = 0;
+
+        if (element.toLowerCase().contains("program")) {
+            rtn = 1;
+        }
+        else if (element.toLowerCase().contains("sequence")) {
+            rtn = 2;
+        }
+        else if (element.toLowerCase().contains("scene")) {
+            rtn = 3;
+        }
+        else if (element.toLowerCase().contains("shot")) {
+            rtn = 4;
+        }
+
+        return rtn;
     }
 
     private double calcSimilarity(String sourceElement, String targetElement) {
@@ -122,7 +147,7 @@ public class MyMatcher extends AbstractMatcher{
             lastMatch = true;
         }
 
-        int editDistance = EDIST.editDistDP(sourceElement, targetElement, sourceElement.length(), targetElement.length());
+        int editDistance = StringUtility.editDistDP(sourceElement, targetElement, sourceElement.length(), targetElement.length());
         int maxDistance = Math.max(sourceElement.length(), targetElement.length());
         int sourceLen = sourceWords.length, targetLen = targetWords.length, uniqueLen = uniqueWords.size();
 
@@ -225,48 +250,16 @@ public class MyMatcher extends AbstractMatcher{
         return sb.toString();
     }
 
-    static class EDIST {
-        static int min(int x, int y, int z) {
-            if (x < y && x < z) return x;
-            if (y < x && y < z) return y;
-            else return z;
-        }
-
-        static int editDistDP(String str1, String str2, int m, int n) {
-            int dp[][] = new int[m + 1][n + 1];
-
-            for (int i = 0; i <= m; i++) {
-                for (int j = 0; j <= n; j++) {
-                    if (i == 0)
-                        dp[i][j] = j;  // Min. operations = j
-                    else if (j == 0)
-                        dp[i][j] = i; // Min. operations = i
-                    else if (str1.charAt(i - 1) == str2.charAt(j - 1))
-                        dp[i][j] = dp[i - 1][j - 1];
-                    else
-                        dp[i][j] = 1 + min(dp[i][j - 1],  // Insert
-                                dp[i - 1][j],  // Remove
-                                dp[i - 1][j - 1]); // Replace
-                }
-            }
-
-            return dp[m][n];
-        }
-    }
-
-    class Entry {
-        public String element;
-        public double similarity;
-    }
-
-    class TComparator implements Comparator<Entry> {
+    class TComparator implements Comparator<SimEntry> {
 
         @Override
-        public int compare(Entry entry0, Entry entry1) {
-            if (entry0.similarity > entry1.similarity) {
+        public int compare(SimEntry simEntry0, SimEntry simEntry1) {
+            HashSet<String> sourceWords = new HashSet<>();
+
+            if (simEntry0.similarity > simEntry1.similarity) {
                 return 1;
             }
-            else if (entry0.similarity == entry1.similarity) {
+            else if (simEntry0.similarity == simEntry1.similarity) {
                 return 0;
             }
             else {
