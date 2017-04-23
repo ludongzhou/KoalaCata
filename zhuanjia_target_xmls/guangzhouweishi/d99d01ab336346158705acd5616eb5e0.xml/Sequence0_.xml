@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>良辰吉日</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>阿喜准备去找江逍遥，在戴瑞花的房间外被戴老爷发现便让阿喜去找何仙姑帮忙算日子入洞房。江老爷知道后，于是便给了何仙姑100块让她想办拖延。谁知道何仙姑也收了戴老爷的钱并告诉戴老爷三天后便是良辰吉日。</DescriptionofContent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语（粤语）</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Format>
+      <Duration>0:5:52</Duration>
+      <StartingPoint>0:1:15</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市</Spatial>
+    </Coverage>
+  </Sequence>
+  </Metadata>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>餐厅关门整顿</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>为了餐厅生意，贵元效仿阿崔扮成娘娘腔拉生意。婵父得知贵元的举动后，大发雷霆，勒令妙婵将餐厅关门整顿。</DescriptionofContent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语（粤语）</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Format>
+      <Duration>0:2:48</Duration>
+      <StartingPoint>0:19:26</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市</Spatial>
+    </Coverage>
+  </Sequence>
+</Metadata>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>京珠高速车祸 六死一伤</ProperTitle>
+    </Title>
+    <Subject>
+      <Class>
+        <Classification>广播电视节目资料分类法</Classification>
+        <ClassNumber>S;社会生活与社会问题</ClassNumber>
+      </Class>
+      <Keyword>广东 韶关 京珠高速 车祸 交通事故</Keyword>
+    </Subject>
+    <Description>
+      <DateofEvent>2008-05-24 10:02:14</DateofEvent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Contributor>
+      <DescriptionofContributor>
+        <NameofContributor>韶关台</NameofContributor>
+      </DescriptionofContributor>
+    </Contributor>
+    <Copyright>
+      <NameofCopyrightOwner>广东电视台</NameofCopyrightOwner>
+    </Copyright>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Type>
+      <ProgramForm>消息/简讯</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:0:48</Duration>
+      <StartingPoint>0:21:43</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省韶关市</Spatial>
+    </Coverage>
+  </Sequence>
+</Metadata>

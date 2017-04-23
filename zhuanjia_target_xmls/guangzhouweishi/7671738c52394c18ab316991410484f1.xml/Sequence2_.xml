@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>郎咸平答观众问</ProperTitle>
+    </Title>
+    <Subject>
+      <Class>
+        <Classification>广播电视节目资料分类法</Classification>
+        <ClassNumber>F -10-;经济 谈话</ClassNumber>
+      </Class>
+      <Keyword>观众提问 产业链 高新技术 资讯系统</Keyword>
+    </Subject>
+    <Description>
+      <DescriptionofContent>郎咸平教授回答现场观众的提问。做五金行业的观众认为传统企业的困难也该受到关注，郎咸平认为五金行业应该建立一个完整的资讯系统从而减少人力物力财力资源的浪费。</DescriptionofContent>
+      <NaturalSound>1</NaturalSound>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Type>
+      <ProgramForm>谈话</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:5:25</Duration>
+      <StartingPoint>0:22:31</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+        <DescriptionofYearsCovered>21世纪初</DescriptionofYearsCovered>
+      </YearsCovered>
+      <Spatial>广东省肇庆市</Spatial>
+    </Coverage>
+  </Sequence>
+</Metadata>

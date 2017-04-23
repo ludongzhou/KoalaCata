@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>简讯 2011-11-23</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>本片段包含以下内容：
+1、世界华文文学研讨会在广州开幕
+2、世界客商精英下月聚首世界客都梅州</DescriptionofContent>
+      <DateofEvent>2011-11-23 09:48:04</DateofEvent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Copyright>
+      <NameofCopyrightOwner>广东电视台</NameofCopyrightOwner>
+    </Copyright>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Type>
+      <ProgramForm>消息/简讯</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:0:39</Duration>
+      <StartingPoint>0:19:39</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市、广东省</Spatial>
+    </Coverage>
+  </Sequence>
+  </Metadata>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>广州市民义卖赈灾再掀热潮</ProperTitle>
+      <SeriesTitle>举全国之力抗震救灾</SeriesTitle>
+    </Title>
+    <Subject>
+      <Class>
+        <Classification>广播电视节目资料分类法</Classification>
+        <ClassNumber>S2619;地震</ClassNumber>
+      </Class>
+      <Keyword>广东 广州 义卖赈灾活动 抗震救灾</Keyword>
+    </Subject>
+    <Description>
+      <DateofEvent>2008-05-25 10:02:14</DateofEvent>
+      <NaturalSound>1</NaturalSound>
+    </Description>
+    <Contributor>
+      <DescriptionofContributor>
+        <NameofContributor>李远</NameofContributor>
+      </DescriptionofContributor>
+      <DescriptionofContributor>
+        <NameofContributor>建明</NameofContributor>
+      </DescriptionofContributor>
+    </Contributor>
+    <Copyright>
+      <NameofCopyrightOwner>广东电视台</NameofCopyrightOwner>
+    </Copyright>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Type>
+      <ProgramForm>消息/简讯</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:1:17</Duration>
+      <StartingPoint>0:19:39</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市</Spatial>
+    </Coverage>
+  </Sequence>
+  </Metadata>

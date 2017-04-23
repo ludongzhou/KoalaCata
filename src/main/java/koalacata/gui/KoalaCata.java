@@ -18,7 +18,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.HashMap;
-import java.util.HashSet;
 
 /**
  * Created by zhouludong on 2017/4/18.
@@ -48,7 +47,7 @@ public class KoalaCata {
         commands.addElement("消除三元组");
         commands.addElement("消除错别字");
         comboBox1.setModel(commands);
-        loadStraightors();
+        // loadStraightors();
 
 
         selectFileButton.addActionListener(new ActionListener() {
@@ -59,7 +58,8 @@ public class KoalaCata {
                 int returnVal = fileChooser.showOpenDialog(Koala);
                 if (returnVal == JFileChooser.APPROVE_OPTION) {
                     sourceFile= fileChooser.getSelectedFile();
-                    filePath.setText(sourceFile.getName());
+                    // filePath.setText(sourceFile.getName());
+                    filePath.setText(sourceFile.getAbsolutePath());
                 } else {
                     filePath.setText("Open command cancelled by user." );
                 }
@@ -79,14 +79,14 @@ public class KoalaCata {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String operation = comboBox1.getSelectedItem().toString();
-                sourceFileContent = readDoc(straightors.get(operation).run(getDoc(sourceFileContent)));
+                // sourceFileContent = readDoc(straightors.get(operation).run(getDoc(sourceFileContent)));
 
             }
         });
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("KoalaCata");
+        JFrame frame = new JFrame("CataExact");
         frame.setContentPane(new KoalaCata().Koala);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>穷养方针</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>康伯看不惯祈光、祈耀和祈祖对孩子的溺爱，于是提出对孩子进行穷养政策。</DescriptionofContent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语（粤语）</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Format>
+      <Duration>0:4:19</Duration>
+      <StartingPoint>0:1:4</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市</Spatial>
+    </Coverage>
+  </Sequence>
+  </Metadata>

@@ -1,5 +1,6 @@
 package koalacata.core.xsd;
 
+import koalacata.core.xsd.mapping.matcher.ComaMatcher;
 import koalacata.core.xsd.utility.XMLUtility;
 import koalacata.core.xsd.infer.extractor.AbstractExtractor;
 import koalacata.core.xsd.infer.extractor.XSDGenExtractor;
@@ -22,14 +23,14 @@ public class WorkFlow {
 
     public static Logger logger = LogManager.getLogger();
 
-    public void run(String xmlPath) {
+    public void run(String xmlPath, String dstFolder) {
         String tempFilePath = "tmp/source.xml";
 
         PreProcessor preprocessor = new PreProcessor();
         // AbstractExtractor xsdExtractor = new XMLSchemaLearner();
         AbstractExtractor xsdExtractor = new XSDGenExtractor();
-        // AbstractMatcher matcher = new ComaMatcher();
-        AbstractMatcher matcher = new MyMatcher();
+        AbstractMatcher matcher = new ComaMatcher();
+        // AbstractMatcher matcher = new MyMatcher();
         Transfer transfer = new Transfer();
 
         preprocessor.process(new File(xmlPath));
@@ -48,6 +49,6 @@ public class WorkFlow {
 
         XSLTGenerator generator = new XSLTGenerator(crspdsPath);
         generator.generateXLST();
-        transfer.start(tempFilePath);
+        transfer.start(tempFilePath, dstFolder);
     }
 }

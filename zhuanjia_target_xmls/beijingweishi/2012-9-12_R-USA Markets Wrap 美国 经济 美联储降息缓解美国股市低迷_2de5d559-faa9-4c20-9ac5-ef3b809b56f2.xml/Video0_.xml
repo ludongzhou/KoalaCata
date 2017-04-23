@@ -1,0 +1,75 @@
+<Metadata>
+<Program>
+    <Title>
+      <ProperTitle>美联储降息缓解美国股市低迷</ProperTitle>
+      <ParallelProperTitle>USA MARKETS WRAP</ParallelProperTitle>
+      <Series>
+        <TotalNumberofEpisodes>0</TotalNumberofEpisodes>
+        <EpisodesNumber>0</EpisodesNumber>
+      </Series>
+    </Title>
+    <Subject>
+      <Class>
+        <Classification>广播电视节目资料分类法</Classification>
+        <ClassNumber>F89 &lt;712&gt;;外国经济 美国</ClassNumber>
+      </Class>
+      <Keyword>路透社 Reuters 美国 USA 股市 Markets</Keyword>
+    </Subject>
+    <Description>
+      <DescriptionofContent>2008年1月22日，股市因经济不景气而下跌，但美联储降息对其有所帮助。</DescriptionofContent>
+      <DateofEvent>2008-1-22 00:00:00</DateofEvent>
+      <VersionDescription>素材版</VersionDescription>
+      <Column>
+        <ColumnName>路透社新闻</ColumnName>
+        <IssueNumber>0</IssueNumber>
+        <IssueYear>2008</IssueYear>
+      </Column>
+      <Audience>大众</Audience>
+      <AdditionalLogo>0</AdditionalLogo>
+      <AudioChannel>
+        <AudioChannelNumber>0</AudioChannelNumber>
+        <AudioChannelDescription>现场同期声</AudioChannelDescription>
+      </AudioChannel>
+      <AudioChannel>
+        <AudioChannelNumber>0</AudioChannelNumber>
+        <AudioChannelDescription>现场同期声</AudioChannelDescription>
+      </AudioChannel>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>0</AudioChannelNumber>
+        <AudioChannelLanguage>英语</AudioChannelLanguage>
+      </AudioChannel>
+    </Language>
+    <Type>
+      <ProgramType>新闻素材类节目</ProgramType>
+      <ProgramForm>消息类</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:3:17</Duration>
+      <StartingPoint>0:0:0</StartingPoint>
+      <Color>彩色</Color>
+      <SubtitleForm>无字幕</SubtitleForm>
+      <AudioChannelFormat>立体声</AudioChannelFormat>
+      <AudioQuality>高</AudioQuality>
+      <VideoQuality>高质量</VideoQuality>
+      <AspectRatio>4:3</AspectRatio>
+      <PhysicalMediaType>Betacam  SP</PhysicalMediaType>
+      <System>PAL</System>
+      <AudioDataRate>1536000</AudioDataRate>
+      <AudioCodingFormat>PCM</AudioCodingFormat>
+      <AudioSamplingFrequency>192KHz</AudioSamplingFrequency>
+      <AudioBitDepth>16bit</AudioBitDepth>
+      <VideoBitrate>25</VideoBitrate>
+      <VideoCodingFormat>MPEG2</VideoCodingFormat>
+      <VideoSamplingType>4:4:4</VideoSamplingType>
+      <FileFormat>MPEG2 - Matrox I</FileFormat>
+    </Format>
+    <Identifier>
+      <RelationsID>9696</RelationsID>
+    </Identifier>
+    <Coverage>
+      <Spatial>美国纽约</Spatial>
+    </Coverage>
+  </Program>
+</Metadata>

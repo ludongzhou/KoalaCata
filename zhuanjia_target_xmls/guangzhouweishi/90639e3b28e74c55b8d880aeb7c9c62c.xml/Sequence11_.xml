@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>国际简讯 2011-11-23</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>本片段包含以下内容：
+1、埃及军方同意加速总统大选进程
+2、利比亚宣布成立过渡政府
+3、韩国国会大混战 韩美协定获通过</DescriptionofContent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Copyright>
+      <NameofCopyrightOwner>广东电视台</NameofCopyrightOwner>
+    </Copyright>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Type>
+      <ProgramForm>消息/简讯</ProgramForm>
+    </Type>
+    <Format>
+      <Duration>0:1:4</Duration>
+      <StartingPoint>0:20:20</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+    </Coverage>
+  </Sequence>
+</Metadata>

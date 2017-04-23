@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Metadata><Sequence>
+    <Title>
+      <ProperTitle>保罗“乞讨”玩具 穷养方针失败</ProperTitle>
+    </Title>
+    <Description>
+      <DescriptionofContent>保罗从邻居、街坊那里“乞讨”玩具和食物，被祈祖发现。康家穷养方针正式宣告失败。</DescriptionofContent>
+      <NaturalSound>0</NaturalSound>
+    </Description>
+    <Language>
+      <AudioChannel>
+        <AudioChannelNumber>1</AudioChannelNumber>
+        <AudioChannelLanguage>汉语</AudioChannelLanguage>
+      </AudioChannel>
+      <AudioChannel>
+        <AudioChannelNumber>2</AudioChannelNumber>
+        <AudioChannelLanguage>汉语（粤语）</AudioChannelLanguage>
+      </AudioChannel>
+      <Subtitle>
+        <SubtitleNumber>1</SubtitleNumber>
+        <SubtitleLanguage>汉语</SubtitleLanguage>
+      </Subtitle>
+    </Language>
+    <Format>
+      <Duration>0:7:41</Duration>
+      <StartingPoint>0:14:20</StartingPoint>
+      <SubtitleForm>只有画面叠加字幕</SubtitleForm>
+    </Format>
+    <Coverage>
+      <YearsCovered>
+        <YearofStart>0</YearofStart>
+        <YearofEnd>0</YearofEnd>
+      </YearsCovered>
+      <Spatial>广东省广州市</Spatial>
+    </Coverage>
+  </Sequence>
+</Metadata>

@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 public class Transfer {
     private Logger logger = LogManager.getLogger();
 
-    public String start(String xmlPath) {
+    public String start(String xmlPath, String dstFolder) {
         String xslFolder = "tmp/XSLT";
         try {
             String[] cmds = new String[5];
@@ -23,7 +23,7 @@ public class Transfer {
             cmds[1] = "lib/XMLFormator/scripts/Formatter/XMLFormatter.py";
             cmds[2] = xmlPath;
             cmds[3] = xslFolder;
-            cmds[4] = "result";
+            cmds[4] = dstFolder;
 
             Process process = Runtime.getRuntime().exec(cmds);
             process.waitFor();
