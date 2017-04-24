@@ -6,7 +6,8 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Root level="trace">
+        <!--<Root level="trace">-->
+        <Root level="warning">
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>

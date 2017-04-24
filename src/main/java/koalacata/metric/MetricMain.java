@@ -9,14 +9,19 @@ public class MetricMain {
     public static void main(String[] args) {
         Metric metric = new Metric();
 
-        String sourceFilePath = "source_xml/youkuzongyi/";
-        String resultFilePath = "result_xml/实验4/youkuzongyi/";
-        String answerFilePath = "answer_xml/youkuzongyi/";
+        for (int i = 1; i <= 50; i += 1) {
 
-        HashMap<String, Double> result = metric.calc(sourceFilePath, answerFilePath, resultFilePath);
+            String sourceFilePath = "source_xml/youkuzongyi/";
+            String resultFilePath = "result_xml/实验6/" + String.valueOf(i) + "/youkuzongyi";
+            String answerFilePath = "answer_xml/youkuzongyi/";
 
-        for (String key: result.keySet()) {
-            System.out.format("%-9s : %.04f\n", key, result.get(key));
+            HashMap<String, Double> result = metric.calc(sourceFilePath, answerFilePath, resultFilePath);
+
+            for (String key: result.keySet()) {
+                System.out.format("%02d %-9s : %.04f; ", i, key, result.get(key));
+            }
+            System.out.println();
         }
     }
 }
+
