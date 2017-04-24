@@ -1,5 +1,7 @@
 package koalacata.core.xsd.template;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -31,6 +33,7 @@ public class XSLTGenerator {
     private String xsltResultDir = "tmp/XSLT/";
     private TreeMap<String, String> sortedMap;
     private HashSet<String> xsltSet;
+    private Logger logger = LogManager.getLogger();
 
     public XSLTGenerator(String correspondencePath) {
         sortedMap = getSortedCorrespondence(correspondencePath);
@@ -154,7 +157,17 @@ public class XSLTGenerator {
         }
         else {
             String ancestorPath = ancestor.getAttribute("select");
-            return targetPath.substring(targetPath.lastIndexOf(ancestorPath + "/") + ancestorPath.length() + 1);
+            // this.logger.debug(ancestorPath);
+            // logger.debug(targetPath);
+            /*
+                check if target path contain ancestor path
+             */
+            if (targetPath.contains(ancestorPath)) {
+                return targetPath.substring(targetPath.lastIndexOf(ancestorPath + "/") + ancestorPath.length() + 1);
+            }
+            else {
+                return targetPath;
+            }
         }
     }
 

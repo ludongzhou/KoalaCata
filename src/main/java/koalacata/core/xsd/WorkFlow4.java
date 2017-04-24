@@ -20,7 +20,7 @@ import static koalacata.core.xsd.utility.FileUtility.write2File;
 /**
  * Created by zhouludong on 2017/4/8.
  */
-public class WorkFlow {
+public class WorkFlow4 {
 
     public static Logger logger = LogManager.getLogger();
 
@@ -30,8 +30,8 @@ public class WorkFlow {
         PreProcessor preprocessor = new PreProcessor();
         // AbstractExtractor xsdExtractor = new XMLSchemaLearner();
         AbstractExtractor xsdExtractor = new XSDGenExtractor();
-        // AbstractMatcher matcher = new ComaMatcher();
-        AbstractMatcher matcher = new MyMatcher();
+        AbstractMatcher matcher = new ComaMatcher();
+        // AbstractMatcher matcher = new MyMatcher();
         Transfer transfer = new Transfer();
 
         preprocessor.process(new File(xmlPath));

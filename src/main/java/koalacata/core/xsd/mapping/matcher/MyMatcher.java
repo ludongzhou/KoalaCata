@@ -241,6 +241,17 @@ public class MyMatcher extends AbstractMatcher{
         this.match();
     }
 
+    public void match(String sourcePath, String targetPath, double simThreshold) {
+        this.sourceFile = new File(sourcePath);
+        this.targetFile = new File(targetPath);
+        this.dict = new HashMap<>();
+        rawResults = new HashMap<>();
+        results = new ArrayList<>();
+        this.loadDict(new File("src/main/resources/thesaurus.dict"));
+        this.simThreshold = simThreshold;
+        this.match();
+    }
+
     @Override
     public String getCorrespondence() {
         StringBuilder sb = new StringBuilder();

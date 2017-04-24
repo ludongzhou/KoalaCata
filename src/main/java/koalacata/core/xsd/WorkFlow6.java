@@ -20,11 +20,11 @@ import static koalacata.core.xsd.utility.FileUtility.write2File;
 /**
  * Created by zhouludong on 2017/4/8.
  */
-public class WorkFlow {
+public class WorkFlow6 {
 
     public static Logger logger = LogManager.getLogger();
 
-    public void run(String xmlPath, String dstFolder) {
+    public void run(String xmlPath, String dstFolder, double threshhold) {
         String tempFilePath = "tmp/source.xml";
 
         PreProcessor preprocessor = new PreProcessor();
@@ -48,7 +48,7 @@ public class WorkFlow {
         String sourceXSD = xsdExtractor.getXSD();
         write2File(sourceXSD, "tmp/source.xsd");
 
-        matcher.match("tmp/source.xsd", "src/main/resources/standard.xsd");
+        matcher.match("tmp/source.xsd", "src/main/resources/standard.xsd", threshhold);
 
         String correspondences = matcher.getCorrespondence();
         String crspdsPath = "tmp/correspondences.txt";

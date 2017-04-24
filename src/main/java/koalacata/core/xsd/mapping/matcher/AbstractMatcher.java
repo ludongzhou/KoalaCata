@@ -11,5 +11,6 @@ public abstract class AbstractMatcher {
     protected HashMap<String, String> dict;
     public abstract void match();
     public abstract void match(String sourcePath, String targetPath);
+    public void match(String sourcePath, String targetPath, double threshhold){};
     public abstract String getCorrespondence();
 }

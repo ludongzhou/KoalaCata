@@ -21,7 +21,7 @@ public class ComaMatcher extends AbstractMatcher {
     public void match() {
         COMA_API coma_api = new COMA_API();
         matchResult = coma_api.matchModelsDefault(sourceFile.toString(), targetFile.toString(),
-                "resource/acronym.dict", "main/resources/thesaurus.dict");
+                "src/main/resources/thesaurus.dict", "src/main/resources/thesaurus.dict");
     }
 
     public void match(File source, File target) {

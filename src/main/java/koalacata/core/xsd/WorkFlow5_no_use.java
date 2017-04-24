@@ -20,7 +20,7 @@ import static koalacata.core.xsd.utility.FileUtility.write2File;
 /**
  * Created by zhouludong on 2017/4/8.
  */
-public class WorkFlow {
+public class WorkFlow5_no_use {
 
     public static Logger logger = LogManager.getLogger();
 
