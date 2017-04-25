@@ -3,6 +3,7 @@ package koalacata.core.xsd.utility;
 import org.apache.xml.serialize.OutputFormat;
 import org.apache.xml.serialize.XMLSerializer;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -113,4 +114,26 @@ public class XMLUtility {
         }
         return null;
     }
+
+    public static Element getDocRoot(Document document) {
+        document.getDocumentElement().normalize();
+        return document.getDocumentElement();
+     }
+
+     public static Element getDocRoot(File file) {
+         Document document = null;
+         try {
+             document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file);
+             document.getDocumentElement().normalize();
+         } catch (SAXException | IOException | ParserConfigurationException e) {
+             e.printStackTrace();
+         }
+
+         if (document != null) {
+             return document.getDocumentElement();
+         }
+         else {
+             return null;
+         }
+     }
 }
